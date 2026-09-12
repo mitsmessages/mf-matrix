@@ -1,0 +1,47 @@
+name: Refresh fund universe
+
+# Weekly (Sundays 21:00 IST / 15:30 UTC). NAV moves daily but holdings are
+# monthly; weekly keeps the dataset fresh without API churn.
+on:
+  schedule:
+    - cron: "30 15 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install app dependencies
+        run: npm ci
+
+      - name: Refresh universe
+        run: python pipeline/fetch_universe.py --top 12 --candidates 45
+
+      - name: Verify (typecheck, lint, tests, build)
+        run: npm run verify
+
+      - name: Commit if the data changed
+        run: |
+          git config user.name "mf-matrix-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/universe.generated.json src/data/universe_changelog.json
+          if git diff --staged --quiet; then
+            echo "No universe changes this week."
+          else
+            git commit -m "chore(data): weekly universe refresh [skip ci]"
+            git push
+          fi

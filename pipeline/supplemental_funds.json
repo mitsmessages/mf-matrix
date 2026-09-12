@@ -1,0 +1,276 @@
+[
+  {
+    "id": "hdfc-baf-01",
+    "name": "HDFC Balanced Advantage Fund - Direct Growth",
+    "shortName": "HDFC Balanced Advantage",
+    "fundHouse": "HDFC Mutual Fund",
+    "category": "Balanced Advantage",
+    "sleeve": "baf",
+    "nav": 512.4,
+    "aumCr": 88500,
+    "expenseRatioPct": 0.78,
+    "inceptionYear": 2013,
+    "fundManager": "Gopal Agrawal",
+    "fundManagerTenureYears": 6,
+    "portfolioTurnoverPct": 165,
+    "cashHoldingPct": 28,
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50",
+    "style": "Blend",
+    "portfolioPE": 19.4,
+    "portfolioPB": 2.6,
+    "weightedMultiples": { "pe": 22.1, "pb": 2.5, "evEbitda": 10.2, "priceToSales": 1.9, "dividendYieldPct": 2.1 },
+    "rolling": {
+      "avgPct": 14.2,
+      "minPct": 4.1,
+      "maxPct": 22.4,
+      "benchmarkAvgPct": 11.2,
+      "beatBenchmarkPct": 78,
+      "positivePct": 100,
+      "brackets": [
+        { "label": "> 20%", "pct": 14, "count": 252 },
+        { "label": "15% - 20%", "pct": 26, "count": 468 },
+        { "label": "10% - 15%", "pct": 40, "count": 720 },
+        { "label": "0% - 10%", "pct": 20, "count": 360 },
+        { "label": "< 0%", "pct": 0, "count": 0 }
+      ]
+    },
+    "risk": {
+      "stdDevPct": 8.6,
+      "beta": 0.62,
+      "sharpe": 1.12,
+      "treynor": 16.4,
+      "alphaPct": 2.4,
+      "sortino": 1.6,
+      "benchmarkSortino": 1.18,
+      "informationRatio": 0.52,
+      "rSquared": 0.71,
+      "upCapturePct": 82,
+      "downCapturePct": 48
+    },
+    "marketCapBreakdown": { "largeCap": 46, "midCap": 12, "smallCap": 3, "cashDebt": 39, "commodity": 0 },
+    "topHoldings": [
+      { "name": "ICICI Bank Ltd", "ticker": "ICICIBANK", "sector": "Financials", "weightPct": 4.6, "valuationMetric": "PB", "metricValue": 2.9, "marketPrice": 1180, "marketCapTier": "Large Cap", "rationale": "Best-in-class deposit franchise and provisioning buffer" },
+      { "name": "Reliance Industries", "ticker": "RELIANCE", "sector": "Energy", "weightPct": 4.1, "valuationMetric": "EV/EBITDA", "metricValue": 11.8, "marketPrice": 2890, "marketCapTier": "Large Cap", "rationale": "Consumer plus energy optionality at mid-cycle valuation" },
+      { "name": "Larsen & Toubro", "ticker": "LT", "sector": "Capital Goods", "weightPct": 3.2, "valuationMetric": "EV/EBITDA", "metricValue": 13.4, "marketPrice": 3620, "marketCapTier": "Large Cap", "rationale": "Order-book visibility from the domestic capex cycle" },
+      { "name": "Maruti Suzuki", "ticker": "MARUTI", "sector": "Automobile", "weightPct": 2.4, "valuationMetric": "P/S", "metricValue": 3.1, "marketPrice": 12400, "marketCapTier": "Large Cap", "rationale": "Rate-cut beneficiary; volume recovery optionality" },
+      { "name": "Government Securities 7.18% 2033", "ticker": "GSEC733", "sector": "Sovereign Debt", "weightPct": 18.0, "valuationMetric": "Dividend Yield", "metricValue": 7.2, "marketPrice": 100, "marketCapTier": "Debt/Cash", "rationale": "Duration ballast and crisis ballast" }
+    ],
+    "sectorAllocation": [
+      { "sector": "Financials", "weightPct": 16, "valuationMetric": "PB", "macroSensitivity": "Pro-Cyclical" },
+      { "sector": "Energy", "weightPct": 8, "valuationMetric": "EV/EBITDA", "macroSensitivity": "Pro-Cyclical" },
+      { "sector": "Sovereign Debt", "weightPct": 39, "valuationMetric": "Dividend Yield", "macroSensitivity": "Defensive" }
+    ],
+    "agentReviews": {
+      "aggressive": { "score": 6, "comment": "Under-owns equities in strong bull runs.", "stance": "Underweight" },
+      "moderate": { "score": 9, "comment": "Textbook counter-cyclical core.", "stance": "Overweight" },
+      "conservative": { "score": 8, "comment": "Shallow drawdowns and equity tax status.", "stance": "Overweight" },
+      "macro": { "score": 8, "comment": "Automated rate-cycle positioning.", "stance": "Neutral" },
+      "dueDiligence": { "score": 8, "comment": "Consistent model, low style drift.", "stance": "Approved" }
+    }
+  },
+  {
+    "id": "icici-baf-02",
+    "name": "ICICI Prudential Balanced Advantage Fund - Direct Growth",
+    "shortName": "ICICI Balanced Advantage",
+    "fundHouse": "ICICI Prudential Mutual Fund",
+    "category": "Balanced Advantage",
+    "sleeve": "baf",
+    "nav": 78.9,
+    "aumCr": 61200,
+    "expenseRatioPct": 0.82,
+    "inceptionYear": 2013,
+    "fundManager": "Sankaran Naren",
+    "fundManagerTenureYears": 9,
+    "portfolioTurnoverPct": 142,
+    "cashHoldingPct": 24,
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50",
+    "style": "Value",
+    "portfolioPE": 18.1,
+    "portfolioPB": 2.4,
+    "weightedMultiples": { "pe": 21.0, "pb": 2.3, "evEbitda": 9.8, "priceToSales": 1.7, "dividendYieldPct": 2.6 },
+    "rolling": {
+      "avgPct": 12.9,
+      "minPct": 3.6,
+      "maxPct": 21.1,
+      "benchmarkAvgPct": 11.2,
+      "beatBenchmarkPct": 68,
+      "positivePct": 100,
+      "brackets": [
+        { "label": "> 20%", "pct": 10, "count": 180 },
+        { "label": "15% - 20%", "pct": 22, "count": 396 },
+        { "label": "10% - 15%", "pct": 42, "count": 756 },
+        { "label": "0% - 10%", "pct": 26, "count": 468 },
+        { "label": "< 0%", "pct": 0, "count": 0 }
+      ]
+    },
+    "risk": {
+      "stdDevPct": 9.1,
+      "beta": 0.66,
+      "sharpe": 1.02,
+      "treynor": 15.1,
+      "alphaPct": 1.2,
+      "sortino": 1.41,
+      "benchmarkSortino": 1.18,
+      "informationRatio": 0.38,
+      "rSquared": 0.69,
+      "upCapturePct": 68,
+      "downCapturePct": 52
+    },
+    "marketCapBreakdown": { "largeCap": 42, "midCap": 14, "smallCap": 4, "cashDebt": 40, "commodity": 0 },
+    "topHoldings": [
+      { "name": "NTPC Ltd", "ticker": "NTPC", "sector": "Utilities", "weightPct": 4.2, "valuationMetric": "EV/EBITDA", "metricValue": 8.6, "marketPrice": 415, "marketCapTier": "Large Cap", "rationale": "Regulated RoE with a dividend yield floor" },
+      { "name": "Bharti Airtel", "ticker": "BHARTIARTL", "sector": "Telecom", "weightPct": 3.8, "valuationMetric": "EV/EBITDA", "metricValue": 12.1, "marketPrice": 1620, "marketCapTier": "Large Cap", "rationale": "ARPU repair and spectrum-backed moat" },
+      { "name": "HDFC Bank Ltd", "ticker": "HDFCBANK", "sector": "Financials", "weightPct": 3.5, "valuationMetric": "PB", "metricValue": 2.6, "marketPrice": 1680, "marketCapTier": "Large Cap", "rationale": "Valuation reset in a quality franchise" },
+      { "name": "Coal India", "ticker": "COALINDIA", "sector": "PSU Energy", "weightPct": 2.6, "valuationMetric": "Dividend Yield", "metricValue": 6.8, "marketPrice": 420, "marketCapTier": "Large Cap", "rationale": "High cash yield with valuation support" },
+      { "name": "Government Securities 7.30% 2031", "ticker": "GSEC730", "sector": "Sovereign Debt", "weightPct": 20.0, "valuationMetric": "Dividend Yield", "metricValue": 7.3, "marketPrice": 100, "marketCapTier": "Debt/Cash", "rationale": "Deep-liquid duration buffer" }
+    ],
+    "sectorAllocation": [
+      { "sector": "Financials", "weightPct": 14, "valuationMetric": "PB", "macroSensitivity": "Pro-Cyclical" },
+      { "sector": "Utilities", "weightPct": 7, "valuationMetric": "EV/EBITDA", "macroSensitivity": "Defensive" },
+      { "sector": "Sovereign Debt", "weightPct": 40, "valuationMetric": "Dividend Yield", "macroSensitivity": "Defensive" }
+    ],
+    "agentReviews": {
+      "aggressive": { "score": 5, "comment": "Too defensive at cycle troughs.", "stance": "Underweight" },
+      "moderate": { "score": 8, "comment": "Good value discipline across the cycle.", "stance": "Neutral" },
+      "conservative": { "score": 9, "comment": "Capital preservation first.", "stance": "Overweight" },
+      "macro": { "score": 8, "comment": "Trims equity as valuations stretch.", "stance": "Overweight" },
+      "dueDiligence": { "score": 7, "comment": "Value tilt is intentional, not drift.", "stance": "Approved" }
+    }
+  },
+  {
+    "id": "nippon-sc-01",
+    "name": "Nippon India Small Cap Fund - Direct Growth",
+    "shortName": "Nippon Small Cap",
+    "fundHouse": "Nippon India Mutual Fund",
+    "category": "Small Cap",
+    "sleeve": "small",
+    "nav": 178.3,
+    "aumCr": 64200,
+    "expenseRatioPct": 0.68,
+    "inceptionYear": 2013,
+    "fundManager": "Samir Rachh",
+    "fundManagerTenureYears": 14,
+    "portfolioTurnoverPct": 22,
+    "cashHoldingPct": 5,
+    "benchmark": "NIFTY Smallcap 250 TRI",
+    "style": "Growth",
+    "portfolioPE": 28.6,
+    "portfolioPB": 4.2,
+    "weightedMultiples": { "pe": 27.4, "pb": 3.8, "evEbitda": 14.6, "priceToSales": 2.8, "dividendYieldPct": 0.9 },
+    "rolling": {
+      "avgPct": 24.8,
+      "minPct": -6.4,
+      "maxPct": 52.1,
+      "benchmarkAvgPct": 18.9,
+      "beatBenchmarkPct": 71,
+      "positivePct": 92,
+      "brackets": [
+        { "label": "> 20%", "pct": 58, "count": 1044 },
+        { "label": "15% - 20%", "pct": 18, "count": 324 },
+        { "label": "10% - 15%", "pct": 10, "count": 180 },
+        { "label": "0% - 10%", "pct": 6, "count": 108 },
+        { "label": "< 0%", "pct": 8, "count": 144 }
+      ]
+    },
+    "risk": {
+      "stdDevPct": 21.8,
+      "beta": 1.08,
+      "sharpe": 0.96,
+      "treynor": 19.4,
+      "alphaPct": 5.6,
+      "sortino": 1.38,
+      "benchmarkSortino": 1.05,
+      "informationRatio": 0.61,
+      "rSquared": 0.82,
+      "upCapturePct": 108,
+      "downCapturePct": 84
+    },
+    "marketCapBreakdown": { "largeCap": 4, "midCap": 12, "smallCap": 79, "cashDebt": 5, "commodity": 0 },
+    "topHoldings": [
+      { "name": "Multi Commodity Exchange", "ticker": "MCX", "sector": "Financials", "weightPct": 3.1, "valuationMetric": "PE", "metricValue": 42.0, "marketPrice": 5400, "marketCapTier": "Mid Cap", "rationale": "Exchange moat with operating leverage" },
+      { "name": "Apar Industries", "ticker": "APARINDS", "sector": "Capital Goods", "weightPct": 2.7, "valuationMetric": "PE", "metricValue": 34.5, "marketPrice": 9200, "marketCapTier": "Small Cap", "rationale": "Export-led conductor and specialty oil demand" },
+      { "name": "CDSL", "ticker": "CDSL", "sector": "Financials", "weightPct": 2.4, "valuationMetric": "PE", "metricValue": 48.0, "marketPrice": 1450, "marketCapTier": "Mid Cap", "rationale": "Demat duopoly with secular volume growth" },
+      { "name": "KEI Industries", "ticker": "KEI", "sector": "Capital Goods", "weightPct": 2.2, "valuationMetric": "PE", "metricValue": 45.2, "marketPrice": 4200, "marketCapTier": "Mid Cap", "rationale": "Cables and wires capex cycle beneficiary" }
+    ],
+    "sectorAllocation": [
+      { "sector": "Financials", "weightPct": 18, "valuationMetric": "PE", "macroSensitivity": "Pro-Cyclical" },
+      { "sector": "Capital Goods", "weightPct": 21, "valuationMetric": "PE", "macroSensitivity": "Pro-Cyclical" },
+      { "sector": "Consumer Discretionary", "weightPct": 14, "valuationMetric": "PE", "macroSensitivity": "Pro-Cyclical" }
+    ],
+    "agentReviews": {
+      "aggressive": { "score": 9, "comment": "Pure alpha engine for long horizons.", "stance": "Overweight" },
+      "moderate": { "score": 5, "comment": "Only in small doses; volatile.", "stance": "Underweight" },
+      "conservative": { "score": 2, "comment": "Drawdown profile is too deep.", "stance": "Underweight" },
+      "macro": { "score": 6, "comment": "Domestic demand levered.", "stance": "Neutral" },
+      "dueDiligence": { "score": 6, "comment": "AUM is large for the small-cap universe.", "stance": "Review" }
+    }
+  },
+  {
+    "id": "quant-sc-02",
+    "name": "Quant Small Cap Fund - Direct Growth",
+    "shortName": "Quant Small Cap",
+    "fundHouse": "Quant Mutual Fund",
+    "category": "Small Cap",
+    "sleeve": "small",
+    "nav": 268.5,
+    "aumCr": 21500,
+    "expenseRatioPct": 0.7,
+    "inceptionYear": 2013,
+    "fundManager": "Ankit Pande",
+    "fundManagerTenureYears": 5,
+    "portfolioTurnoverPct": 95,
+    "cashHoldingPct": 3,
+    "benchmark": "NIFTY Smallcap 250 TRI",
+    "style": "Growth",
+    "portfolioPE": 26.2,
+    "portfolioPB": 4.6,
+    "weightedMultiples": { "pe": 25.1, "pb": 4.1, "evEbitda": 15.2, "priceToSales": 3.0, "dividendYieldPct": 0.6 },
+    "rolling": {
+      "avgPct": 26.4,
+      "minPct": -9.8,
+      "maxPct": 58.3,
+      "benchmarkAvgPct": 18.9,
+      "beatBenchmarkPct": 69,
+      "positivePct": 89,
+      "brackets": [
+        { "label": "> 20%", "pct": 62, "count": 1116 },
+        { "label": "15% - 20%", "pct": 14, "count": 252 },
+        { "label": "10% - 15%", "pct": 9, "count": 162 },
+        { "label": "0% - 10%", "pct": 4, "count": 72 },
+        { "label": "< 0%", "pct": 11, "count": 198 }
+      ]
+    },
+    "risk": {
+      "stdDevPct": 23.4,
+      "beta": 1.12,
+      "sharpe": 0.98,
+      "treynor": 20.1,
+      "alphaPct": 6.2,
+      "sortino": 1.32,
+      "benchmarkSortino": 1.05,
+      "informationRatio": 0.58,
+      "rSquared": 0.74,
+      "upCapturePct": 112,
+      "downCapturePct": 88
+    },
+    "marketCapBreakdown": { "largeCap": 5, "midCap": 15, "smallCap": 77, "cashDebt": 3, "commodity": 0 },
+    "topHoldings": [
+      { "name": "Reliance Industries", "ticker": "RELIANCE", "sector": "Energy", "weightPct": 4.8, "valuationMetric": "EV/EBITDA", "metricValue": 11.9, "marketPrice": 2890, "marketCapTier": "Large Cap", "rationale": "Valuation cushion with new-energy optionality" },
+      { "name": "Aurobindo Pharma", "ticker": "AUROPHARMA", "sector": "Pharma", "weightPct": 3.3, "valuationMetric": "PE", "metricValue": 21.5, "marketPrice": 1280, "marketCapTier": "Mid Cap", "rationale": "US generic pipeline recovery" },
+      { "name": "Jio Financial Services", "ticker": "JIOFIN", "sector": "Financials", "weightPct": 2.9, "valuationMetric": "PB", "metricValue": 1.4, "marketPrice": 340, "marketCapTier": "Large Cap", "rationale": "Optionality on lending and distribution build-out" },
+      { "name": "Adani Power", "ticker": "ADANIPOWER", "sector": "Utilities", "weightPct": 2.4, "valuationMetric": "EV/EBITDA", "metricValue": 10.4, "marketPrice": 620, "marketCapTier": "Large Cap", "rationale": "Merchant capacity value in a power deficit" }
+    ],
+    "sectorAllocation": [
+      { "sector": "Energy", "weightPct": 14, "valuationMetric": "EV/EBITDA", "macroSensitivity": "Pro-Cyclical" },
+      { "sector": "Pharma", "weightPct": 12, "valuationMetric": "PE", "macroSensitivity": "Export/USD-Beneficiary" },
+      { "sector": "Financials", "weightPct": 16, "valuationMetric": "PB", "macroSensitivity": "Pro-Cyclical" }
+    ],
+    "agentReviews": {
+      "aggressive": { "score": 9, "comment": "High-conviction momentum across cycles.", "stance": "Overweight" },
+      "moderate": { "score": 4, "comment": "Turnover and volatility are high.", "stance": "Underweight" },
+      "conservative": { "score": 2, "comment": "Not appropriate for capital preservation.", "stance": "Underweight" },
+      "macro": { "score": 6, "comment": "Rotates aggressively with the cycle.", "stance": "Neutral" },
+      "dueDiligence": { "score": 5, "comment": "High turnover; watch capacity and churn.", "stance": "Review" }
+    }
+  }
+]

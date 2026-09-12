@@ -1,4 +1,40 @@
 node_modules
 dist
+dist-ssr
+coverage
+*.local
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+
+# Secrets & source media — never commit
+*.pem
+*.key
+*cookies*.txt
+*_cookies.txt
 *.m4a
+*.mp4
+*.mkv
+*.wav
+*.mp3
+*.srt
+
+# Course source media & generated content — course IP, never commit
+content/transcripts/
+content/generated/
+
+# Python
+__pycache__/
+.venv/
+
+# Logs
 *.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db

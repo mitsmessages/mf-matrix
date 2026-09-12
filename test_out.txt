@@ -1,3 +1,0 @@
-Hello from PowerShell pipeline!
-This tests multi-line piping.
-Line 3 is here.
