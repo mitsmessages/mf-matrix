@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { ClipboardCheck, ClipboardCopy, Lightbulb, Wand2 } from "lucide-react";
-import { funds } from "@/data/funds";
+import { funds, fundsBySleeve } from "@/data/funds";
 import { SLEEVES, SLEEVE_KEYS } from "@/domain/finance/sleeves";
 import { resolveHoldings, tierBreakdown, normalisedSleeveWeights } from "@/domain/finance/lookthrough";
 import {
@@ -13,6 +13,11 @@ import {
 } from "@/domain/finance/portfolio";
 import { buildRecommendations, sleeveCoverage, type RecommendationSeverity } from "@/domain/finance/recommendations";
 import { estimatePortfolioTax } from "@/domain/finance/tax";
+import {
+  backtestSip,
+  portfolioReturnSeries,
+  type PortfolioPart,
+} from "@/domain/finance/backtest";
 import { runScreener } from "@/domain/finance/screener";
 import { solveTvm } from "@/domain/finance/tvm";
 import { useProfile } from "@/store/profile";
@@ -58,6 +63,26 @@ export default function ScenarioPage() {
       estimatePortfolioTax(holdings, goal.gains, tvm.horizonYears * 12, { slabRatePct: 30 }),
     [holdings, goal.gains, tvm.horizonYears],
   );
+
+  const backtest = useMemo(() => {
+    const parts: PortfolioPart[] = [];
+    for (const h of holdings) {
+      if (h.fund.monthlyReturnsPct) {
+        parts.push({ fund: h.fund, weightPct: h.weightPct });
+        continue;
+      }
+      // Substituted proxy: top-ranked real fund in the same sleeve with history.
+      const proxy = fundsBySleeve(h.fund.sleeve)
+        .filter((f) => f.dataQuality === "metrics-only" && f.monthlyReturnsPct)
+        .sort((a, b) => (a.rankInCategory ?? 99) - (b.rankInCategory ?? 99))[0];
+      if (proxy) parts.push({ fund: proxy, weightPct: h.weightPct, proxy: true });
+    }
+    const series = portfolioReturnSeries(parts);
+    if (!series) return null;
+    const sip = goal.requiredMonthlySip > 0 ? goal.requiredMonthlySip : 10_000;
+    const result = backtestSip(series.months, series.returnsPct, sip, tvm.stepUpPct);
+    return { ...result, proxies: series.proxies, usedFallbackSip: goal.requiredMonthlySip <= 0 };
+  }, [holdings, goal.requiredMonthlySip, tvm.stepUpPct]);
 
   const recommendations = useMemo(
     () =>
@@ -115,6 +140,16 @@ export default function ScenarioPage() {
       lines.push(
         `| ${SLEEVES[r.fund.sleeve].shortLabel} | ${r.fund.shortName} | ${r.weightPct.toFixed(1)}% | ${r.result.score}/5 ${r.result.verdict} | ${r.fund.expenseRatioPct > 0 ? `${r.fund.expenseRatioPct}%` : "—"} | ${formatINR(r.lump)} | ${formatINR(r.sip)} |`,
       );
+    }
+    if (backtest) {
+      lines.push("");
+      lines.push("## Backtest (real monthly NAVs)");
+      lines.push(
+        `- ${backtest.months} months · invested ${formatINR(backtest.invested)} · final ${formatINR(backtest.finalValue)} · XIRR ${formatPct(backtest.xirrPct, 1)} · max drawdown ${formatPct(backtest.navMaxDrawdownPct, 1)}`,
+      );
+      if (backtest.proxies.length > 0) {
+        lines.push(`- Proxied from top real fund for: ${backtest.proxies.join(", ")}`);
+      }
     }
     lines.push("");
     lines.push("## Recommendations");
@@ -346,6 +381,41 @@ export default function ScenarioPage() {
             </Callout>
           </Card>
 
+          {backtest ? (
+            <Card className="p-5">
+              <SectionTitle
+                eyebrow="Backtest"
+                title="Historical SIP outcome"
+                hint={`Real monthly NAVs · ${backtest.months} months to ${backtest.monthLabels.at(-1) ?? ""}.`}
+              />
+              <div className="mt-3 grid grid-cols-2 gap-3">
+                <StatCard label="Invested" value={formatCompactINR(backtest.invested)} />
+                <StatCard label="Final value" value={formatCompactINR(backtest.finalValue)} tone="success" />
+                <StatCard
+                  label="XIRR"
+                  value={formatPct(backtest.xirrPct, 1)}
+                  tone={backtest.xirrPct >= 0 ? "success" : "danger"}
+                />
+                <StatCard
+                  label="Max drawdown"
+                  value={formatPct(backtest.navMaxDrawdownPct, 1)}
+                  tone="danger"
+                  hint="Underlying NAV path"
+                />
+              </div>
+              <Sparkline values={backtest.valueSeries} />
+              <Callout tone="info" className="mt-3">
+                {backtest.usedFallbackSip
+                  ? "No SIP is required for the current goal — ₹10,000/month is used for illustration. "
+                  : ""}
+                {backtest.proxies.length > 0
+                  ? `History proxied from the top real fund for: ${backtest.proxies.join(", ")}. `
+                  : ""}
+                Past performance does not guarantee future results.
+              </Callout>
+            </Card>
+          ) : null}
+
           <Card className="flex items-center justify-between p-4">
             <div className="text-xs text-stone-600">Full forensic breakdown lives in Stage 4.</div>
             <Link to="/diligence">
@@ -355,5 +425,29 @@ export default function ScenarioPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+function Sparkline({ values }: { values: number[] }) {
+  if (values.length < 2) return null;
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const range = max - min || 1;
+  const points = values
+    .map(
+      (v, i) =>
+        `${((i / (values.length - 1)) * 100).toFixed(2)},${(40 - ((v - min) / range) * 36).toFixed(2)}`,
+    )
+    .join(" ");
+  return (
+    <svg
+      viewBox="0 0 100 40"
+      preserveAspectRatio="none"
+      className="mt-3 h-16 w-full"
+      role="img"
+      aria-label="Portfolio value over time"
+    >
+      <polyline points={points} fill="none" stroke="#15803D" strokeWidth="1.5" vectorEffect="non-scaling-stroke" />
+    </svg>
   );
 }

@@ -153,6 +153,7 @@ export const fundSchema = verdictFree({
     .strict()
     .optional(),
 
+  monthlyReturnsPct: z.record(z.string(), z.number()).optional(),
   schemeCode: z.number().int().optional(),
   rankInCategory: z.number().int().optional(),
   isNewEntry: z.boolean().optional(),

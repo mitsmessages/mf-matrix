@@ -382,6 +382,11 @@ def compute_metrics(
         "windows": len(windows),
         "lastNav": round(fund[months[-1]], 4),
         "firstYear": int(months[0][:4]),
+        # Compact recent monthly returns for the backtest (last 120 months).
+        "monthlyReturns": {
+            m: round(r * 100, 3)
+            for m, r in list(monthly_returns(series).items())[-120:]
+        },
     }
 
 
@@ -473,6 +478,7 @@ def to_fund(
         },
         "topHoldings": [],
         "sectorAllocation": [],
+        "monthlyReturnsPct": metrics.get("monthlyReturns", {}),
         "rankInCategory": rank,
         "isNewEntry": is_new,
         "historyYears": metrics["historyYears"],

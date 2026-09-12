@@ -159,6 +159,8 @@ export interface Fund {
   agentReviews?: AgentReviews;
 
   /* ------- provenance / universe metadata (present for generated funds) --- */
+  /** Recent monthly NAV returns ("YYYY-MM" -> return %), for backtesting. */
+  monthlyReturnsPct?: Record<string, number>;
   schemeCode?: number;
   rankInCategory?: number;
   isNewEntry?: boolean;
