@@ -298,17 +298,17 @@ export const courseModules: CourseModule[] = [
     category: "Portfolio Due Diligence",
     keyInsights: [
       "Five hurdles: rolling beat rate, Sortino, Jensen's alpha, up-capture and down-capture.",
-      "A fund must clear all five to be a candidate; partial clears are watchlist only.",
+      "A fund clearing at least four of the five is a candidate; three is watchlist only.",
       "The pass is derived from data, never copied from a factsheet.",
     ],
     commonMistake: "Using a different definition of 'good' on every page and every conversation.",
     scientificSolution:
       "One threshold source and one derivation, applied identically to every fund.",
-    practicalRule: "Only 5/5 funds reach the deployable shortlist; 3–4/5 are watchlist; ≤2/5 are rejected.",
+    practicalRule: "Clearing at least 4 of 5 hurdles qualifies a fund; 3/5 is watchlist; 2/5 or fewer is rejected.",
     formulas: [
       {
         name: "Gatekeeper",
-        formula: "Verdict = 5/5 ? QUALIFIED : ≥3/5 ? WATCHLIST : REJECT",
+        formula: "Verdict = ≥4/5 ? QUALIFIED : 3/5 ? WATCHLIST : REJECT",
         description: "Score is the count of cleared hurdles.",
       },
     ],

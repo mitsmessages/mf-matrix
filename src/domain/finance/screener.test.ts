@@ -24,7 +24,8 @@ describe("evaluateScreening", () => {
 
   it("fails Step 1 using the rolling beat rate, not the mean CAGR", () => {
     const r = evaluateScreening({ ...passing, beatBenchmarkPct: 60, positivePct: 100 });
-    expect(r.verdict).toBe("WATCHLIST");
+    // 4/5 clears the QUALIFIED band; the failing hurdle is still reported.
+    expect(r.verdict).toBe("QUALIFIED");
     expect(r.score).toBe(4);
     expect(r.primaryFailure?.id).toBe("rolling");
   });
@@ -128,7 +129,7 @@ describe("sleeve-aware screening profiles", () => {
 describe("verdictFor", () => {
   it.each([
     [5, "QUALIFIED"],
-    [4, "WATCHLIST"],
+    [4, "QUALIFIED"],
     [3, "WATCHLIST"],
     [2, "REJECT"],
     [0, "REJECT"],

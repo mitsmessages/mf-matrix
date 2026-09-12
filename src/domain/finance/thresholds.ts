@@ -174,9 +174,14 @@ export function profileForSleeve(sleeve: SleeveKey): ScreeningProfile {
   }
 }
 
-/** Verdict bands, identical across profiles: 5/5 qualified, 3–4 watchlist. */
+/**
+ * Verdict bands, identical across profiles. QUALIFIED requires clearing at least
+ * four of the five hurdles — the council's "passes at least 4 of 5" criterion.
+ * Demanding a perfect 5/5 on real NAV data is effectively unachievable and would
+ * leave every category empty.
+ */
 export const VERDICT_BANDS = {
-  qualifiedAt: 5,
+  qualifiedAt: 4,
   watchlistAt: 3,
 } as const;
 
