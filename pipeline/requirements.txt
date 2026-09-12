@@ -1,0 +1,4 @@
+# Pipeline-only dependencies (not needed by the web app or CI verify gate).
+# Used by pipeline/fetch_holdings.py to read AMC portfolio files.
+xlrd>=2.0.1
+openpyxl>=3.1.0

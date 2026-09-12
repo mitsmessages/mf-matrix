@@ -1,0 +1,14 @@
+{
+  "asOf": "2026-09-13",
+  "events": [
+    {
+      "amc": "amc.ppfas.com",
+      "event": "new",
+      "period": "2020-07",
+      "format": "xls-no-parser",
+      "holdings": 0,
+      "managers": [],
+      "managersChanged": []
+    }
+  ]
+}

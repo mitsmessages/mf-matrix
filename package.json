@@ -16,6 +16,7 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "verify": "npm run typecheck && npm run lint && npm run test && npm run build",
+    "data:holdings": "python pipeline/fetch_holdings.py",
     "content:check": "python pipeline/build_content.py --check",
     "content:build": "python pipeline/build_content.py --generate",
     "data:build": "python pipeline/build_funds.py"

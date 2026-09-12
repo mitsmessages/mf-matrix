@@ -104,6 +104,22 @@ python pipeline/fetch_universe.py --top 12 --candidates 45
 Holdings, TER, AUM and manager data are not in these feeds; generated funds are
 tagged `dataQuality: "metrics-only"` and the UI shows those fields as `—`.
 
+### Holdings & fund-manager changes
+
+The same weekly job also runs `pipeline/fetch_holdings.py`, which:
+
+1. reads AMFI's portfolio-disclosure **registry** of AMC pages,
+2. discovers the latest monthly portfolio file per AMC (server-rendered pages),
+3. stores a **manifest** (file digest + period) so weekly runs only act on new
+   filings, and
+4. emits `src/data/holdings_changelog.json` with new-filing events and
+   **manager changes**.
+
+Parsing is best-effort: XLSX/CSV/HTML via the standard library, XLS via `xlrd`
+(installed in CI). JS-driven AMC pages currently need dedicated adapters, so
+coverage grows over time; the step is `continue-on-error` and never breaks the
+build.
+
 ## Sleeve-aware screening
 
 The five-hurdle gatekeeper adapts to the sleeve: equity (full five hurdles),
