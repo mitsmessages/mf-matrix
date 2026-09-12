@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "./Header";
 import { ErrorBoundary } from "./ErrorBoundary";
-import { datasetMeta } from "@/data/funds";
+import { universeMeta } from "@/data/funds";
 
 export function Layout() {
   return (
@@ -38,8 +38,8 @@ export function Layout() {
                 Data &amp; risk
               </div>
               <ul className="mt-1 space-y-0.5">
-                <li>Provenance: {datasetMeta.provenance}</li>
-                <li>As of: {datasetMeta.asOf}</li>
+                <li>Provenance: {universeMeta.provenance}</li>
+                <li>As of: {universeMeta.asOf}</li>
                 <li>Not investment advice</li>
               </ul>
             </div>

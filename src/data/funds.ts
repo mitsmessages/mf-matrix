@@ -1,23 +1,17 @@
-import rawDataset from "./funds.json";
 import generatedDataset from "./universe.generated.json";
 import changelogRaw from "./universe_changelog.json";
 import { assertNoDerivedFields, datasetSchema } from "./schema";
 import type { Fund, FundCategory } from "@/domain/finance/types";
 import { runScreener } from "@/domain/finance/screener";
 
-assertNoDerivedFields(rawDataset);
+/**
+ * The app runs on the real, NAV-derived universe only. The former curated
+ * synthetic dataset is intentionally NOT merged here (see README "Data &
+ * sources"): mixing fabricated and real metrics in one journey was the biggest
+ * credibility risk.
+ */
 assertNoDerivedFields(generatedDataset);
-const parsed = datasetSchema.parse(rawDataset);
 const generated = datasetSchema.parse(generatedDataset);
-
-/** Featured, hand-curated funds with full forensic data (holdings, managers). */
-export const curatedFunds: Fund[] = parsed.funds;
-
-export const datasetMeta = {
-  asOf: parsed.asOf,
-  provenance: parsed.provenance,
-  note: parsed.note,
-} as const;
 
 export const universeMeta = {
   asOf: generated.asOf,
@@ -31,13 +25,9 @@ export const benchmarksByCategory: Record<
   { label: string; monthlyReturnsPct: Record<string, number> }
 > = generated.benchmarks ?? {};
 
-/** Curated first, then the generated metrics-only universe (deduped by id). */
-const seen = new Set(curatedFunds.map((f) => f.id));
-export const funds: Fund[] = [
-  ...curatedFunds,
-  ...generated.funds.filter((f) => !seen.has(f.id)),
-];
+export const funds: Fund[] = generated.funds;
 
+/** All funds are metrics-only (no holdings/TER/AUM/manager in the feeds). */
 export const metricsOnlyCount = funds.filter((f) => f.dataQuality === "metrics-only").length;
 
 export interface UniverseChangelogEntry {
@@ -49,7 +39,11 @@ export interface UniverseChangelog {
   asOf: string;
   categories: Record<
     string,
-    { retained: UniverseChangelogEntry[]; newEntries: UniverseChangelogEntry[]; dropped: { code: number }[] }
+    {
+      retained: UniverseChangelogEntry[];
+      newEntries: UniverseChangelogEntry[];
+      dropped: { code: number }[];
+    }
   >;
 }
 

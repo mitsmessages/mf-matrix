@@ -1,27 +1,22 @@
 import { describe, expect, it } from "vitest";
-import {
-  datasetMeta,
-  funds,
-  fundById,
-  screenedUniverse,
-  metricsOnlyCount,
-  universeMeta,
-} from "./funds";
+import { funds, fundById, screenedUniverse, metricsOnlyCount, universeMeta } from "./funds";
 
 import { courseModules } from "./curriculum";
 import { agents } from "./agents";
 import { CATEGORY_TO_SLEEVE, SLEEVE_KEYS } from "@/domain/finance/sleeves";
 
 describe("fund dataset", () => {
-  it("is validated and provenance-tagged", () => {
-    expect(datasetMeta.provenance).toBe("synthetic-teaching-dataset");
-    expect(funds.length).toBeGreaterThanOrEqual(30);
+  it("runs on the real, NAV-derived universe only", () => {
+    expect(universeMeta.provenance).toMatch(/AMFI/i);
+    expect(funds.length).toBeGreaterThanOrEqual(50);
+    // No synthetic/curated metrics are mixed in.
+    expect(metricsOnlyCount).toBe(funds.length);
   });
 
   it("has unique ids and a resolvable lookup", () => {
     const ids = new Set(funds.map((f) => f.id));
     expect(ids.size).toBe(funds.length);
-    expect(fundById("ppfc-01")?.name).toContain("Parag Parikh");
+    expect(fundById(funds[0]!.id)?.id).toBe(funds[0]!.id);
     expect(fundById("does-not-exist")).toBeUndefined();
   });
 
@@ -31,22 +26,11 @@ describe("fund dataset", () => {
     }
   });
 
-  it("keeps turnover in a sane percentage range (regression: legacy unit mix)", () => {
+  it("keeps costs/turnover in a sane range and all funds metrics-only", () => {
     for (const f of funds) {
       expect(f.portfolioTurnoverPct).toBeGreaterThanOrEqual(0);
       expect(f.portfolioTurnoverPct).toBeLessThanOrEqual(1000);
-    }
-    // Legacy values 4.8 / 5.1 meant hundreds of percent for arbitrage funds.
-    expect(fundById("kotak-arb-01")!.portfolioTurnoverPct).toBeGreaterThan(100);
-  });
-
-  it("completes market-cap breakdowns to 100 when present", () => {
-    for (const f of funds) {
-      const mc = f.marketCapBreakdown;
-      if (!mc) continue;
-      const sum = mc.largeCap + mc.midCap + mc.smallCap + mc.cashDebt + mc.commodity;
-      expect(sum).toBeGreaterThan(99);
-      expect(sum).toBeLessThan(101);
+      expect(f.dataQuality).toBe("metrics-only");
     }
   });
 

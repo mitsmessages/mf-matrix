@@ -12,4 +12,5 @@ export const STAGE_ROUTES: StageRoute[] = [
   { to: "/screener", label: "Stage 3 · Screen", shortLabel: "3 Screen", stage: 3 },
   { to: "/diligence", label: "Stage 4 · Diligence", shortLabel: "4 Diligence", stage: 4 },
   { to: "/scenario", label: "Stage 5 · Synthesis", shortLabel: "5 Synthesis", stage: 5 },
+  { to: "/data", label: "Data", shortLabel: "Data", stage: 6 },
 ];

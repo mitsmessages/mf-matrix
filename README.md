@@ -76,12 +76,16 @@ docs/adr/            architecture decision records
 
 ## Dataset
 
-`src/data/funds.json` holds 32 funds across five SEBI categories, plus four
-hand-authored Balanced Advantage / Small Cap funds so every preset sleeve is
-satisfiable. It is validated by zod at load and by tests in CI. Turnover is
-always a percentage; market-cap breakdowns sum to 100; verdicts are absent.
+The app runs on the **real, NAV-derived universe only** (`src/data/universe.generated.json`):
+the top 12 funds per SEBI category, validated by zod at load and by tests. The
+former curated synthetic dataset (`src/data/funds.json`) is kept only as a
+legacy generator artefact and is **not loaded** by the app — mixing fabricated
+and real metrics was the biggest credibility risk.
 
-Provenance is tagged `synthetic-teaching-dataset` and surfaced in the footer.
+Every fund is tagged `dataQuality: "metrics-only"`: returns and risk are real,
+while holdings/TER/AUM/manager are shown as `—` rather than invented. See the
+in-app **Data & sources** page for the full real-vs-assumed breakdown.
+
 This is an educational tool, **not investment advice**.
 
 ## Live universe & weekly refresh

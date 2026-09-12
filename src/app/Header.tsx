@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { LayoutGrid, RotateCcw } from "lucide-react";
 import { STAGE_ROUTES } from "./routes";
 import { useProfile } from "@/store/profile";
-import { datasetMeta, funds } from "@/data/funds";
+import { funds, universeMeta } from "@/data/funds";
 import { relativeFromISO } from "@/lib/format";
 import { cn } from "@/lib/cn";
 
@@ -29,7 +29,7 @@ export function Header() {
               Mutual Fund Matrix
             </span>
             <span className="hidden text-[10px] text-stone-500 sm:block">
-              Five-stage decision engine · dataset {relativeFromISO(datasetMeta.asOf)}
+              Five-stage decision engine · real NAV data {relativeFromISO(universeMeta.asOf)}
             </span>
           </span>
         </NavLink>

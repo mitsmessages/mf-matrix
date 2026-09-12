@@ -6,21 +6,15 @@ import { ALLOCATION_PRESETS } from "@/domain/finance/sleeves";
 import { DEFAULT_TVM } from "@/domain/finance/tvm";
 import type { TvmInput } from "@/domain/finance/tvm";
 
-/** Preferred first pick per sleeve, overridden if it is not deployable. */
-const PREFERRED: Partial<Record<SleeveKey, string>> = {
-  flexi: "ppfc-01",
-  mid: "motilal-mc-01",
-  debt: "kotak-arb-01",
-  gold: "nippon-gold-01",
-  baf: "hdfc-baf-01",
-};
-
+/**
+ * Default pick per sleeve: the highest-ranked QUALIFIED fund, else the highest
+ * WATCHLIST, else the top-ranked fund. Real data only.
+ */
 function bestFundIdForSleeve(sleeve: SleeveKey): string | undefined {
-  const pool = screenedUniverse().filter((u) => u.fund.sleeve === sleeve);
+  const pool = screenedUniverse()
+    .filter((u) => u.fund.sleeve === sleeve)
+    .sort((a, b) => (a.fund.rankInCategory ?? 99) - (b.fund.rankInCategory ?? 99));
   if (pool.length === 0) return undefined;
-  const preferred = PREFERRED[sleeve];
-  const preferredEntry = pool.find((u) => u.fund.id === preferred);
-  if (preferredEntry && preferredEntry.result.verdict !== "REJECT") return preferredEntry.fund.id;
   const qualified = pool.find((u) => u.result.verdict === "QUALIFIED");
   if (qualified) return qualified.fund.id;
   const selectable = pool.find((u) => u.result.verdict === "WATCHLIST");

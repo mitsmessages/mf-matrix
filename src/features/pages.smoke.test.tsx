@@ -12,6 +12,7 @@ import GoalPage from "@/features/goal/GoalPage";
 import ScreenerPage from "@/features/screener/ScreenerPage";
 import DiligencePage from "@/features/diligence/DiligencePage";
 import ScenarioPage from "@/features/scenario/ScenarioPage";
+import DataPage from "@/features/data/DataPage";
 import { useProfile } from "@/store/profile";
 import { defaultSelections, defaultWeights } from "@/data/defaults";
 import { ALLOCATION_PRESETS } from "@/domain/finance/sleeves";
@@ -26,6 +27,15 @@ const renderPage = (ui: React.ReactElement) =>
 beforeEach(() => {
   cleanup();
   localStorage.clear();
+});
+
+describe("Data & sources page", () => {
+  it("states what is real vs assumed", () => {
+    renderPage(<DataPage />);
+    expect(screen.getByText(/What is real, and what is assumed/i)).toBeInTheDocument();
+    expect(screen.getAllByText(/Not available/i).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/Assumptions \(labelled\)/i).length).toBeGreaterThan(0);
+  });
 });
 
 describe("pages render without throwing", () => {

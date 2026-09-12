@@ -52,6 +52,9 @@ describe("app navigation", () => {
     await waitFor(() => expect(window.location.pathname).toBe("/scenario"));
     expect((await screen.findAllByText(/What else could add value/i)).length).toBeGreaterThan(0);
 
+    fireEvent.click(stageNav().getByRole("link", { name: /Data/i }));
+    expect(await screen.findByText(/What is real, and what is assumed/i)).toBeInTheDocument();
+
     expect(screen.queryByText(/Something went wrong/i)).toBeNull();
   }, 30_000);
 
