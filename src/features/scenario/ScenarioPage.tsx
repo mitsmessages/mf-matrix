@@ -12,6 +12,7 @@ import {
   summariseRisk,
 } from "@/domain/finance/portfolio";
 import { buildRecommendations, sleeveCoverage, type RecommendationSeverity } from "@/domain/finance/recommendations";
+import { estimatePortfolioTax } from "@/domain/finance/tax";
 import { runScreener } from "@/domain/finance/screener";
 import { solveTvm } from "@/domain/finance/tvm";
 import { useProfile } from "@/store/profile";
@@ -51,6 +52,12 @@ export default function ScenarioPage() {
   const overlap = useMemo(() => stockOverlap(holdings), [holdings]);
   const risk = useMemo(() => summariseRisk(weights), [weights]);
   const crashes = useMemo(() => CRASH_SCENARIOS.map((s) => crashStress(holdings, s)), [holdings]);
+
+  const tax = useMemo(
+    () =>
+      estimatePortfolioTax(holdings, goal.gains, tvm.horizonYears * 12, { slabRatePct: 30 }),
+    [holdings, goal.gains, tvm.horizonYears],
+  );
 
   const recommendations = useMemo(
     () =>
@@ -305,6 +312,37 @@ export default function ScenarioPage() {
             <Callout tone="info" className="mt-3">
               Overlap {formatPct(overlap.overlapPct, 1)} ({overlap.status}). First crash test:{" "}
               {formatPct(crashes[0]?.portfolioPct ?? 0, 1)} vs benchmark {formatPct(crashes[0]?.benchmarkPct ?? 0, 1)}.
+            </Callout>
+          </Card>
+
+          <Card className="p-5">
+            <SectionTitle
+              eyebrow="Tax (estimate)"
+              title="Capital-gains impact"
+              hint="FY 2025-26: equity LTCG 12.5% above ₹1.25L, gold 12.5% after 24m, debt at slab."
+            />
+            <div className="mt-3 grid grid-cols-2 gap-3">
+              <StatCard label="Projected gain" value={formatCompactINR(tax.totalGain)} />
+              <StatCard label="Estimated tax" value={formatCompactINR(tax.totalTax)} tone="danger" />
+              <StatCard label="Post-tax gain" value={formatCompactINR(tax.postTaxGain)} tone="success" />
+              <StatCard label="Effective rate" value={formatPct(tax.effectiveRatePct, 1)} />
+            </div>
+            <div className="mt-3 space-y-1.5">
+              {tax.lines.map((line) => (
+                <div
+                  key={line.assetClass}
+                  className="flex items-center justify-between rounded-lg border border-stone-200 px-2.5 py-1.5 text-xs"
+                >
+                  <span className="capitalize text-stone-600">
+                    {line.assetClass} · {formatPct(line.weightPct, 0)} of gain
+                  </span>
+                  <span className="font-mono font-semibold text-stone-900">{formatINR(line.tax)}</span>
+                </div>
+              ))}
+            </div>
+            <Callout tone="info" className="mt-3">
+              Illustrative only, not tax advice. The holding period is assumed to be the full goal
+              horizon ({tvm.horizonYears} years).
             </Callout>
           </Card>
 

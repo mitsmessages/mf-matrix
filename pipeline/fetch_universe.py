@@ -164,6 +164,44 @@ def parse_navall(text: str) -> list[dict[str, Any]]:
     return rows
 
 
+def is_direct_growth(plan: str, option: str) -> bool:
+    pl, op = plan.lower(), option.lower()
+    return pl == "direct plan" and "growth" in op and "idcw" not in op and "dividend" not in op
+
+
+# Category → index-fund proxy used as the benchmark (real NAV, not consensus).
+BENCHMARK_MATCHERS = {
+    "Flexi Cap": ["nifty 500 index"],
+    "Large Cap": ["nifty 50 index"],
+    "Mid Cap": ["nifty midcap 150 index"],
+    "Small Cap": ["nifty smallcap 250 index"],
+    "Balanced Advantage": ["nifty 500 index"],
+}
+BENCHMARK_EXCLUDE = (
+    "momentum", "quality", "fof", "etf", "elss", "equal", "value",
+    "alpha", "dividend", "consumption", "bank", "it ", "pharma", "auto", "energy",
+)
+
+
+def pick_proxy(category: str, rows: list[dict[str, Any]]) -> dict[str, Any] | None:
+    matchers = BENCHMARK_MATCHERS.get(category)
+    if not matchers:
+        return None
+    for row in rows:
+        name = row["name"].lower()
+        section = row.get("section", "").lower()
+        if "index" not in section:
+            continue
+        if not any(m in name for m in matchers):
+            continue
+        if any(x in name for x in BENCHMARK_EXCLUDE):
+            continue
+        if not is_direct_growth(row.get("plan", ""), row.get("option", "")):
+            continue
+        return row
+    return None
+
+
 def is_eligible(category: str, plan: str, option: str) -> bool:
     """Direct + growth only. Gold ETFs are exempt from the plan/option rule."""
     pl, op = plan.lower(), option.lower()
@@ -266,8 +304,9 @@ def compute_metrics(
 
     # Rolling 3Y windows (36 months) over the last 10 years.
     windows: list[tuple[float, float]] = []
-    lookback = min(120, len(months) - 36)
-    for i in range(max(0, len(months) - lookback), len(months) - 36):
+    # Most recent up-to-120 rolling windows (older if history is short).
+    window_count = len(months) - 36
+    for i in range(max(0, window_count - 120), window_count):
         start, end = months[i], months[i + 36]
         f = annualised(36, fund[start], fund[end])
         b = annualised(36, bench[start], bench[end])
@@ -379,7 +418,15 @@ def clean_short_name(name: str) -> str:
     return short
 
 
-def to_fund(code: int, meta: dict[str, Any], category: str, metrics: dict[str, Any], rank: int, is_new: bool) -> dict[str, Any]:
+def to_fund(
+    code: int,
+    meta: dict[str, Any],
+    category: str,
+    metrics: dict[str, Any],
+    rank: int,
+    is_new: bool,
+    benchmark_label: str = "Category consensus benchmark",
+) -> dict[str, Any]:
     sleeve = SLEEVE_BY_CATEGORY[category]
     full_name = meta.get("scheme_name") or f"Scheme {code}"
     return {
@@ -398,7 +445,7 @@ def to_fund(code: int, meta: dict[str, Any], category: str, metrics: dict[str, A
         "fundManagerTenureYears": 0,
         "portfolioTurnoverPct": 0,
         "cashHoldingPct": 0,
-        "benchmark": "Category consensus benchmark",
+        "benchmark": benchmark_label,
         "style": "Blend",
         "portfolioPE": 0,
         "portfolioPB": 0,
@@ -508,7 +555,19 @@ def main() -> int:
     changelog: dict[str, Any] = {"asOf": as_of, "categories": {}}
 
     for cat, entries in fetched.items():
-        benchmark = build_benchmark({e[0]["code"]: e[1] for e in entries})
+        # Prefer a real index-fund NAV as the benchmark; fall back to consensus.
+        proxy = pick_proxy(cat, rows)
+        bench_source = None
+        bench_label = "Category consensus benchmark"
+        if proxy:
+            data = histories.get(proxy["code"]) or fetch_history(proxy["code"])
+            if data:
+                series = month_end_series(parse_history(data))
+                if len(series) >= 40:
+                    bench_source = series
+                    bench_label = f"{proxy['name']} (index-fund proxy)"
+                    print(f"  {cat}: benchmark = {bench_label}")
+        benchmark = bench_source or build_benchmark({e[0]["code"]: e[1] for e in entries})
         scored = []
         for item, series in entries:
             m = compute_metrics(series, benchmark)
@@ -532,7 +591,7 @@ def main() -> int:
             code = item["code"]
             current_codes.add(code)
             is_new = bool(prev_codes) and code not in prev_codes
-            funds.append(to_fund(code, item["meta"], cat, m, rank, is_new))
+            funds.append(to_fund(code, item["meta"], cat, m, rank, is_new, bench_label))
             (new_entries if is_new else retained).append({"code": code, "name": item["name"][:60], "rank": rank})
         dropped = [{"code": c} for c in prev_codes - current_codes]
         changelog["categories"][cat] = {
