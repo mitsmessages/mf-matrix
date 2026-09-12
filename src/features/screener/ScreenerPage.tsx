@@ -10,6 +10,7 @@ import {
   funds,
 } from "@/data/funds";
 import { PROFILES, PROFILE_ORDER } from "@/domain/finance/thresholds";
+import { rankWeightSummary } from "@/domain/finance/ranking";
 import { metricValue, type ScreenerSortField } from "@/domain/finance/screener";
 import type { Fund, HurdleResult } from "@/domain/finance/types";
 import { useProfile } from "@/store/profile";
@@ -219,7 +220,7 @@ export default function ScreenerPage() {
                       <div className="flex flex-wrap items-center gap-1.5">
                         {fund.rankInCategory ? (
                           <span
-                            title={`Composite peer rank #${fund.rankInCategory} of 12 in ${fund.category}. Used to select the top-12 universe; it is NOT the safety verdict.`}
+                            title={`Composite peer rank #${fund.rankInCategory} of 12 in ${fund.category} — weighted: ${rankWeightSummary()}. This is NOT the safety verdict.`}
                             className="rounded border border-stone-300 bg-stone-100 px-1.5 py-0.5 font-mono text-[10px] font-semibold text-stone-600"
                           >
                             rank #{fund.rankInCategory}

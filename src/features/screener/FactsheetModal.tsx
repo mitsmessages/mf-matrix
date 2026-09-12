@@ -5,6 +5,7 @@ import { Badge, Callout, StatCard } from "@/components/ui/primitives";
 import { verdictTone } from "@/components/ui/verdict";
 import { runScreener } from "@/domain/finance/screener";
 import { PROFILES } from "@/domain/finance/thresholds";
+import { rankWeightSummary } from "@/domain/finance/ranking";
 import type { Fund } from "@/domain/finance/types";
 import { SLEEVES } from "@/domain/finance/sleeves";
 import { formatINR, formatPct } from "@/lib/format";
@@ -144,6 +145,12 @@ export function FactsheetModal({
                     </li>
                   ))}
                 </ul>
+                {fund.rankInCategory ? (
+                  <p className="mt-3 border-t border-stone-100 pt-2 text-[10px] leading-relaxed text-stone-400">
+                    Peer rank #{fund.rankInCategory} is a weighted composite ({rankWeightSummary()}).
+                    The verdict above counts hurdles equally.
+                  </p>
+                ) : null}
               </div>
             </div>
           </div>

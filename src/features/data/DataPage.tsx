@@ -9,6 +9,7 @@ import {
 import type { FundCategory } from "@/domain/finance/types";
 import { Badge, Callout, Card, SectionTitle, StatCard } from "@/components/ui/primitives";
 import { SLEEVES } from "@/domain/finance/sleeves";
+import { rankWeightSummary } from "@/domain/finance/ranking";
 
 const categoryCounts = CATALOG_CATEGORIES.map((category: FundCategory) => ({
   category,
@@ -163,6 +164,10 @@ export default function DataPage() {
           <li className="rounded-lg border border-stone-200 p-2.5">
             <strong>Verdicts:</strong> one threshold source, sleeve-aware (equity / hybrid / debt /
             commodity), derived at runtime — never stored.
+          </li>
+          <li className="rounded-lg border border-stone-200 p-2.5">
+            <strong>Peer rank:</strong> weighted composite — {rankWeightSummary()}. Verdicts count
+            hurdles equally; the rank orders the top-12.
           </li>
           <li className="rounded-lg border border-stone-200 p-2.5">
             <strong>Benchmark:</strong> a real index-fund NAV where available (Large/Mid), else the

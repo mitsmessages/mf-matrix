@@ -58,6 +58,12 @@ describe("app navigation", () => {
     expect(screen.queryByText(/Something went wrong/i)).toBeNull();
   }, 30_000);
 
+  it("a direct hash load renders the deep route (refresh on /#/screener)", async () => {
+    window.location.hash = "#/screener";
+    render(<App />);
+    expect(await screen.findByText(/Five-hurdle fund screener/i)).toBeInTheDocument();
+  }, 20_000);
+
   it("Stage 4 CTA navigates forward into Stage 5", async () => {
     render(<App />);
     await screen.findByRole("navigation", { name: /stages/i });
