@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { ClipboardCheck, ClipboardCopy, Lightbulb, Wand2 } from "lucide-react";
-import { funds, fundsBySleeve } from "@/data/funds";
+import { benchmarksByCategory, funds, fundsBySleeve } from "@/data/funds";
 import { SLEEVES, SLEEVE_KEYS } from "@/domain/finance/sleeves";
 import { resolveHoldings, tierBreakdown, normalisedSleeveWeights } from "@/domain/finance/lookthrough";
 import {
@@ -14,15 +14,26 @@ import {
 import { buildRecommendations, sleeveCoverage, type RecommendationSeverity } from "@/domain/finance/recommendations";
 import { estimatePortfolioTax } from "@/domain/finance/tax";
 import {
+  backtestLumpSum,
   backtestSip,
   portfolioReturnSeries,
+  rollingSipSuccess,
   type PortfolioPart,
 } from "@/domain/finance/backtest";
 import { runScreener } from "@/domain/finance/screener";
 import { solveTvm } from "@/domain/finance/tvm";
 import { useProfile } from "@/store/profile";
 import { formatCompactINR, formatINR, formatPct } from "@/lib/format";
-import { Badge, Button, Callout, Card, ProgressBar, SectionTitle, StatCard } from "@/components/ui/primitives";
+import {
+  Badge,
+  Button,
+  Callout,
+  Card,
+  ProgressBar,
+  SectionTitle,
+  Segmented,
+  StatCard,
+} from "@/components/ui/primitives";
 import { verdictTone } from "@/components/ui/verdict";
 import type { BadgeTone } from "@/components/ui/primitives";
 
@@ -64,7 +75,9 @@ export default function ScenarioPage() {
     [holdings, goal.gains, tvm.horizonYears],
   );
 
-  const backtest = useMemo(() => {
+  const [backtestMode, setBacktestMode] = useState<"sip" | "lump">("sip");
+
+  const backtestParts = useMemo(() => {
     const parts: PortfolioPart[] = [];
     for (const h of holdings) {
       if (h.fund.monthlyReturnsPct) {
@@ -77,12 +90,53 @@ export default function ScenarioPage() {
         .sort((a, b) => (a.rankInCategory ?? 99) - (b.rankInCategory ?? 99))[0];
       if (proxy) parts.push({ fund: proxy, weightPct: h.weightPct, proxy: true });
     }
-    const series = portfolioReturnSeries(parts);
-    if (!series) return null;
+    return parts;
+  }, [holdings]);
+
+  const portfolioSeries = useMemo(() => portfolioReturnSeries(backtestParts), [backtestParts]);
+
+  // Benchmark monthly series over the same months, weighted by the same sleeves.
+  const benchmarkSeries = useMemo(() => {
+    if (!portfolioSeries) return null;
+    const cats = [...new Set(backtestParts.map((p) => p.fund.category))];
+    if (cats.length === 0 || cats.some((c) => !benchmarksByCategory[c])) return null;
+    const months = portfolioSeries.months.filter((m) =>
+      cats.every((c) => m in benchmarksByCategory[c]!.monthlyReturnsPct),
+    );
+    if (months.length < 12) return null;
+    const total = backtestParts.reduce((s, p) => s + p.weightPct, 0) || 1;
+    const returnsPct = months.map((m) =>
+      backtestParts.reduce(
+        (s, p) => s + (p.weightPct / total) * (benchmarksByCategory[p.fund.category]?.monthlyReturnsPct[m] ?? 0),
+        0,
+      ),
+    );
+    const labels = new Set(backtestParts.map((p) => benchmarksByCategory[p.fund.category]?.label));
+    return { months, returnsPct, label: labels.size === 1 ? [...labels][0]! : "Category benchmarks" };
+  }, [portfolioSeries, backtestParts]);
+
+  const backtest = useMemo(() => {
+    if (!portfolioSeries) return null;
     const sip = goal.requiredMonthlySip > 0 ? goal.requiredMonthlySip : 10_000;
-    const result = backtestSip(series.months, series.returnsPct, sip, tvm.stepUpPct);
-    return { ...result, proxies: series.proxies, usedFallbackSip: goal.requiredMonthlySip <= 0 };
-  }, [holdings, goal.requiredMonthlySip, tvm.stepUpPct]);
+    const sipResult = backtestSip(portfolioSeries.months, portfolioSeries.returnsPct, sip, tvm.stepUpPct);
+    const lumpAmount = lumpSum > 0 ? lumpSum : 100_000;
+    const lumpResult = backtestLumpSum(portfolioSeries.returnsPct, lumpAmount);
+    const benchSip = benchmarkSeries
+      ? backtestSip(benchmarkSeries.months, benchmarkSeries.returnsPct, sip, tvm.stepUpPct)
+      : null;
+    const benchLump = benchmarkSeries ? backtestLumpSum(benchmarkSeries.returnsPct, lumpAmount) : null;
+    const rolling = rollingSipSuccess(portfolioSeries.returnsPct, 36, sip, benchmarkSeries?.returnsPct);
+    return {
+      sipResult,
+      lumpResult,
+      benchSip,
+      benchLump,
+      rolling,
+      benchLabel: benchmarkSeries?.label ?? null,
+      proxies: portfolioSeries.proxies,
+      usedFallbackSip: goal.requiredMonthlySip <= 0,
+    };
+  }, [portfolioSeries, benchmarkSeries, goal.requiredMonthlySip, tvm.stepUpPct, lumpSum]);
 
   const recommendations = useMemo(
     () =>
@@ -142,11 +196,21 @@ export default function ScenarioPage() {
       );
     }
     if (backtest) {
+      const s = backtest.sipResult;
       lines.push("");
       lines.push("## Backtest (real monthly NAVs)");
       lines.push(
-        `- ${backtest.months} months · invested ${formatINR(backtest.invested)} · final ${formatINR(backtest.finalValue)} · XIRR ${formatPct(backtest.xirrPct, 1)} · max drawdown ${formatPct(backtest.navMaxDrawdownPct, 1)}`,
+        `- SIP: ${s.months} months · invested ${formatINR(s.invested)} · final ${formatINR(s.finalValue)} · XIRR ${formatPct(s.xirrPct, 1)} · max drawdown ${formatPct(s.navMaxDrawdownPct, 1)}`,
       );
+      if (backtest.benchSip) {
+        lines.push(`- Benchmark SIP final ${formatINR(backtest.benchSip.finalValue)} (${backtest.benchLabel}).`);
+      }
+      lines.push(
+        `- Rolling ${Math.round(backtest.rolling.horizonMonths / 12)}y: ${formatPct(backtest.rolling.positivePct, 0)} positive, ${
+          backtest.rolling.beatBenchmarkPct !== null ? formatPct(backtest.rolling.beatBenchmarkPct, 0) : "n/a"
+        } beat benchmark across ${backtest.rolling.windows} starts.`,
+      );
+      lines.push(`- Lump sum: invested ${formatINR(backtest.lumpResult.invested)} · final ${formatINR(backtest.lumpResult.finalValue)} · CAGR ${formatPct(backtest.lumpResult.cagrPct, 1)}.`);
       if (backtest.proxies.length > 0) {
         lines.push(`- Proxied from top real fund for: ${backtest.proxies.join(", ")}`);
       }
@@ -383,27 +447,89 @@ export default function ScenarioPage() {
 
           {backtest ? (
             <Card className="p-5">
-              <SectionTitle
-                eyebrow="Backtest"
-                title="Historical SIP outcome"
-                hint={`Real monthly NAVs · ${backtest.months} months to ${backtest.monthLabels.at(-1) ?? ""}.`}
-              />
-              <div className="mt-3 grid grid-cols-2 gap-3">
-                <StatCard label="Invested" value={formatCompactINR(backtest.invested)} />
-                <StatCard label="Final value" value={formatCompactINR(backtest.finalValue)} tone="success" />
-                <StatCard
-                  label="XIRR"
-                  value={formatPct(backtest.xirrPct, 1)}
-                  tone={backtest.xirrPct >= 0 ? "success" : "danger"}
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <SectionTitle
+                  eyebrow="Backtest"
+                  title="Historical outcome"
+                  hint={`Real monthly NAVs · ${backtest.sipResult.months} months to ${backtest.sipResult.monthLabels.at(-1) ?? ""}.`}
                 />
-                <StatCard
-                  label="Max drawdown"
-                  value={formatPct(backtest.navMaxDrawdownPct, 1)}
-                  tone="danger"
-                  hint="Underlying NAV path"
+                <Segmented
+                  ariaLabel="Backtest mode"
+                  options={[
+                    { value: "sip", label: "SIP" },
+                    { value: "lump", label: "Lump sum" },
+                  ]}
+                  value={backtestMode}
+                  onChange={setBacktestMode}
                 />
               </div>
-              <Sparkline values={backtest.valueSeries} />
+
+              {backtestMode === "sip" ? (
+                <>
+                  <div className="mt-3 grid grid-cols-2 gap-3">
+                    <StatCard label="Invested" value={formatCompactINR(backtest.sipResult.invested)} />
+                    <StatCard label="Final value" value={formatCompactINR(backtest.sipResult.finalValue)} tone="success" />
+                    <StatCard
+                      label="XIRR"
+                      value={formatPct(backtest.sipResult.xirrPct, 1)}
+                      tone={backtest.sipResult.xirrPct >= 0 ? "success" : "danger"}
+                    />
+                    <StatCard
+                      label="Max drawdown"
+                      value={formatPct(backtest.sipResult.navMaxDrawdownPct, 1)}
+                      tone="danger"
+                      hint="Underlying NAV path"
+                    />
+                  </div>
+                  {backtest.benchSip ? (
+                    <p className="mt-2 text-[11px] text-stone-600">
+                      Same SIP on the benchmark finished at{" "}
+                      <strong>{formatCompactINR(backtest.benchSip.finalValue)}</strong> (
+                      {backtest.sipResult.finalValue >= backtest.benchSip.finalValue ? "ahead" : "behind"} by{" "}
+                      {formatCompactINR(Math.abs(backtest.sipResult.finalValue - backtest.benchSip.finalValue))}).
+                    </p>
+                  ) : null}
+                  <Sparkline values={backtest.sipResult.valueSeries} />
+                </>
+              ) : (
+                <>
+                  <div className="mt-3 grid grid-cols-2 gap-3">
+                    <StatCard label="Invested" value={formatCompactINR(backtest.lumpResult.invested)} />
+                    <StatCard label="Final value" value={formatCompactINR(backtest.lumpResult.finalValue)} tone="success" />
+                    <StatCard
+                      label="CAGR"
+                      value={formatPct(backtest.lumpResult.cagrPct, 1)}
+                      tone={backtest.lumpResult.cagrPct >= 0 ? "success" : "danger"}
+                    />
+                    <StatCard
+                      label="Max drawdown"
+                      value={formatPct(backtest.lumpResult.navMaxDrawdownPct, 1)}
+                      tone="danger"
+                      hint="Underlying NAV path"
+                    />
+                  </div>
+                  {backtest.benchLump ? (
+                    <p className="mt-2 text-[11px] text-stone-600">
+                      Benchmark lump sum: <strong>{formatCompactINR(backtest.benchLump.finalValue)}</strong> (
+                      {formatPct(backtest.benchLump.cagrPct, 1)} CAGR).
+                    </p>
+                  ) : null}
+                </>
+              )}
+
+              {backtest.rolling.windows > 0 ? (
+                <div className="mt-3 rounded-xl border border-stone-200 bg-stone-50 p-3 text-[11px] text-stone-600">
+                  Rolling {Math.round(backtest.rolling.horizonMonths / 12)}-year windows (
+                  {backtest.rolling.windows} starts):{" "}
+                  <strong>{formatPct(backtest.rolling.positivePct, 0)}</strong> finished positive
+                  {backtest.rolling.beatBenchmarkPct !== null
+                    ? `, and ${formatPct(backtest.rolling.beatBenchmarkPct, 0)} beat the benchmark`
+                    : ""}
+                  {backtest.benchLabel ? ` (${backtest.benchLabel})` : ""}. Median XIRR{" "}
+                  {formatPct(backtest.rolling.medianXirrPct, 1)}.
+                </div>
+              ) : null}
+
               <Callout tone="info" className="mt-3">
                 {backtest.usedFallbackSip
                   ? "No SIP is required for the current goal — ₹10,000/month is used for illustration. "

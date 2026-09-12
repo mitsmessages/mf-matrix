@@ -25,6 +25,12 @@ export const universeMeta = {
   note: generated.note,
 } as const;
 
+/** Per-category benchmark monthly returns (index-fund proxy or consensus). */
+export const benchmarksByCategory: Record<
+  string,
+  { label: string; monthlyReturnsPct: Record<string, number> }
+> = generated.benchmarks ?? {};
+
 /** Curated first, then the generated metrics-only universe (deduped by id). */
 const seen = new Set(curatedFunds.map((f) => f.id));
 export const funds: Fund[] = [

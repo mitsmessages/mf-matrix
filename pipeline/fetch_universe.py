@@ -559,6 +559,7 @@ def main() -> int:
     as_of = date.today().isoformat()
     funds: list[dict[str, Any]] = []
     changelog: dict[str, Any] = {"asOf": as_of, "categories": {}}
+    cat_benchmarks: dict[str, Any] = {}
 
     for cat, entries in fetched.items():
         # Prefer a real index-fund NAV as the benchmark; fall back to consensus.
@@ -574,6 +575,13 @@ def main() -> int:
                     bench_label = f"{proxy['name']} (index-fund proxy)"
                     print(f"  {cat}: benchmark = {bench_label}")
         benchmark = bench_source or build_benchmark({e[0]["code"]: e[1] for e in entries})
+        cat_benchmarks[cat] = {
+            "label": bench_label,
+            "monthlyReturnsPct": {
+                m: round(r * 100, 3)
+                for m, r in list(monthly_returns(benchmark).items())[-120:]
+            },
+        }
         scored = []
         for item, series in entries:
             m = compute_metrics(series, benchmark)
@@ -615,6 +623,7 @@ def main() -> int:
             "Holdings, TER and manager data are not in these feeds and are shown as unavailable. "
             "Educational tool; not investment advice."
         ),
+        "benchmarks": cat_benchmarks,
         "funds": funds,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)

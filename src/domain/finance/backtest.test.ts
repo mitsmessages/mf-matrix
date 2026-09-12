@@ -4,6 +4,7 @@ import {
   backtestSip,
   fundReturnSeries,
   portfolioReturnSeries,
+  rollingSipSuccess,
   xirr,
 } from "./backtest";
 import { makeFund } from "./factories";
@@ -89,6 +90,29 @@ describe("series plumbing", () => {
     ]);
     expect(s).not.toBeNull();
     expect(s!.returnsPct[0]).toBeCloseTo(2, 6); // (1+3)/2
+  });
+});
+
+describe("rollingSipSuccess", () => {
+  it("all-positive market -> 100% positive windows", () => {
+    const r = rollingSipSuccess(Array.from({ length: 24 }, () => 1), 12, 1000);
+    expect(r.windows).toBe(13);
+    expect(r.horizonMonths).toBe(12);
+    expect(r.positivePct).toBe(100);
+    expect(r.beatBenchmarkPct).toBeNull();
+  });
+
+  it("beats a weaker benchmark in every window", () => {
+    const fund = Array.from({ length: 24 }, () => 1);
+    const bench = Array.from({ length: 24 }, () => 0.5);
+    const r = rollingSipSuccess(fund, 12, 1000, bench);
+    expect(r.beatBenchmarkPct).toBe(100);
+  });
+
+  it("shorter history than the horizon collapses to a single window", () => {
+    const r = rollingSipSuccess(Array.from({ length: 10 }, () => 1), 24, 1000);
+    expect(r.windows).toBe(1);
+    expect(r.horizonMonths).toBe(10);
   });
 });
 

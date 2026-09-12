@@ -167,6 +167,59 @@ export function backtestLumpSum(
   };
 }
 
+export interface RollingSipOutcome {
+  windows: number;
+  horizonMonths: number;
+  /** Share of windows that finished above the money invested. */
+  positivePct: number;
+  /** Share of windows that beat the benchmark on final value (null if no benchmark). */
+  beatBenchmarkPct: number | null;
+  medianXirrPct: number;
+}
+
+/**
+ * Rolling SIP windows of a fixed horizon: how often did a SIP started in each
+ * month end positive, and how often did it beat the benchmark.
+ */
+export function rollingSipSuccess(
+  returnsPct: number[],
+  horizonMonths: number,
+  monthlySip: number,
+  benchmarkReturnsPct?: number[],
+): RollingSipOutcome {
+  const n = returnsPct.length;
+  const horizon = Math.max(1, Math.min(horizonMonths, n));
+  let windows = 0;
+  let positive = 0;
+  let beatCount = 0;
+  let beat = 0;
+  const xirrs: number[] = [];
+
+  for (let i = 0; i + horizon <= n; i++) {
+    const slice = returnsPct.slice(i, i + horizon);
+    const r = backtestSip([], slice, monthlySip);
+    windows++;
+    if (r.finalValue >= r.invested) positive++;
+    xirrs.push(r.xirrPct);
+    if (benchmarkReturnsPct && benchmarkReturnsPct.length >= i + horizon) {
+      const bslice = benchmarkReturnsPct.slice(i, i + horizon);
+      const b = backtestSip([], bslice, monthlySip);
+      beatCount++;
+      if (r.finalValue > b.finalValue) beat++;
+    }
+  }
+
+  xirrs.sort((a, b) => a - b);
+  const median = xirrs.length > 0 ? xirrs[Math.floor(xirrs.length / 2)]! : 0;
+  return {
+    windows,
+    horizonMonths: horizon,
+    positivePct: windows > 0 ? round((positive / windows) * 100, 1) : 0,
+    beatBenchmarkPct: beatCount > 0 ? round((beat / beatCount) * 100, 1) : null,
+    medianXirrPct: round(median, 2),
+  };
+}
+
 /** Money-weighted annual return via bisection. `t` is months from start. */
 export function xirr(cashflows: { t: number; amount: number }[]): number {
   const f = (rate: number): number =>

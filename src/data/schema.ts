@@ -168,6 +168,17 @@ export const datasetSchema = z
     asOf: z.string(),
     provenance: z.string(),
     note: z.string(),
+    benchmarks: z
+      .record(
+        z.string(),
+        z
+          .object({
+            label: z.string(),
+            monthlyReturnsPct: z.record(z.string(), z.number()),
+          })
+          .strict(),
+      )
+      .optional(),
     funds: z.array(fundSchema).min(1),
   })
   .strict();

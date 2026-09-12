@@ -104,8 +104,9 @@ describe("Diligence across profiles", () => {
     expect(screen.getAllByText(/Source: L/i).length).toBeGreaterThan(0);
     // Phase 5: tax estimate and historical backtest render.
     expect(screen.getAllByText(/Capital-gains impact/i).length).toBeGreaterThan(0);
-    expect(screen.getAllByText(/Historical SIP outcome/i).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/Historical outcome/i).length).toBeGreaterThan(0);
     expect(screen.getAllByText(/XIRR/i).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/beat the benchmark/i).length).toBeGreaterThan(0);
   });
 
   it("Scenario page shows an empty state with no funds", () => {
