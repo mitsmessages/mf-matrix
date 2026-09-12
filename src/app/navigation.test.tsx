@@ -21,7 +21,7 @@ configure({ asyncUtilTimeout: 8000 });
 beforeEach(() => {
   cleanup();
   localStorage.clear();
-  window.history.replaceState({}, "", "/");
+  window.location.hash = "";
 });
 
 const stageNav = () => within(screen.getByRole("navigation", { name: /stages/i }));
@@ -49,7 +49,7 @@ describe("app navigation", () => {
     const cta = screen.getByRole("link", { name: /Proceed to Stage 5/i });
     expect(cta).toBeInTheDocument();
     fireEvent.click(stageNav().getByRole("link", { name: /Synthesis/i }));
-    await waitFor(() => expect(window.location.pathname).toBe("/scenario"));
+    await waitFor(() => expect(window.location.hash).toBe("#/scenario"));
     expect((await screen.findAllByText(/What else could add value/i)).length).toBeGreaterThan(0);
 
     fireEvent.click(stageNav().getByRole("link", { name: /Data/i }));
@@ -64,7 +64,7 @@ describe("app navigation", () => {
     fireEvent.click(stageNav().getByRole("link", { name: /Diligence/i }));
     await screen.findByText(/Portfolio due diligence/i);
     fireEvent.click(screen.getByRole("link", { name: /Proceed to Stage 5/i }));
-    await waitFor(() => expect(window.location.pathname).toBe("/scenario"));
+    await waitFor(() => expect(window.location.hash).toBe("#/scenario"));
     expect((await screen.findAllByText(/What else could add value/i)).length).toBeGreaterThan(0);
   }, 30_000);
 

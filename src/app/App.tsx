@@ -1,5 +1,5 @@
 import { Suspense, lazy } from "react";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Layout } from "./Layout";
 
 const JourneyPage = lazy(() => import("@/features/journey/JourneyPage"));
@@ -21,7 +21,8 @@ function Loading() {
 
 export function App() {
   return (
-    <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+    // Hash routing so deep links work on any static host with no rewrite rules.
+    <HashRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Navigate to="/journey" replace />} />
@@ -84,6 +85,6 @@ export function App() {
           <Route path="*" element={<Navigate to="/journey" replace />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
