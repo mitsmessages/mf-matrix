@@ -1,0 +1,372 @@
+1
+00:00:05,900 --> 00:00:11,500
+So now that we've understood risks, we've understood returns, we've understood risks,
+
+2
+00:00:11,500 --> 00:00:13,500
+adjusted returns.
+
+3
+00:00:13,500 --> 00:00:19,420
+In this video, we will try and understand how do we actually end up picking a fund based
+
+4
+00:00:19,420 --> 00:00:21,940
+on past performance, right?
+
+5
+00:00:21,940 --> 00:00:26,859
+So out of everything that we've learned, of course we can implement all of that, but in
+
+6
+00:00:26,859 --> 00:00:31,579
+my 12 years of investing journey, I've realized that these are the five things that you see
+
+7
+00:00:31,579 --> 00:00:32,579
+on your screen.
+
+8
+00:00:32,659 --> 00:00:38,020
+Is actually what is important, and if you can filter funds based on these five things,
+
+9
+00:00:38,020 --> 00:00:42,740
+more or less you will have the right kind of pick that you will be able to figure out.
+
+10
+00:00:43,659 --> 00:00:46,619
+So we are going to pick funds looking at five data points.
+
+11
+00:00:47,179 --> 00:00:52,780
+The three year rolling over 10 years, we'll look at the SOTINO ratio because we want to see how
+
+12
+00:00:52,780 --> 00:00:57,579
+well they've protected the downside, we want to look at alpha because we want to see how well they've
+
+13
+00:00:57,579 --> 00:01:03,979
+done over in terms of return over the risk that they took, and very importantly we want to see how
+
+14
+00:01:03,979 --> 00:01:09,900
+they perform while the markets have been going up and how they perform while the markets have been
+
+15
+00:01:09,900 --> 00:01:11,420
+coming down, right?
+
+16
+00:01:11,420 --> 00:01:19,099
+So what we're going to do is pick up two funds very randomly and try and figure out how do they do
+
+17
+00:01:19,099 --> 00:01:21,739
+on all of these five parameters, right?
+
+18
+00:01:21,739 --> 00:01:29,379
+So here is what I've written, fund A and all the five parameters, fund B and all the five parameters.
+
+19
+00:01:29,379 --> 00:01:32,980
+Let's try and figure out how is the fund doing on all of these things.
+
+20
+00:01:33,540 --> 00:01:43,019
+The fund selection is pretty random, right, and do not kind of map it with anything else, right?
+
+21
+00:01:43,019 --> 00:01:49,180
+So if I want to find out average three year rolling over 10 years, I'll have to go to advisor coach.
+
+22
+00:01:49,819 --> 00:01:55,980
+So first I go to advisor coach, I go to MF research, I go to rolling returns versus
+
+23
+00:01:57,180 --> 00:02:03,579
+benchmark, right? My internet may be slightly slow so you'll have to pardon me on that.
+
+24
+00:02:06,409 --> 00:02:15,300
+Okay, so perfect, here we go. So I am looking at one randomly picked fund where I'm trying to see
+
+25
+00:02:15,379 --> 00:02:21,099
+what has been the performance. So let's say Nippon and your large.
+
+26
+00:02:24,569 --> 00:02:29,930
+So here's the Nippon and your large cap fund. I'm going to look at three year rolling over 10 years.
+
+27
+00:02:29,930 --> 00:02:40,360
+So I'm going to change these to 2010. So 29th of May 2010, right, is what I started will be three
+
+28
+00:02:40,360 --> 00:03:00,250
+years rolling. I click submit. Yeah, here you go. I get the average. So the average that the fund
+
+29
+00:03:00,250 --> 00:03:11,430
+has delivered is 14.55, 14.55. Is it better than the benchmark? Yes, it is decently better than the
+
+30
+00:03:11,430 --> 00:03:18,710
+benchmark and hence I don't have any troubles with this. So that's been my average. Let's look at
+
+31
+00:03:18,710 --> 00:03:31,800
+the average that the fund B has been able to generate. Let's say access YouTube. This is purely from
+
+32
+00:03:31,800 --> 00:03:39,560
+education perspective. Do not consider this as a buying or a selling recommendation. Please.
+
+33
+00:03:40,650 --> 00:03:53,610
+So we will go to MF research. We'll go to rolling returns versus benchmark. Okay, in funds we write
+
+34
+00:03:53,610 --> 00:04:27,290
+access YouTube. I will change the date to 2010 and three year rolling submit. So what has been the
+
+35
+00:04:27,290 --> 00:04:41,639
+three year? Okay, 14.13. Has it been able to beat the benchmark, but comfortably? 14.13, right? So
+
+36
+00:04:41,639 --> 00:04:49,639
+fund A has a rolling return. Three are rolling over 10 year or 14.55. Fund B has 14.33. Not a very
+
+37
+00:04:49,639 --> 00:04:56,279
+major difference. Now what I'm going to do is look at sortino. I can get sortino on value research.
+
+38
+00:04:56,360 --> 00:05:23,459
+So I go to value research. I type the phone in large. So okay, the sortino is minus 0.19 and it is
+
+39
+00:05:23,459 --> 00:05:31,060
+lower than the category and the benchmark. So ideally I would have left this investment here only.
+
+40
+00:05:31,060 --> 00:05:38,899
+I would have not gone ahead with this fund because it is not it has not been able to beat the benchmark
+
+41
+00:05:38,899 --> 00:05:43,860
+nor the category, but because we are discussing about choosing between two funds will continue. So we
+
+42
+00:05:43,860 --> 00:05:52,680
+are saying sortino is minus 0.19. Let's look at funds B is sortino. See, we have a lot of choice,
+
+43
+00:05:53,800 --> 00:05:58,279
+right? Why we have a lot of choice? Why settle for something which has not been able to perform on
+
+44
+00:05:58,279 --> 00:06:07,339
+risk adjusted return versus the benchmark or the category? What's the sortino? Nice. Look,
+
+45
+00:06:07,420 --> 00:06:15,240
+the sortino is higher than the benchmark and the category average. 0.29. So had I been looking at this
+
+46
+00:06:15,240 --> 00:06:20,279
+fund independently, I would have continued. First one, I would have stopped it at that point in time is
+
+47
+00:06:20,279 --> 00:06:26,779
+because it has not been able to beat neither the benchmark nor the category, right? Now let's look at alpha.
+
+48
+00:06:26,779 --> 00:06:35,259
+Alpha is available on the same website. So alpha in our fund 2 is 5.33 which is brilliant. 5.33 means
+
+49
+00:06:35,259 --> 00:06:42,069
+that I have been able to beat the category, sorry, I have been able to beat the minimum required return
+
+50
+00:06:42,069 --> 00:06:50,709
+at my end by 5%. So if the minimum requirement was 14 depending on the risk I took, I have done 14
+
+51
+00:06:50,709 --> 00:06:56,470
+plus 5.33 like I explained to you in alpha. So this is really good. Let's look at the other fund.
+
+52
+00:07:04,439 --> 00:07:10,839
+So we are getting our sharp and we are getting our alpha on value research and we are getting our
+
+53
+00:07:10,839 --> 00:07:25,139
+rolling returns on advisor coach minus 3.14 minus 3.14 which means if I was expected to generate 15,
+
+54
+00:07:25,139 --> 00:07:33,060
+I have generated 15 minus 3.14. So again like I said at 14 was level this fund was out but again it
+
+55
+00:07:33,060 --> 00:07:38,980
+proves in alpha that this fund is again no good, right? Now I want up capture and down capture which
+
+56
+00:07:38,980 --> 00:07:52,810
+I am getting morning stuff. So I go to morning star, I write my funds name. Yeah,
+
+57
+00:07:54,550 --> 00:08:00,310
+it will take me to the funds detailing and on the funds detailing I go to risk and ratings.
+
+58
+00:08:08,139 --> 00:08:14,459
+Yeah, here you have, here you have the up capture, down capture. Now the up capture, now this is for
+
+59
+00:08:14,459 --> 00:08:22,600
+three years like you see here, this is for three years, right? Make it 10 years because we are comparing
+
+60
+00:08:22,600 --> 00:08:30,600
+most of these things on a 10-year basis. So on a 10-year basis the fund has had a decent up capture,
+
+61
+00:08:30,600 --> 00:08:36,200
+right? Where versus the index it has been able to do a good job and versus the category also it has
+
+62
+00:08:36,200 --> 00:08:42,840
+been able to do a fair job, right? So I am saying up capture is 106, higher than 100 so good.
+
+63
+00:08:43,740 --> 00:08:49,580
+Down capture should have been lower than 100 is where the fund is stopped which means the fund has
+
+64
+00:08:49,580 --> 00:08:55,820
+been able to perform better while the markets are going up. The fund has not really been able to
+
+65
+00:08:55,820 --> 00:09:01,899
+perform well when the markets are going down over the last 10 years. Okay, let's look at fund B's
+
+66
+00:09:01,899 --> 00:09:28,120
+up capture, down capture. So I will go to risk and ratings. Sorry for the internet please,
+
+67
+00:09:28,759 --> 00:09:36,059
+taking slightly longer than I expected. So when I go to risk and rating I will go to 10 years.
+
+68
+00:09:38,309 --> 00:09:44,629
+Okay, here is where I get the up capture and the down capture. So up capture, not that great.
+
+69
+00:09:45,509 --> 00:09:53,909
+So the fund has really not been able to push during the while the markets are going up side
+
+70
+00:09:54,710 --> 00:10:01,669
+upwards. This fund has been slightly underperforming but look at this, this fund has been doing a
+
+71
+00:10:01,669 --> 00:10:09,850
+phenomenal work to protect the downside which means on the downside this fund has roughly
+
+72
+00:10:11,539 --> 00:10:20,580
+100 minus 77 or 23% outperformance over the index which is brilliant. The way I look at it is
+
+73
+00:10:20,580 --> 00:10:26,659
+if I am not able to perform during the up side no problem but if I am able to perform my down
+
+74
+00:10:27,539 --> 00:10:35,299
+perform better on the downside. That much loss that the fund would have ideally got is mitigated
+
+75
+00:10:35,299 --> 00:10:42,340
+and hence the bounce back is superior. So I would even to look at the situation and say up capture
+
+76
+00:10:42,340 --> 00:10:50,100
+under performance by 8% but down capture over performance by 23% I would still say this is brilliant.
+
+77
+00:10:51,080 --> 00:10:58,600
+So if you look at this, see look at it, in terms of returns also this is almost the same
+
+78
+00:10:59,320 --> 00:11:07,059
+on sotin or ratio, this fund is good. Okay, let me just highlight points which are good.
+
+79
+00:11:07,059 --> 00:11:13,700
+sotin or this fund is good, alpha, this fund is brilliant. And down capture, this fund is good.
+
+80
+00:11:14,340 --> 00:11:19,779
+Versus that there is only one thing that this fund scores on which is the up capture ratio.
+
+81
+00:11:20,340 --> 00:11:24,500
+And like I told you if I have to choose between up capture and down capture performance I will
+
+82
+00:11:24,500 --> 00:11:30,019
+definitely look at down capture performance because the more you are able to protect your downside
+
+83
+00:11:30,019 --> 00:11:37,059
+you will be able to do a phenomenal work on your upside. To my mind this is a no-brainer that fund
+
+84
+00:11:37,059 --> 00:11:43,779
+be is a far superior choice over a fund day. And I hope you've also been able to understand how
+
+85
+00:11:43,860 --> 00:11:50,019
+just looking at these five simple data points I can figure out which fund is really done well
+
+86
+00:11:50,019 --> 00:11:56,899
+and which has not. Whereas you're I'm not only looking at returns or risk I'm looking at returns
+
+87
+00:11:56,899 --> 00:12:03,379
+also in terms of rolling I'm looking at risk return in terms of sotino and alpha and I'm also looking
+
+88
+00:12:03,379 --> 00:12:09,860
+at how has the fund performed during the up trend of the market and the down cycle of the market.
+
+89
+00:12:09,940 --> 00:12:16,100
+And that gives me a fair understanding that over your fund be makes a brilliant choice over
+
+90
+00:12:16,100 --> 00:12:24,259
+fund day. And I'm sure you've been able to understand how to look at two given funds to you
+
+91
+00:12:24,259 --> 00:12:31,190
+depending on how the funds are performed looking at the past data. In the next video I'm going to
+
+92
+00:12:31,190 --> 00:12:38,870
+help you understand how do you look at funds right looking at the forward data or the current data
+
+93
+00:12:38,870 --> 00:12:49,590
+which can be interpreted for forward performance. Thank you so much.
+

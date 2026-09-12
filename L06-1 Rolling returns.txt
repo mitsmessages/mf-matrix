@@ -1,0 +1,140 @@
+Okay, now that we understood what is HPR, CAGR, IRR, XIRR.
+You also understood that CAGR, IRR, XIRR are nothing but compounding interest.
+There is a big difference in the way CAGR, IRR, XIRR represents an investment case versus rolling return.
+In my opinion, rolling return is an extremely important concept.
+And it's a must to know and must to be used while we end up picking equity funds.
+So what are rolling returns?
+Where do we find them?
+How do we use it?
+Is what we will try and cover in this particular video.
+But point number one, first, why rolling returns?
+So another important understanding that we need to have is that while we look at fact sheets or value research or warning star and various of these are the platforms.
+And when they say that the three year returns of this particular fund has been, let's say 12%,
+what they are intending to say is that three years from one point to another point, the return has been 12%.
+Which means, let's say if we are in the month of March, sorry, if we are in the month of May, what the fact sheet intends to say is as of May 2020,
+let's say as of May 2020 and three years behind which is May 2017.
+So had you invested on May 2017 and held it till May 2020, you could have got 12%, which is three years of investment.
+So what fact sheets or all of these other websites show us is return that we could have generated from one point to another point.
+But it is not necessary that you and me actually invested in May 2017 and withdrew in 2018 and got that 12% return.
+We could have invested anywhere at any point in time, right?
+And hence what these websites show as return are not the actual returns that the clients or investors experience.
+Let me give you an example.
+Let's say I give you two options.
+You invested on the first of April 2017 up to 31 March 2020.
+Another option is you invest on the 31st of March 2017 up to 31st of March 2020.
+This is almost three years in both cases.
+Case number two is three years plus one day.
+But for all theoretical purposes, you have both as three years, right?
+Now if I tell you, will the returns of both the investments one and two be the same?
+May not be, right?
+We will let's say for example, on the first of April hypothetically, let's assume the market fell 10%.
+Or rather let's say on the 31st of March, the market fell 10% not here.
+So the return that this particular investment will give you versus this will be completely different.
+It's because when I buy on the first of April, I will actually get the market's 10% lower.
+But because I bought it on the 31st of March, I got it 10% higher because it fell 10% on the 31st of March 2017.
+So the point that I'm trying to make is with one day here and there, your actual return can completely change, right?
+This is the problem with point to point return.
+Point to point return can show you the kind of story that you want to hear, right?
+I can take a particular day, end it at a particular day and show you look anywhere for five years you could have made such good returns.
+But that can be used not really well always, right?
+It's because point to point is only showing one side of the story and not the entire picture.
+It's where rolling returns come into picture.
+Rolling returns are a brilliant way to understand the actual return anybody could have experienced had he stayed invested for X years.
+Now, let me try and first help you understand what are rolling returns and what do I mean when I say that.
+Let's say we are talking about investment on the 1st of April 2015 and 31st of March 2020.
+So it's good five years.
+Now I want to know that had I stayed invested for three years in this five-year period?
+Had I invested at any point in time?
+See, unlike point to point, I'm not talking about one particular day from one day to another day.
+I'm saying in this period of five years, had I invested at any point in time and stayed invested for three years.
+Tell me the return I could have made.
+So how is that return calculated?
+So you will say that first let's assume you invested on the 1st of April 15.
+Stayed invested for three years, which is 31st of March 18.
+Then I will as you would have made let's say 9% return investing on the 1st and selling it on the 31st March.
+Let's say what had you invested on the 2nd of April and stayed invested till 1st of April 18.
+How much would you have got? Let's say 8.5.
+Then I will say, let's say you had you invested on the 3rd of April 15 and stayed invested till the 2nd of April 18.
+How much return would you have made? Let's say 12%.
+Similarly, I will find had you invested on the 4th of April 15, stayed invested till 3rd of April 18.
+How much return would you have made? Let's say minus 5%.
+Similarly, I will assume that I would have invested on every day and stayed invested for three years.
+I will continue doing that.
+Let's say my last investment would be 1st of April 17 and I would have stayed invested till 31st of March 20.
+How much return I would have made?
+Which means I will assume that had I invested on the 1st of April, what was the return?
+2nd of April 3rd, April 4th, April so on and so forth.
+1st of April 17. I would actually find out some, let's say, 700 variables.
+In this case, 700 dates on which had I invested and had for 3 years, how much return I could have made?
+Now, I can't go beyond this because I want answer up to 31st of March 20.
+If I say 2nd of April and holding it for 3 years will become 1st of April 2020.
+Which is not what we are considering. We are only talking about up to 31st of March.
+So the last date of investment for us is going to be 1st of April because that's the last day on which when I invest, I can have investment up to 3 years which is 31st of March 2020.
+So I am finding every day's return, every day's return, whether it was up, down, up, down, I don't care.
+I will assume that had I invested on each of these days for 700 days, either of the 700 days and had for 3 years, what could have been my return?
+Now, what I do? I add all of these returns. Let's say it is 100, hypothetical.
+I divide it. Let's say it is 700. I add all of these returns. 700 returns. Let's say the answer comes as 700.
+I divide it by the number of days. This is 1, 2, 3, 4. So I get 700.
+Okay, let's make it simple for us to understand. Let's say I add all of these every day's return. I got 7000 and there are 700 days for which we invested.
+Which means the return that we've been able to generate is 10%. I will repeat just to avoid any confusion if at all.
+I'm saying, when I invested on the 1st of April up to 31st of March, 18, what was the return? I meant 9%.
+Similarly, when I invested on the 2nd of April and held it till 1st of April 18, return I made was equal 5.
+So if there are going to be 700 such days that I invest over the last 5 years, then what is the total return?
+How much is the total return? I'm saying 7000%. How many days? 700 days. Which means what is my average return? 10%.
+So I'm saying, if in the last 5 years from 1st of April 15 to 31st of March 2020, if in these last 5 years,
+had I invested on any day and held it for 3 years, I would have roughly made 10% return.
+This is ideally the actual return that you and I should be talking about is because we don't know if people invested in May, November, December, when?
+You can't look at 1st of April investment 31st of March, exit date and say, this is the investment this scheme gave.
+Client could have invested anywhere here and held for 3 years.
+So if we want to know the exact 3 or return the client would have generated, we have to do this entire calculation which we call as rolling returns.
+So it is actually rolling returns who give us the actual return or the actual performance of the scheme or the actual return the client would have made,
+had the client held the investment for 3 years, having invested it any given day.
+That is called rolling returns and that is exactly what will tell you whether the fund is consistent or not.
+If I say, 1st of April 2015 to 31st of March 2020, it might say 15% return because I'm talking about one day to another day.
+There have been so many fluctuations in between. How did the fund manager encounter those fluctuations is what I want to know.
+So I find rolling returns and the answer is 10%. It means that the average return generated over the last 5 years.
+Had I held it for 3 years, any time was 10%. That is the actual return, that is the fund manager's performance.
+And that is exactly what the client would have ideally made, had the client invested for 3 years.
+And hence rolling returns are the returns that actually show the consistency of the scheme.
+Now you will think that for me to calculate all of those things is going to be so tricky.
+Right? No. So it is very simple. All you do is go on to one website.
+So we will go on to this website called Advisor Coach.
+So we go on to this website called Advisor Coach, where most of these things are calculated and all we have to do is read it.
+Right? I will go to MF Research. MF Research. I will go to rolling return versus benchmark.
+So when I click that, when I click that, let's say I write the fund's name as, let's say, Mirai as a large cat.
+Right? We are in 2020. So 2015 is 5 years. So I will look at 5 years.
+And I will say in the last 5 years, give me the return that I would have generated.
+And I head on to the investment for 3 years at investing at any point in time.
+When I click returns is where it will give me the entire understanding. Now check this.
+Nifty 100 would have given you 11.65% returns.
+In the last 5 years had you invested at any point in time and held for 3 years.
+How much did Mirai give you? Almost 30%. So it has comfortably built in the benchmark on rolling return basis.
+Consistency of the fund basis by 1%, 1.3%, very comfortable.
+Right? Another important point that you can look at here is in this time frame, in this time frame that we are talking about,
+what is the worst return for 3 years that Mirai could have given you minus 4.31%.
+At the same time, Nifty could have given you almost 5, which means you have also done good job in terms of protecting the downside.
+What about on the higher side, you are almost as good as Nifty.
+So Nifty, no brother, you are much better. Nifty gave 17.64 as the best return if you hold on for 3 years.
+But Mirai could have given you almost 20%, which means on the basis of average, fund is good.
+On the basis of the minimum return, the fund is good. On the basis of the maximum return it could have generated, the fund is good.
+This is how you actually look at rolling returns. And you don't look at the point to point returns, which are given on the fact sheet,
+or on various other websites like Value Research and Morningstar.
+You look at the rolling returns to see the performance.
+Now, if there is some another fund that you want to compare, compare the same data point, average maximum and minimum,
+with that other fund and figure out who's done better.
+Let's say, for example, if you talk about HDFC, I am going to open another page so that we can compare.
+So let's say Advisor Coach, MF Research, rolling returns, versus benchmark.
+Now, I say, let's say HDFC, HDFC, top 100, same parameters, 3 years, submit.
+So what is the average return that HDFC has been able to give 10.66 on rolling return basis?
+What has Mirai given? 12.95, completely outsmarting it.
+What is the maximum return? HDFC has been able to give 19.58, 19.81.
+Mirai wins again here. What is the minimum? Look, 8%. So HDFC could have fallen 8% in the worst case,
+even after you ending it for 3, holding it for 3 years, Mirai was 4.31.
+So on returns basis, pass return basis, Mirai in this example is a far superior fund to investing,
+versus the HDFC top 100 that we spoke of.
+I hope you all are absolutely clear with what rolling returns are.
+And all the other forms of returns, we are going to use whatever we've learned in returns.
+Two, three videos later in selecting the fund, looking at the past data.
+But in this particular video, the objective was only to help you understand what rolling returns are.
+And where can you look for the data of rolling returns?
+I hope you understood that. Thank you so much.

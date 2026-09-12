@@ -1,0 +1,225 @@
+So now, in the first video, we've already understood why the client should have an asset allocation
+strategy, and probably, how can you design an asset allocation strategy for the client?
+Now that you've decided the asset allocation for the client, the second most important thing
+is making sure that we are doing investments for the client which are linked to a particular
+goal.
+Now there are two reasons why in my opinion, goal based investing really adds a lot of value
+to the client as well as to the advisor, right?
+First, you know, randomly, I see a lot of advisors going to the client and, you know, having
+a discussion around the new product which is getting launched and why the client should invest
+or probably checking with the client of how much SIP does the client really want to do?
+And there is no systematic process or designing why, how much and where the investments have
+to do is exactly where goal based investing comes into picture.
+After having learned this, you will really understand how to approach the client and help
+the client understand, how much money does he, she need to park for retirement, for child's
+education, child's marriage, so on and so forth of various goals.
+And you will categorically be able to design, define and tell the client that the client has
+to do A, B, C amount of SIP every month and the client to a greater extent now having understood
+why this amount and how this amount has come out will actually go ahead and do that investing
+with you.
+Instead of randomly telling the client, you know, go ahead and do a 5,000, 10,000 with the SIP.
+This not only helps you convince the client why do I not SIP, but it also to a greater
+extent helps you close on a higher number of SIP that you would have otherwise done by randomly
+saying or talking to the client and asking the client to start an SIP.
+The second most important thing or the most important element that this brings in our discussion
+is discipline.
+See, generally what happens is a lot of clients start investing, but to get them to stick
+invested to the investment is difficult because of the volatility in the market and probably
+because of their short term needs, they would want to, you know, take them into the mutual
+fund investment because they are liquid, get money out and spend that money.
+Gold based investing will actually bring in the discipline that you really want the client
+to have and stick with in terms of long term investing.
+Why?
+Is because you and the client have spoken that this 20 years of investment is going towards
+X amount of fund accumulation that the client wants because of which the client has to do
+this 10,000 with your SIP.
+Every time the client thinks of stopping the SIP, you are removing money out of the fund.
+The first thing the client will really think or the impact will be that if I stop this or
+remove money out, my retirement is going to get handled.
+This is actually going to bring in the discipline to make sure that the client is actually investing
+up to the stipulated time frame, adding value not only to the advisor but also to the client
+because at the end of the day the client also is making sure that at retirement the client
+has enough money so that the standard of leaving does not fall.
+So this is a win-win for the client as well as the advisor where it brings in the discipline
+and makes sure that we are able to get the maximum order SIP or investment that we are looking
+at because we are linking it to a goal and deriving the goal through a systematic process is exactly
+where I think goal based investing comes into picture and is an extremely important element
+which is my second step before deciding which I could invest in how much and why am I going
+to do investment.
+But for us to be able to do justice to goal based investing, we have to understand for a small
+concept around something called as time value of money which is extremely important because
+with the help of which we are going to do goal based investing.
+So what is time value of money?
+So we are saying in simple terms time value of money means that the value of money is not
+going to stay constant.
+What do I mean?
+Let's say for example you have 100 rupees today.
+Now you have three options to do with this 100 rupees consume let's say buy a pen with
+this 100 rupees, second invest and third don't do anything right.
+These are generally the three options that you would have if you have 100 rupees today.
+So in the simplest form I am trying to tell you that the value of 100 rupees today is not
+going to stay 100 tomorrow.
+Let's say we will not stay 100 one year later.
+Why?
+Because if you are consuming it it becomes zero.
+If you are investing it you are expecting this becomes 100 and 10.
+If you are doing nothing inflation will eat it to it and the value might become 94.
+Now what do I mean 100 will still stay 100 but the value will be 94.
+Why?
+It's because inflation has eaten into the actual value of 100 rupees.
+What do I mean?
+Let's say today with this 100 rupees you can buy this pen right but you choose not to
+and stay at the end of the year do you think the price of the pen will stay the same actually
+no right.
+So because of inflation the price of the pen will increase let's say the price of the
+pen becomes 106.
+Now if at the end of the year you still have 100 rupees only will you be able to buy the
+pen no because of inflation the pen has become 106 which means the 100 rupees with which
+you could buy the pen today you are not able to buy the same pen at the end of the first
+year because of inflation which means the value of your 100 is not 100 and it has actually
+come down because of inflation by 6 rupees.
+So what you could buy with 100 a year back you can buy only worth of 94 today is what
+I am trying to explain to you.
+So all of these things are how much 100 will become in the future or if it is 94 how much
+will it be value today and various things in and around the value of money and how does
+it keep changing is what we will understand using this term called time value of money.
+So in time value of money is where we will understand how either money grows either money does
+not and how do you calculate all of these things.
+So for us to understand time value of money there are a couple of terminologies that we have
+to understand.
+The first we have to understand is something called as present value.
+Now what is present value?
+Present value is the amount of money that you have to invest today.
+So let's say if you have 100 rupees to invest today I will say that your present value is
+100 rupees.
+Now please understand in time value of money there is this one very important concept that
+you have to understand is that whenever money goes out of your pocket you always have to denote
+that as minus.
+Now because I am here at this point in time investing this 100 and it is going out of my pocket
+I am going to denote that as minus 100 right.
+Well let's say for example if I go to the bank and I take 100 rupees of loan from the bank
+so I will get that 100 rupees today right that 100 rupees also available in today's form
+right.
+So that is also present value but I will denote that as plus because money is coming to me.
+So what is present value?
+Present value is the amount of money that you have today right that you are either going
+to invest or you are going to receive today and this is in lump sum.
+That is lump sum 100 rupees together and not talking of parts not talking of EMI not
+talking about it about SIP and talking about lump sum.
+So present value is lump sum today.
+If it comes in you denote that as plus if it goes out you denote that as minus.
+I hope this is absolutely clear.
+The second thing that we have to understand in time value of money before we proceed is
+something called as future value.
+Now what is future value again a very simple concept.
+Let's say I invest 100 rupees today after five years I am expecting to receive something
+more.
+Let's say I am expecting to receive 250.
+So this 250 that I am supposed to receive in the future in the future is called the future
+value.
+Now this in most cases in our discussion is always going to be plus is because we are going
+to talk about investing and receiving this money in the future because we are going to
+receive the money in the future for us in most cases this is going to be plus 250.
+Now understand this is also lump sum.
+I invest 100 lump sum I get 250 lump sum I call this present value PV I call this FV future
+value.
+The third thing that we have to understand is something called as rate.
+What is rate let's say I invested 100 rupees and I invested 100 rupees at what rate what
+return let's say 12 percent.
+So I invested 100 rupees at 12 percent which is why it became 250.
+So I will call 100 as PV I will call 250 as FV and I will call 12 percent as rate.
+So rate is anything with a percentage sign in our discussion.
+So this can be return this can be inflation this can be anything which is in percentage
+form that we will require for all our calculation anything that you get in the percentage form
+will fall here in rate.
+The fourth what we have to understand is period.
+Now in the above example you saw that I invested 100 rupees PV at 12 percent and I got 215
+in the future.
+But after how many years 5 so 5 in this case becomes the period it's the time it's the
+10 year for which we are doing our investments right.
+So we understood 4 basic concepts at this point in time right we are saying first present
+value what is present value the amount of lump sum money I have today lump sum I have today
+if I am investing that or if I am spending that money it will be minus because it is going
+out of my pocket if I am receiving that money it is going to be plus.
+But this is called present value only if it is happening today right.
+Future value the lump sum amount of money that I am going to receive in the future right.
+So 215 our example is our future value because I invested 100 and I got 215 in the future.
+So we are saying 215 rupees that I will receive in the future lump sum is the future value.
+My 100 became 250 because the rate on it generated was 12 percent so 12 percent is my rate.
+But I am saying not just rate anything in percentage form we will write under rate that
+can be inflation also right and the time frame the time period or the 10 year for which I do
+investments is called the period. Now we understood 4 things for basic things in time value of money
+present value future value rate and period. Now we are going to use Excel and try and figure out
+how do we do these calculations of time value of money. How do we understand
+how much 100 invested today can become in the future right or if I want 5 lakh in the future
+how much do I have to invest today. Let us try to understand a couple of these when basic level
+of questions and for that we are going to use Excel right. So let us say the first thing that we are
+trying to understand let us say you go and end up meeting a client. Client says I want 5 lakh rupees
+after 15 years for my child's education. Client says I want 5 lakh rupees after 15 years for my
+child's education. Tell me the amount of money that I will need to invest today if the return I can
+generate is 12%. So you went to the client the client said that after 15 years after 15 years
+I would need 5 lakh rupees for child's education. If the product that you are recommending can generate
+me 12% tell me how much should I invest today right. Now there are 2-3 things that you have to understand
+right. I might have written it down here on the PowerPoint but this numbers may completely vary
+when you go and meet your client physically, practically. Client may say 10 years and I need a crore
+client. Let me say 5 years and I need 2 lakhs does not matter your calculation will still remain
+the same right. So both of these data client tells you that after how many years I would need how much
+money. This return will depend on the product that you are offering. Let's say if you are offering
+an arbitrage fund take the return as 6%. If you are investing in equity take it 10-12%. If you are
+investing in a debt fund take 7-8%. So though I might take 12% here this is completely your
+provocative depending on the product that you and your client are actually discussing right.
+So let's say this example client says after 15 years I want 5 lakh and because we are talking about
+equity mutual funds I think we can generate 12%. Tell me how much lump sum should I invest today
+so that this can be taken care of. Now if you see what is given to us we know that the client wants 5
+lakhs in the future so future value. We know that the client has a period of 15 years of investment so
+and we know that the rate we are talking about is 12% because we are talking about equity
+we need to understand how much to invest today. So we have to find the present value. Now how do we
+do this? We don't need to understand any Excel calculation sorry we don't need to understand any
+formula. We are going to use Excel to do all our calculations and it is extremely simple even if
+you have not used Excel before. How? So you go to Excel okay. Do you see this FX? This FX is where
+we will do all our calculations. So you click on FX. A window will open up in your computer right.
+There will be a search column. Your window might look a little different than mine because I might use
+a different Excel version or a computer than yours but a window will open and it will have this
+function where you can search. Now search PV because you want to find the present value. So search whatever
+you want to find. In this case we want to find the present value. So I will search present value.
+See I see PV here right. I will double click on PV. Another window will open up right. Like I said
+the window that might open up in your case may be slightly different than the window that opens up
+here but does not matter there is a window that you open up which will ask you these questions.
+Do you see them right okay. Now we have most of these things already in place. First is rate. What's
+our rate? 12% so I will write 12% second it is asking for n per. n per is actually the period that
+you and I spoke of. Number of periods. Number of periods right. Sorry this is number of periods.
+That's n per. So what's a period? A period is 15 right. Make sure you will have to write this percentage
+you are at 12% right. Now there is something called as PMT that you and I have yet not discussed so
+leave that blank for timing. What is FV? We know how much do I want in the future? Five blacks.
+So I will input five blacks. 12345. Now we have not yet discussed what is type. So we will leave that
+also as blank. So we left PMT and type blank because we have not discussed this. We wrote the other three
+that we knew of and we have the data. So I went out all three left out the two which I don't know
+or don't have data off and I click enter. Here's my answer minus 91 348. So I'm saying minus 91 348
+is the present value of this entire investment that I want to do. So if I invest
+91 348 today which you saw here 91 348 today and if it grows at 12% for 15 years I will get five
+lakh rupees at the end of the 15th year for my child's education right. Where do I invest this 91
+thousand is the point that comes the last is exactly what I was trying to explain to you. First you
+have to understand that what is the goal and how much money would you want to invest and after you
+understood how much money would you want to invest is where where do you want to invest will come into
+the future. So in this case we are saying I want to invest 90 or rather I will have to invest 91
+thousand 348 today and if it grows at 12% year after year then at the end of the 15th year I will have
+five lakh rupees right. Let's say for example instead of 12% we were talking about 8%
+because a client was willing to invest only in a debt fund. So I'm sure you will understand that
+if the client is investing in a debt fund and the return is 8% then I might have to invest slightly
+more because 91 thousand was with respect to 12%. But now if I'm going to make 8% I will have to
+invest slightly more right. Now I want to know that if the client has to invest only in debt how much
+will this 91 thousand actually become. So you do the same thing right and I'm going to repeat this
+for the advantage of everybody. So you click on effects in the search you click PV because that's
+what you want to find you will have PV. What's our rate now our rate is 8% what's our
+end per 15 years. How much do I want in the future? 1, 2, 3, 4, 5. 5 lakhs I will not enter anything
+for PMT and type because I'm not learned what that is and I let that be right now I click enter
+and I get my answer 157,600 which means that is the client instead of investing in equity is investing
+in debt then the client will have to invest 157,000 rupees today and if the client is investing 157,000
+rupees here and 8% is generated for 15 years then the client will get 5 lakh rupees at maturity.
+I hope this is absolutely clearly understood so far and I'm going to take a pause on this video
+right now here and then join you in the next video because I don't want to increase the time of the
+video and make it really large. So I hope you understood why gold base investing I hope you understood
+how does it add value to the client and to you and you understood the basic terminologies
+around time value of money we will try and solve more questions around time value money so that
+this concept actually becomes extremely strong for you and I'll see you on the other side of the
+other side. Thank you.

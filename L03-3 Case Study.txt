@@ -1,0 +1,238 @@
+So now that we've understood why and what is the need of gold based planning, we've understood
+basics around gold based planning in terms of mathematical understanding or time value
+of money.
+Let me actually help you understand how do you plan for somebody's gold, right?
+So we are taking this small case of a client who's 30 years old, okay, has a child which is
+three years old, and three major goals.
+Child education planning at 18 years from now, child marriage planning, 22 years from now,
+and retirement planning 30 years from now, right?
+So let's say, let's make a note of this so that we are clear, we are saying we're talking
+about a client who's looking at child education planning at the end of the 18th year, marriage
+planning, 22 years from now, and his own retirement planning at the end of the 30th
+year from now.
+Now you will see categorically, I've not written any numbers here, because you will not
+have numbers given to you like this, and you will have to actually figure out these numbers
+having a discussion with the client, how, what do I mean, let's kind of understand.
+So let's say, for example, I'm talking about education plan, okay, so we are saying you
+will not have numbers given to you like they are given to you in an exam, you'll have
+to have this discussion with the client.
+So let's say, now you understand that the client wants to client for the child's education
+at the end of the 18th year from today.
+The first question that you will have to ask the client is, you know, suppose if the client,
+suppose if your child has to do post graduation today, how much money do you think are you
+willing to spend for the child's education today, right?
+So depending on whether he wants to make the child a doctor, an engineer, or want to do an
+MBA, he might have, of course, it is very difficult to predict what will happen at the end of
+the 18th year, but this is exactly where this conversation comes into picture, is how much
+money do you think you are willing to spend today if your child has to do post graduation?
+Let's say the client says that I am okay with spending roughly 10 lakh rupees in today's
+term, if my child has to do a post graduation today, now what you ideally have to understand
+is, this 10 lakh rupees today that the client is willing to spend will not be 10 lakh rupees
+today is because education cost is increasing each year and this 10 lakh rupees today that
+the client is willing to spend is going to become much higher 18 years from today and if you
+want to plan for the child's education, the first thing you will have to figure out is how
+much is the cost going to be 18 years from today of this 10 lakh rupees. So you will have
+to take an assumption that let's say education cost will increase at 7% each year. The client
+is willing to spend equally valent of 10 lakh rupees today, how much will this 10 lakh
+rupees become 18 years from today because 18 years later that is the amount of money which
+the client really has to spend, not 10 lakhs. So first is we have to figure out if 10 lakhs
+is what the client is willing to spend today, we are saying the cost is increasing at 7%, how much
+will this 18 lakh rupees become at 10 to the 10th year. So what data do we have? So we have
+the present value which is 10 lakhs which is what the client is willing to invest today,
+we have the rate at which education is going to become expensive which is 7%. We also have the
+income where we need, where we need this is 18 years, where we need this money for graduation,
+or post graduation. So now we are first going to figure out the future value, where we have to first
+understand how much will this 10 lakh rupees actually become and how much do I actually need at the
+end of the 18th year for education. So I have to find ff, so I click fx, search ff, so what's my rate?
+7%, what's my n per 18? I don't have PMT, what's my present value?
+minus 10 lakhs, you can either write it down, I've just linked it.
+Type is not applicable because I'm neither finding PV nor am I,
+nor do I have, sorry, neither am I finding SIPs, nor do I have SIPs that I'm talking about.
+So type does not matter, I click enter, I get the future value. Now I'm saying the course
+for which I'm willing to spend 10 lakh rupees today and if it is increasing each year,
+this course is actually going to become roughly close to 34 lakh rupees in the future.
+33 lakh, 79,932. You can actually square this up to 34 lakh, that's not matter.
+The point that I'm trying to raise is, the first thing you will have to understand is,
+10 lakhs is not what you want to save, you want to save 34 lakhs is because 18 years from today,
+the value of the course that you want to do today is going to be 34 lakhs. Step two,
+now I know that at the end of the 18th year, I need let's say 34 lakhs,
+let's say because I have 18 years and the client's risk profile allows me to invest in equity,
+I'm assuming that I will be able to generate 12%. See if you've not done asset allocation,
+you don't know what return to consider here. So I'm assuming you would have done asset allocation
+by now and hence you know that you are going to invest let's say 80% in equity and 20% in debt
+and hence you are considering 12% return. So if 12% is the return that you will be able to generate 34
+lakhs is what you want after 18 years, you will have to help the client understand how much SIP
+will the client have to do every month. So we'll have to find the PMT, the only challenge is,
+I want the answer in months, I want the answer in months here because I have to tell monthly
+SIP to the client, but the rate is per year, so I will have to divide this by 12 and I'll have
+to multiply this by 12 to bring everything into months like we've done it in the past. Now let's find
+the PMT, so I want to find the PMT here, so I'm going to go to the search bar search for PMT,
+here's the PMT, now what's my rate, my rate is 12%, but that is per year, so I will divide it by 12
+because my PMT is in months, I want the answer in monthly SIP, so I'll have to convert everything else
+into months, 18 years into 12, PV, am I doing lump sum investment right now, nothing, so I'll leave that
+I'm going to do I want in the future, I want 34 lakhs, you can either take 33, 79, exact or 34
+you're gone, type I'm going to keep as one because I want to inculcate the habit of doing SIPs at the
+beginning of the month, so I'm going to take type as one, here's the answer, 4, 4, 4, 2, 4, 4, 4, 4, 2,
+which means that if currently I'm willing to spend 10 lakh rupees for my child's education,
+which is going to become 34 lakhs in the future, I want to actually gather 34 lakhs after 18 years,
+at 12%, I'll have to do an SIP of 4, 442 rupees, so for my child's education I'll just write it down
+so that we don't forget, for my child's education, I will roughly have to do an SIP of 4,500
+clear, so I will have to do 4,500 rupees of SIP for my child's education, now over here I have very
+systematically helped the client understand why 4,500, I'm not randomly going to the client and
+telling the client do a 5,000 BPS thing, I hope is where you will understand why the client will do 4,500
+and most probably stick for those 18 years to make sure that the client education goal is taken
+exactly the same way we have to do child marriage plan exactly the same way, so child's marriage
+planning is after how many years, so we are saying child's marriage planning is after 22 years,
+we asked the client exactly the same question, suppose if your child was supposed to get married today,
+how much money are you willing to spend, let's say the client says I'm willing to spend 25 lakhs,
+now you know that the child is not getting married today, so 25 lakhs is what you are willing to spend
+today, inflation is going to make it more expensive right, 22 years later the expense is not going to be
+25 lakhs, so the first step is exactly like we did in education, you will have to figure out
+how much is the equivalent of 25 lakhs, 22 years later, you will again take an assumption that
+inflation will increase at 7% and now find that if 25 lakhs is going to increase at 7% each year,
+how much will my child marriage cost actually turn out to be at the end of the 22nd years from today,
+right, we will do the same thing, so over here my present value is let's say how much,
+25 lakhs is what I'm willing to spend, 1, 2, 3, 4, 5, inflation is 7%, so I'll keep the rate as 7,
+this is 22, right, let's solve, I want to find the future value,
+here's the future value, so what's my rate, 7% inflation, what's my n power, 22,
+PMT is not given, what's my PV, how much is the cost of
+marriage today, minus 25 lakhs, it's a cost so minus, type does not matter neither am I given PV,
+sorry PMT nor am I finding PV, I click enter, I get the answer,
+suppose if I'm willing to spend 25 lakh rupees on marriage today, it's equivalent, 22 years later
+is going to be 1.1 crore, so the client does not have to plan, the client does not have to plan for 25
+lakhs for daughter's marriage, the client has to actually plan for 1.1 crore, because 25 lakhs
+is going to be equivalent to 1.1 crore after 22 years, so now my question is very simple,
+if the client at the end of the 22nd year wants 1.1 crore and basis your asset allocation,
+you think 12% is okay and that can be generated, find the SIP that the client we have to do,
+right, the same thing, we have future value, we have future value here, 1.1 crore, 22 years is
+when I want the money at 12% I will find the SIP, so I want to find the PMT, how do I do it,
+simple yours PMT, what's the rate, the rate is 12%, but I will divide it by 12, because I want
+the answer in months, SIP is in months, no, so I want the answer in months, so divide it by 12,
+and per is how much, 22, 22, into 12, because again remember PMT is in months,
+PV, do I have something to invest, write down lump sum, no, so I will leave it blank,
+Fe, how much do I want, 1 crore, 10 lakhs, 1, 2, 3, 4, 5, and I am going to put the type as 1,
+is because I want to inculcate the habit of beginning of the period of investment,
+I click enter, I will have to do 8,500 rupees of SIP for child's marriage,
+8,500 rupees of SIP for child marriage, again I am sure you will agree and concur with me
+that we have not randomly told the client, now the client notes that I will have to do 8,500,
+if I am willing to do a 25 lakh work of marriage, kind of marriage today because it is going
+to cost me 1.1 crore when the child is actually ready for marriage, the last thing,
+what we will try and figure out is retirement, the client wants to plan for his retirement,
+which is after 30 years, now you will have to ask one question to the client, removing EMI,
+what is your yearly family expense, so let us say the yearly family expense today is 3 lakhs,
+hypothetically right, is all the information you need and you can plan for clients again,
+how they sent it out, so if the client's yearly expense today, exo, after EMI is 3 lakhs,
+client wants to make sure that I can make the same standard of living made available,
+after retirement when I don't have any expenses, so the first step you will have to figure out is,
+if 3 lakhs each today's expense, how much will this expense become at retirement when the client
+is supposed to retire, because unless you don't know how much money do you need each year after retirement,
+how will you plan for retirement, so the first step is to figure out how much money do I need after
+retirement right, absolutely, so the first step is if today's expense, if today's expense is 3 lakhs,
+okay, and the client wants to retire 30 years from today, you will have to figure out,
+if today's 3 lakhs expense will become how much after 30 years, so again we consider,
+let's say inflation is 7%, so we are saying 3 lakhs is today's expense, it is going to increase
+at 7% each year for 30 years, please figure out how much is going to be the expense of the client
+for year, when the client is going to retire at the end of the 30 years, so what do we do, simple
+and we are saying that the current expense is minus 3 lakhs each year,
+okay, let me do it here so that I don't have to format sales, so we are saying that the current
+expense of the client is minus 3 lakhs each year, client is going to retire after how many years,
+30, and the rate at which expenses are increasing is 7%. We want to figure out when the client actually
+retires at the end of the 30 year, when the client actually retires at the end of the 30 year,
+how much is going to be this expense equivalent to today, so we will find the future value,
+future value, let's say what's my rate, 7%, what's my end per 30 years, do I have PMT,
+no I'm not talking about anything happening year on year, I'm trying to figure out if my expense
+today is 3 lakhs, how much will that expense be at the end of the 30 year, so PMT is nothing,
+PV is minus 3 lakhs, and because we are not talking about PMT, there is nothing to do with type here,
+so forget about the type and I'll click on it, now I'm saying that the expense of 3 lakhs,
+the expense of 3 lakhs that we saw today, we are going to become equal to 22 lakhs,
+80, 3000 rupees after retirement, so even if you don't want to increase our standard of living,
+even if you don't want to increase our standard of living at all, the client will require
+22 lakhs, 83,660 or whatever that money is, after retirement as long as he survives,
+so let's say the client after retirement is going to survive, let's say for 20 years,
+so now we are saying for 20 years, now we are saying for 20 years, the client will require how much,
+22 lakhs, 83,000 or 83,000 and not right in 676, so the client will require a PMT because the client
+will require it each year, 22 lakhs, 83,000 rupees each year for 20 years after retirement,
+now tell me where will the client get, 22 lakhs, 83,000 each year after retirement, so the client has
+to get 23 lakhs each year after retirement, how will the client get 23 lakhs each year after retirement,
+the client will only get 23 lakhs each year after retirement, if ad retirement client has accumulated
+some purpose, so now we will try and understand that if the client wants 23 lakhs whatever each year,
+after retirement for 20 years, how much purpose does the client need, I hope you are with me so far
+understand what I am trying to say, so I am saying let's say the client is 60, the client is going to
+survive up to 80 and client requires 22.83 lakhs each year, up to 80 but for this the client will have
+to have some money you are at 60, so while you look at 60 to 80, 60 is the present value and 80 is the
+future value, I hope you are all with me and understanding what I am trying to tell you, so from 60 to 80,
+the client needs 22.83 each year, correct but for the client to get 22.83 each year, the client will
+need some money at 60 which gets invested and the client will get 22.83 each year,
+right, so while I am trying to solve 60 to 80, 60 is the PV and 80 is the FP, so now what is the data
+that I have, the data that I have is, my P and T is 22 lakhs, 83,000 for 20 years between 60 to 80,
+I have to figure out how much money do I need at 60, so that I get 22.83 each year from 60 to 80,
+now there is a small complication here which I want to explain to you, so that you all understand
+why and what am I doing in the next step, right, so we are saying let's say the client is 60 at 80,
+each year the client will require 22.83, right, figure out how much money should be deposited at 60,
+so that the client gets 22.83 each year of who 20 years, for that you will have to deposit here,
+so whatever you deposit will get invested at some rate, let's say that rate is 5%,
+because after retirement you will not want to take risk and interest rates will keep falling over
+a period of time, so why you are at 60, the interest rates will already be much lower, so 5%,
+so how much money do you have or should you have which gets invested at 5%, so that you get 22,
+83 each year of who 20 years, there is one small catch, the catch is does 22 with 83 stay constant each
+year does inflation not affect the client just because the client has retired the answer is right,
+so the client wants 22, 83 in the first year, the client would want slightly more in the next year,
+then slightly more in the next year, then slightly more in the next year to make sure that the client also
+takes care of inflation, now this mathematically can be written as you minus whatever the inflation rate
+is going to be, from the return and do the entire calculation at that minus rate,
+again I am not going into technicality but there is a formula you have to find the real rate of return,
+but we are not appearing for any exam, so you do not have to find the real rate of return using
+some formula, you can do this mathematics simply as the return that I am going to get 6280 minus
+the inflation that is going to be and I am going to do my entire calculation at 2%, now when you do
+this entire calculation at 2%, you take into consideration that 22.8 3 will increase by inflation
+and you will get that increased amount also, what do I mean just give me a moment I will try to explain
+to you, so 20 year is my end for, rate I have figured out is 2%, I want a PMT of 22, 83, each year
+find the present value that I will need so that I am able to do this, so let's solve this very
+simple, I am going to delete all of this so that there is no confusion, okay, so we are saying
+how much do I need every year and saying 22, 83, what is the rate 2%, what is the period, this is an
+assumption that I will survive up to 20 years, I want to find the peak, so I will click on PV,
+what's my rate 2%, N per 20, PMT, I have 22, 83, type is going to be 1,
+is because after retirement where your income has stopped, right, you want money at the beginning
+of the period, so period is always 1, future value, I don't need any money after I die at the end
+of the 20th year, right, so future is 0 or PV blank, which means you will need 3.8 crore,
+now what does this mean, pay attention, if you want 22.83 lakhs, plus inflation, plus inflation
+each year for 20 years, right, at 5 minus 3, 2%, you will have to today accumulate 3.8 crore
+when you are 60, so if, so how does this work, at 65, I have 3.8 crore, I invest 3.8 crore at 5%,
+so in the first year I will withdraw 22.83, in the second year also I make 5% only,
+but because I want more, I will withdraw 22.83 plus 3%, I hope you are with me and understanding
+what I am trying to say, right, you will withdraw plus 3%, and you will keep doing that till 20th year,
+right, by minusing this 3% and doing the entire calculation at 2%, I made sure that this happens,
+I get 22.83 in the first year, I get 22.83 plus 3% in the second year, then I get that value plus 3%
+in the third year, so on and so forth till 20th year, right, if there is slight test of the confusion,
+just go back, rewind the last 5 minutes and you are near, right, so now I am saying that if I want
+this entire thing to happen, I will need 3.8 crore at 60, I am 30 today, at 60, I will need
+3.8 crore, because of my asset allocation, I am telling you that we will be able to generate how much
+12% return, tell me the SIP, okay, why my writing is like this, tell me the SIP, I want to do,
+at future 60, I want 3.8 crore, rate is 12%, that is this determined by my asset allocation,
+my n power is 30 years, because I am 30 and I want money at 60, tell me the SIP, I will have to do
+to make sure that I am able to get 3.8 crore, right, what do you do, very simple, click PMT,
+watch your rate, 12% divided by 12, okay, let me not write it like this, it might confuse
+a couple of 1, 12% divided by 12, why because I want the answer in months, n power is how much
+30 into 12, PV, I don't have any money that I have saved right now, future, how much do I want,
+3.8 crore, and I will write the type as 1, we have discussed this multiple times,
+so if I want, if my rate is 1%, my number of periods for which I have to do investment is
+30 into 12, 360 months, and my future value that I want is 3.8 crore, and type is 1, what is my PMT,
+there was some error, let's do it again, rate is 12%, divided by 12, 30 into 12 is the period,
+I want 3.8 crore, and type is 1, I click enter, the SIP that I will have to do is 10,765,
+let me delete all of this, 10,765, so let me copy this here so that there is no confusion,
+what is the SIP, I will have to do for my retirement, 10,765, so let me write 10,750,
+just ignore the percentage, which means, now hear me out very well,
+if I am 30 years old, I am going to retire at 60 and survive at 80, if I invest 10,750,
+if I invest 10,750 here, for 30 years, at maturity, how much do I get, 3.8 crore,
+and if that 3.8 crore here is invested at 5%, then for the remaining 20 years, I get 22.8,
+22.8 lakhs in the first year, that's the 61st year, in the 62nd year, I get 22.83,
+plus 3%, so on and so forth, in a way, that up to the 80, 80th year, the value becomes 0,
+which means, if I go to this client, I can help this client very practically understand that for child
+marriage, he has to shell out 4,800, sorry, education for child marriage, 8,500, and for his
+own retirement, he has to shell out 11,750, and that's the total SIP that he should do, I hope,
+this entire discussion, case study around how to plan for child's marriage, child education
+and retirement is absolutely clear, wherever you are stuck, please just go back, remind the video,
+that's the advantage of online learning, remind the video, try and understand it again,
+if you don't understand, just write to us and we'll help you understand again,
+of wherever you are stuck. I hope you understood this case study, case study, absolutely
+thank you so much, I'll see you on the other side of the road.

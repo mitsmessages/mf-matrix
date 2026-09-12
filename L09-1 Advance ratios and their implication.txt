@@ -1,0 +1,112 @@
+In this video we will learn a couple of other ratios that we generally are going to use to figure out which fund makes a lot of sense for us to invest in.
+A couple of those that you see on your screen that we will learn are SOTINOS ratio, information ratio, R squared, up capture ratio and down capture ratio.
+Let me start with helping you understand what is SOTINOS ratio.
+Okay, so before we move on to SOTINOS ratio, a quick revision on what was standard deviation.
+So we said last three as average was 12% of a fund. We thought that the fund will generate 12% return in the future.
+But we can't be sure if the fund will generate 12%, it can be higher or lower.
+So we said look at standard deviation is where we will get the exact understanding of the range.
+Let's say the standard deviation is 20, we are saying on the higher side the fund can generate SIS 32% returns and on the lower side the fund can generate SIS 8% return.
+So the range can be 32 minus 8% in this particular fund.
+Now this is called the lower standard deviation and this is called the upper standard deviation.
+Okay, now what was SOTINOS, sorry, what was sharp ratios analysis?
+Sharp ratio said that if the fund gave 12% return and risk free in the market was 7%, which means the fund has generated only 5% returns.
+5% return, let's say hypothetically the fund to 10 units of standard deviation risk.
+So we said that the sharp ratio was 0.5.
+Yes, SOTINOS was another mathematician. By the way, sharp is a name or the fund who discovered the ratio.
+SOTINOS is a name of the fund who discovered SOTINOS ratio.
+Now what happens is sharp ratio is 0.5 is what we understood in sharp.
+SOTINOS, somebody who came out and said, sharp, look what you've done is absolutely correct but I would want to bring in a small change.
+What small change? So he said, look, while I was expecting 12%, and if I get 32%, who on this earth is going to be upset?
+So this is actually not a risk. So while you talk about standard deviation, the only risk is the lower standard deviation.
+If I was expecting 12 when I get minus 8 is the risk. So lower standard deviation is the risk and not the entire standard deviation.
+So SOTINOS said that sharp will keep everything the same. Let's say fund generated 12, risk for you was 7, so fund actually generated 5.
+But while you were dividing 5 by the entire standard deviation, I will divide 5 with just the lower standard deviation.
+And the answer that we will get, we will call that SOTINOS ratio.
+Now I am not calculating lower standard deviation, it's slightly complex in terms of mathematics.
+But the point that I'm trying to tell you is, have a sharp ratio different from SOTINOS, sharp ratio divides or takes risks as the entire standard deviation.
+Whereas SOTINOS takes only the lower standard deviation as the risk to find the SOTINOS ratio.
+So now you will say, when do I use sharp and when do I use SOTINOS?
+Now please understand, sharp is the basic ratio, it is further broken down into SOTINOS and information.
+So at the basic level, you can only use sharp and say that overall you know the picture.
+But certain wealth counters, certain very sophisticated people in this industry, instead of using sharp, use SOTINOS and use information.
+So when do you use SOTINOS?
+SOTINOS is the most widely used risk-adjusted return to understand how has the fund protected the downside?
+Because what is the risk it is considering? The lower standard deviation.
+And hence SOTINOS extensively is used for people who are slightly risk-aversed.
+Because I see, ideally if you ask me, though I am not risk-avers, I still use SOTINOS for picking funds up.
+Because any fund who is able to protect the downside or do well on the downside is definitely going to outsmart all the other funds.
+So SOTINOS is actually that ratio which looks at the returns generated with respect to taking the lower standard deviation risk.
+So it is a brilliant ratio and this is what we are extensively going to use to pick funds again, do not get confused.
+Like in sharp, higher was better, similarly in SOTINOS, higher is better because ultimately what you are trying to find is the return.
+Sharp also gives you the return, SOTINOS also gives you the return. Now what is information ratio?
+Now unfortunately, even if I teach you information ratio, there are not a lot of free websites or there is probably none which gives you information ratio of free.
+But I will still teach you for your understanding, what is information ratio?
+So it is again very similar, but information ratio is, let's say there was this guy who discovered this ratio who said that look, my portfolio generated 15% return, in our case my mutual fund generated 15% return, but market generated 12% return.
+So my portfolio has done 3% better than the market, yes or no? My portfolio has done 3% better than the market.
+For only generating this 3%, what is the standard deviation risk it took?
+So just your understanding, when I say 15 is the portfolio return and 12 is the market return, this 3 theoretically is called active returns.
+This is not alpha, I have explained to you, this is called active returns.
+Information ratio says that if market gave 12, fund gave 15, that means there is something interesting that the fund would have done to generate this 3%.
+Tell me to generate that 3%, only for that 3% how much risk did it take?
+So it talks about standard deviation of only the 3% of only active returns.
+Again, you don't either have to calculate this, you either have to calculate so it is given on the websites, all you have to understand is how to read this.
+But the point that I am trying to make is sharp is a general ratio which helps you understand how your fund has done versus the other fund on risk adjusted return basis.
+But if you want to see which fund protected the downside well, so Tino is a ratio, if you want to see which fund outsmarts the return on the higher side is where information is the ratio that you looked at.
+Two funds with Sotino ratio, higher one is better, two funds with information ratio, the one with higher is the better.
+I hope you understood what is Sotino, what is information ratio, you don't have to calculate this, Sotino ratio is given on value research, I am going to take you there and help you understand.
+And information ratio unfortunately though I have taught you is not available on free websites.
+So as in when I get some information and I can help you in the future to understand where you can get this data from, I will surely make a video and help you understand.
+One small thing because we are discussing this, let me also try and help you understand the difference between sharp and Tino.
+So sharp ratio and Tino's ratio, now you will generally see that if there are two funds and fund A has a better sharp, fund A will only have a better trend on.
+So let's say I am telling you fund A and fund B, fund A has two trend or fund B has three trend, which one will you pick?
+So you will say fund B, let's say fund A has a trend or one, sorry this was sharp, trend or one and fund B has a trend or two, which fund will you pick?
+So generally you will see if fund B has a better sharp, fund B only will have a better trend on.
+But let's look at the theoretical case, right where we are trying to understand what if, what if, fund A tells you that sharp is, sorry, fund A tells you, sorry.
+Sharp tells you that fund B is good, but trend or tells you fund A is good, right.
+Now there is a confusion because sharp tells you buy fund B, trend or tells you buy fund A and now you are lost, right.
+Please understand in such a situation you will always go with what sharp tells you, right.
+Because please remember what is sharp, sharp is the portfolio risk, which means if I am trying to compare between two large cap funds, two mid cap funds, two small cap funds, I want to understand the portfolio risk of large cap with the portfolio risk of the other large cap, right.
+I am not concerned with what they have done with respect to the index.
+And hence whenever you are comparing Apple to Apple, whenever you are comparing Apple to Apple, which means large, large cap to large cap, mid cap to mid cap, small cap to small cap, always look at sharp ratio and give it the preference.
+Then when do you use try not. So let's say for example, you come and tell me, Kirtan, I looked at this multi cap fund and this multi cap fund has always invested close to 70-80% in large cap.
+This is actually not a multi cap fund but a large cap fund. Now I want to check the performance of this multi cap fund with respect to the other large cap funds because I think they are almost the same.
+Then you want to compare between cross categories, which you think are similar is where you use Trenor's ratio. Why?
+What is Trenor? Trenor is going to compare this multi cap's performance with the market risk because Trenor is market, beta is market risk and this large cap's performance with the market risk.
+So this will also get compared with market risk, this will also get compared with market risk and hence it's a better benchmark to compare.
+Because if I compare portfolio to portfolio, it may not look similar but if I compare multi-cash performance with the market risk, large cap performance with the market risk, it can give me a better understanding.
+So while you are trying to compare two cross categories, which you are thinking are more or less similar is where you use Trenor, otherwise everywhere else you use short ratio for understanding.
+I hope this is absolutely clear and now we are going to try and understand what is R-Square.
+So let's say for example, let me use a new, what is R-Square?
+Suppose if I give you two funds, fund A, fund B, and I say returns of fund A, 12%, 13%, which fund is good? You can't make a comment.
+Let's say this can be anything, standard deviation of beta, 1, 1, which fund is good? Now you know fund B is good, absolutely. Let's assume both are large cap.
+But what is the definition of large cap? Large cap definition is you can put 80% in large cap stocks and you can put 20% anywhere else which can be made also or small also.
+What is, this fund could have generated higher returns hypothetically because of investing in small and medium cap.
+Let's assume this fund was 100% in large cap, this fund was 80% in large cap, 20% in small cap. So I am sure you understand that this fund is slightly more riskier than this fund, right?
+That is exactly what R-Square helps us understand, which means 12% return could be generated through large cap also, medium cap also in small cap also.
+13 also could be generated through large cap, medium cap and small cap because the fund composition is 80 large and 20 medium small.
+Now I want to know that how much of this 13% or how much of the 12% came from large or somewhere else is where R-Square comes into picture.
+Let's say if I say R-Square is 0.5 and R-Square is 0.9 what this ideally means is that if 12% if 12% okay let me change this 0.9 and 0.5.
+It ideally says that if I am investing in a large cap where I got 12%, 90% 0.90 is 90%. 90% of that 12%, 90% of that 12%, which is 10.8, was generated by large cap investing.
+So R-Square tells you what percentage of your total return comes from the category that you are representing.
+So because this is large cap and R-Square is 90%, I am saying 90% of my returns came from investing in large cap and 1.2% came from investing in mid or small cap.
+But if R-Square is 0.5 your means that 50% of the 13%, which is 6.5 came from investing in large cap, the other 6.5 came from investing in mid and small.
+Now this can be very important is because though this fund might look like large cap but looking at R-Square is where you will understand who's generated the returns, mid cap small cap or the large cap.
+So if I were you I will still opt for this fund though it has generated 12% return versus this fund is because it is generating returns from where it is meant to generate returns which is large cap.
+I hope you understood what is R-Square and how R-Square is used. R-Square helps you understand of the total return, how much return has come from the index to which it is linked to in terms of performance.
+Last two concepts before we move on picking the funds is something called as a capture ratio and down capture ratio.
+This is extremely important is because this helps me understand how well the fund has performed when the markets were going up and how well the fund has performed when the markets were going down.
+Let's say I talk about period between 1st April 2015 to let's say 31st December 2020.
+Now I break down these 5 years into multiple strips of upward performance and downward performance.
+Which means I am saying in these 5 years there will be periods let's say month to keep it simple.
+In these 5 years there may be hypothetically let's assume 40 months where the markets went up and there can be 20 months where the markets went down.
+Now I want to see that in these 40 months how did the fund perform when the markets were going up and I want to see how did the fund performs in these 21st when the markets were falling.
+So how does it work is very simple let's say so I'm writing up capture here up capture says that in these 40 months you generated 120% return on the fund where the market went up 100%.
+Which means you've been able to generate 20% of out performance when the markets are going up with respect to the index.
+So whenever the up capture ratio is higher than 100 it means that during the times of markets going up you've been able to outperform the index which is a brilliant sign.
+Down capture ratio says what was the return what was the return that you generated right.
+So what do I do is in these 20 months I look at the returns that these 20 months generated and I add all of them up.
+So I say I generated 80 where is the market generated 100 what this means is that during the time when the markets were falling you fell 80% when the market fell 100% which means you've again been able to outperform the index by 20% here and you've fallen less when the markets have fallen during those periods.
+The point that I'm trying to making very simple terms you don't have to calculate anything in up capture ratio if you see the number higher than 100 you've done well when the markets are going up in down capture ratio if you see number lower than 100 right.
+You've done well you've fallen less versus the market and you've done a good job.
+I just hope that you've been able to understand most of these things that I explained to you and now using these things I will try and help you pick the right equity fund looking at the past gap.
+Thank you.

@@ -1,0 +1,976 @@
+1
+00:00:05,969 --> 00:00:11,490
+let's continue from where we left the last time we spoke about present value in the last example
+
+2
+00:00:12,050 --> 00:00:16,690
+or the last video let's do a quick revision of one more example around present value and then
+
+3
+00:00:16,690 --> 00:00:24,190
+move forward let's say the second case where the investment that the client please figure out the
+
+4
+00:00:24,190 --> 00:00:31,550
+investment that the client would have to make either client desires 25 lakh rupees after 20 years
+
+5
+00:00:31,550 --> 00:00:36,909
+for daughters marriage so basically you end up meeting a client client says I want 25 lakh rupees
+
+6
+00:00:36,909 --> 00:00:43,469
+after 20 years and the return that you are discussing is roughly 10% then how much
+
+7
+00:00:43,469 --> 00:00:51,009
+amount of money should the client invest today as well so so what we have is this where we are
+
+8
+00:00:51,009 --> 00:01:01,780
+saying that the client needs 25 lakh rupees after 20 years and the return we are discussing is 10%
+
+9
+00:01:02,340 --> 00:01:05,379
+we have to help the client understand that if it does not want to do a lot
+
+10
+00:01:06,099 --> 00:01:13,219
+SIP but a lump sum how much money would the client be required to invest together so this is our rate
+
+11
+00:01:14,349 --> 00:01:20,879
+this is our empire and this is our future then we have to find the present value what do we do
+
+12
+00:01:20,879 --> 00:01:28,939
+same thing go to excel so we go to excel go to effects in effects in the search bar we write
+
+13
+00:01:29,739 --> 00:01:36,260
+pv because that's what we want to find double click your rate is 10%
+
+14
+00:01:38,140 --> 00:01:46,379
+n per is 20 yeah n per is 20 rate 25 we don't know what PMT is let's leave it empty our future value is
+
+15
+00:01:46,379 --> 00:01:52,060
+25 lakhs 1 2 3 4 5 we don't know what typies we leave that empty click enter
+
+16
+00:01:53,500 --> 00:02:05,329
+3 lakhs 71,609 3 lakhs 71,609 minus so we are saying if the client is investing 3 lakhs 71,609
+
+17
+00:02:05,329 --> 00:02:13,009
+today and if the fund is able to generate 10% for 20 years then the client will have 25 lakhs for
+
+18
+00:02:13,009 --> 00:02:18,050
+daughter's marriage one important thing that we could have discussed in the last video was why
+
+19
+00:02:18,129 --> 00:02:23,810
+does this show minus in present value the answer is very simple because you are going to invest
+
+20
+00:02:23,810 --> 00:02:28,610
+this money and it is going to go out of your pocket so whenever it goes out of your pocket it is
+
+21
+00:02:28,610 --> 00:02:34,770
+minus like we learned the last time which is why this is showing you as minus let's move ahead then
+
+22
+00:02:35,409 --> 00:02:44,560
+now we are saying let's say if your client is investing 10 lakhs today and the rate the client is
+
+23
+00:02:44,560 --> 00:02:51,360
+expecting is 15% then what is the maturity value will the client get after 10 years again very
+
+24
+00:02:51,360 --> 00:02:56,800
+appropriate question from the client a lot of them ask us if I invest 10 lakhs how much will I get
+
+25
+00:02:56,800 --> 00:03:03,039
+after 10 years let's try and figure that out so this question is where the client is saying what if
+
+26
+00:03:03,039 --> 00:03:08,319
+I invest 10 lakhs today I am writing that as minus because he is going to invest and it is going
+
+27
+00:03:09,039 --> 00:03:17,229
+to go out of his pocket how much will I get after 10 years if the return is 15% is what the client
+
+28
+00:03:17,229 --> 00:03:22,669
+is wanting to know so we have our present value 10 lakhs is invested today we have our rate
+
+29
+00:03:23,650 --> 00:03:29,009
+we have our emperor we have to figure out the future value and help the client understand
+
+30
+00:03:29,569 --> 00:03:34,990
+if this turns out to be true how much will the client get at the end of the 10th year so we are going to
+
+31
+00:03:34,990 --> 00:03:43,229
+excel right now what do we want to find we want to find future value this time so we will click on
+
+32
+00:03:43,229 --> 00:03:51,550
+fx and in the search we will write f we we wrote pv in the last case because we wanted to find pv now
+
+33
+00:03:51,550 --> 00:03:57,469
+we are writing fv because we want to find the future value so we write fv we find fv here double click
+
+34
+00:03:57,710 --> 00:04:06,430
+again a window pops up very similar now here what's our rate we are saying our rate is 15% so we write
+
+35
+00:04:06,430 --> 00:04:15,620
+15 what's our emperor so we are saying our emperor is 10 pmt we don't know we'll leave that empty
+
+36
+00:04:16,259 --> 00:04:25,139
+pv yes I know minus 10 lakhs 1 2 3 4 5 minus it is going out of my pocket type I don't know I'll leave
+
+37
+00:04:25,139 --> 00:04:29,379
+it empty so I had three information I input all the three information I click and up
+
+38
+00:04:30,259 --> 00:04:44,699
+here is where I get my future value 40 lakhs 45000 557 40 lakhs 45000 557 which means if the client is
+
+39
+00:04:44,699 --> 00:04:53,360
+investing 10 lakhs today and if it grows at 15% for 10 years the client can expect 40 lakh 45000
+
+40
+00:04:54,079 --> 00:05:02,370
+right this is how it is going to help you solve any given situation while you are in front of the
+
+41
+00:05:02,370 --> 00:05:13,089
+client with simple basic excel and strength right let's move forward now suppose if the client wants
+
+42
+00:05:13,089 --> 00:05:23,550
+to do one lakh of SIP every year which grows at 10% what will be the maturity value after 25 years
+
+43
+00:05:24,579 --> 00:05:32,339
+so now this question is client is not doing one time investment client is investing one lakh each year
+
+44
+00:05:35,410 --> 00:05:41,810
+one lakh I'm writing minus is because it is going to go out of the client's pocket for how long
+
+45
+00:05:41,810 --> 00:05:52,459
+25 years for 25 years and if the return is let's say 10% we have to figure out the maturity value
+
+46
+00:05:53,230 --> 00:05:59,170
+let's say return is 10% we have to figure out the maturity value now we know this is n per
+
+47
+00:06:01,220 --> 00:06:08,029
+we know this is rate we know we have to find the maturity value so we have to find the future value
+
+48
+00:06:08,779 --> 00:06:17,699
+then what is this now this is a new element that we have to understand now okay is this lump sum
+
+49
+00:06:17,699 --> 00:06:24,500
+no because I'm not doing it one time I'm doing it multiple times in our case I'm doing it every year
+
+50
+00:06:24,500 --> 00:06:33,579
+for 25 years right so whenever you have a cash flow this is called a cash flow you're doing it
+
+51
+00:06:33,579 --> 00:06:39,420
+year after year year after year or you can do it month after month whenever you have a cash flow
+
+52
+00:06:40,060 --> 00:06:55,660
+which is constant and the value is same you call that cash flow as PMP or you call it payment
+
+53
+00:06:56,459 --> 00:07:06,100
+which is the full form of the abbreviation PMP so understand what was PV lump sum what was FV lump sum
+
+54
+00:07:07,360 --> 00:07:13,680
+but while you're trying to do investment you don't always invest as lump sum right you can invest in
+
+55
+00:07:13,680 --> 00:07:19,600
+parts also like say SIP so SIP can't be called present value because it doesn't happen today it
+
+56
+00:07:19,680 --> 00:07:27,600
+does not happen once it happens repeatedly so whenever you have a cash flow right which is constant
+
+57
+00:07:27,600 --> 00:07:38,339
+and same example SIP or EMI they will always be constant 5000 every month right so every month
+
+58
+00:07:38,339 --> 00:07:45,579
+is constant amount is the same right that's the same case with EMI it'll always be the same amount
+
+59
+00:07:45,660 --> 00:07:53,360
+in every month so the time between two cash flows is constant every month and the amount is also
+
+60
+00:07:53,360 --> 00:08:04,060
+constant such a cash flow where between two cash flows the time is same every month or every quarter
+
+61
+00:08:04,060 --> 00:08:12,060
+every semi annual every year when this time is constant of the repetitiveness and the amount is
+
+62
+00:08:12,060 --> 00:08:20,300
+constant 5 lakh 10 lakhs 5,000 10,000 you call that cash flow as a payment which means whenever
+
+63
+00:08:20,300 --> 00:08:31,470
+you get an SIP or EMI or an annuity that you and I will discuss we will use that as PMP because it's
+
+64
+00:08:31,470 --> 00:08:40,429
+a cash flow which has which has constant period between two cash flows in this example every year
+
+65
+00:08:40,429 --> 00:08:47,230
+constant it happens every year right so every year is constant you can be every month constant
+
+66
+00:08:47,230 --> 00:08:54,110
+every quarter constant and the amount is also same 1 lakh 1 lakh 1 lakh we will call this cash flow
+
+67
+00:08:54,110 --> 00:09:06,139
+as payment payment so very quickly what is this question this question is 1 lakh as SIP at 10% for 25
+
+68
+00:09:06,139 --> 00:09:21,179
+years so 1 lakh minus 1 lakh every year for 25 years at 10% find the maturity value so I have the
+
+69
+00:09:21,179 --> 00:09:34,659
+period correct I have the rate and I have this new element which I call as PMP what do I have to find
+
+70
+00:09:34,659 --> 00:09:46,059
+future value right how do we find that same go to excel now here I want to find payment I will go to
+
+71
+00:09:46,059 --> 00:09:54,610
+effects in the search bar I will write PMP years PMP I will double click it same window will open up
+
+72
+00:09:54,610 --> 00:10:00,370
+and I will input the data like we've been doing for the last four examples what's the rate the rate
+
+73
+00:10:00,450 --> 00:10:15,169
+in our case is 10% register yeah 10% right what's our info our info is 25 so 25 what's our PV we don't
+
+74
+00:10:15,169 --> 00:10:22,210
+have a PV because there is no lump sum investment that has happened right so our PV because it is not
+
+75
+00:10:22,210 --> 00:10:36,799
+given we will keep that blank right not given so blank sorry my bad we got this wrong we actually
+
+76
+00:10:36,799 --> 00:10:43,789
+didn't have to find the PMT we already have the PMT we have to find the future my bad right so we
+
+77
+00:10:43,789 --> 00:10:54,990
+will go to effects in the search bar we will write FV we click FV what's our rate 10% what's our
+
+78
+00:10:54,990 --> 00:11:04,909
+info 25 check here 25 when 10% what's our payment payment is given to us how much minus 1 lakh I'm
+
+79
+00:11:04,909 --> 00:11:12,529
+doing minus or minus it is going out of my pocket 1 lakh is the yearly SIP PV I don't have the PV
+
+80
+00:11:12,610 --> 00:11:18,129
+there is no one time lump sum investment that has happened so I'll keep it blank type I've not yet
+
+81
+00:11:18,129 --> 00:11:27,980
+learned so I'm going to keep that blank right I click enter how much do I get 98 lakh 34 705 98
+
+82
+00:11:27,980 --> 00:11:39,980
+lakh 35 705 so if the client is investing a lack of rupee every year for 25 years and the return is
+
+83
+00:11:39,980 --> 00:11:52,620
+10% the client will have at maturity roughly 98 lakh 35 705 I hope this is absolutely clear now
+
+84
+00:11:52,620 --> 00:12:00,179
+like we understood PMT in this example I'm going to introduce something new for 20 which you saw
+
+85
+00:12:00,179 --> 00:12:09,059
+over the last four examples now say for example in the same case above there can be two cases right
+
+86
+00:12:09,940 --> 00:12:20,210
+case one and case two case one I'm investing one lakh rupee every year but this investment is
+
+87
+00:12:20,210 --> 00:12:28,350
+happening on the Jan of the year so let's say Jan 20 another one like goes on Jan 21 another one
+
+88
+00:12:28,350 --> 00:12:43,070
+like goes on Jan 22 and the maturity is December 29 or let's say December 50 right case two
+
+89
+00:12:44,080 --> 00:12:52,419
+case two okay let's stick to what the question is so let's say December 45 so I will do 1 lakh
+
+90
+00:12:52,419 --> 00:12:59,970
+each year I will do 1 lakh each year for 25 years maturity is December 45
+
+91
+00:13:00,610 --> 00:13:09,409
+case two I'm doing 1 lakh each year for 25 years but my investment happens in at the end of the year
+
+92
+00:13:09,409 --> 00:13:19,409
+December 20 another 1 lakh will happen in December 21 then December 22 and the maturity is December
+
+93
+00:13:19,889 --> 00:13:33,539
+25 now if you carefully observe PMT here is 1 lakh period here is 25 period here is 25
+
+94
+00:13:34,860 --> 00:13:43,779
+right and the return also assume is the same which is let's say 8% sorry in our case it is 10%
+
+95
+00:13:44,419 --> 00:13:53,220
+so let's say 10% 10% here and if you observe here it's exactly the same thing what's your PMT
+
+96
+00:13:53,220 --> 00:14:02,419
+1 lakh PMT is 1 lakh here right you are doing investments for 25 years and the return here also
+
+97
+00:14:02,419 --> 00:14:13,460
+is 10% now if both the data are same where we are saying in both the cases here also in this entire
+
+98
+00:14:13,460 --> 00:14:21,539
+case I am doing 25 investments of 1 lakh rupees and here also I'm doing 25 investments of 1 lakh
+
+99
+00:14:21,539 --> 00:14:29,679
+rupees here also the return is 10% here also the return is 10% are we trying to say that both at the
+
+100
+00:14:29,679 --> 00:14:36,799
+end of the year 25 years we'll end up giving the same return the answer is why because over here
+
+101
+00:14:36,799 --> 00:14:44,399
+you invested in Jan and hence your investment is going to be invested for one more year versus
+
+102
+00:14:44,399 --> 00:14:51,539
+this investment because over here you invested in December and the maturity is same so here I'm
+
+103
+00:14:51,539 --> 00:14:59,629
+going to make returns more for one full year right is because here I'm investing at the beginning of
+
+104
+00:14:59,629 --> 00:15:07,980
+the month rather the year and year I'm investing at the end of the year and hence though the data
+
+105
+00:15:07,980 --> 00:15:18,620
+mathematically look the same PMT 1 lakh N per 25 and rate 10% the answer in both the cases should come
+
+106
+00:15:18,620 --> 00:15:32,909
+different this in excel is given as type so this is type 1 and this is type 2 type 0 so whenever the
+
+107
+00:15:32,909 --> 00:15:42,620
+investor is investing the cash flow at the beginning of the year or beginning of the month we will write
+
+108
+00:15:42,779 --> 00:15:54,049
+the type as 1 whenever the investor is investing the cash flow at the end of the month or end of the year
+
+109
+00:15:54,049 --> 00:16:02,370
+we will write the type as 0 now this is only applicable when it is cash flow right like you saw while we
+
+110
+00:16:02,370 --> 00:16:10,450
+were doing the earlier three four questions we didn't have PMT neither we were asked to find PMT
+
+111
+00:16:10,450 --> 00:16:16,289
+nor did we have PMT in the question right which is why we did not bother about the type course
+
+112
+00:16:17,090 --> 00:16:24,450
+type will only come into picture while you are either trying to find the SIP value or you are investing
+
+113
+00:16:24,450 --> 00:16:30,289
+in SIP because it is exactly where you have to tell the computer whether I'm doing the investment
+
+114
+00:16:30,289 --> 00:16:37,330
+at the beginning of the year or the month or at the end of the year or woman is where type is extremely
+
+115
+00:16:37,330 --> 00:16:43,970
+important and I will show you how the answer changes let's say if the client was investing at
+
+116
+00:16:44,610 --> 00:16:52,860
+the beginning of the month this is beginning of the year this example let's say gen 20 then what was
+
+117
+00:16:52,860 --> 00:16:59,740
+the return that the client would have made all I would have had to do is just write the type as 1
+
+118
+00:17:01,330 --> 00:17:07,009
+when I write the type as 1 I am telling the computer that the investment of one lakh for 25 years is
+
+119
+00:17:07,009 --> 00:17:13,759
+happening at the beginning of the year now because I'm going to get one full entire year that I
+
+120
+00:17:13,759 --> 00:17:23,470
+explained to you here right see my answer change to 1 crore it lacks but if I am doing the same
+
+121
+00:17:23,470 --> 00:17:32,980
+investment if I'm doing the same investment at the end right I will keep the type as 0 or even if I
+
+122
+00:17:32,980 --> 00:17:41,759
+leave it blank it means 0 because I'm getting one year less look at my future value which is 98 lakhs
+
+123
+00:17:42,559 --> 00:17:49,119
+so the point that I'm trying to make here is type comes into picture while you have either
+
+124
+00:17:49,920 --> 00:17:55,680
+payment or cash flow given to you or you are supposed to find either you are doing an SIP or you are
+
+125
+00:17:55,680 --> 00:18:01,599
+supposed to find how much SIP do I have to do is where type comes into picture and it is very
+
+126
+00:18:01,599 --> 00:18:10,079
+important that you mention 1 or 0 right is because 1 or 0 is when the computer will understand
+
+127
+00:18:10,079 --> 00:18:14,960
+that whether the cash flow is happening at the beginning of the period or at the end of the period
+
+128
+00:18:15,759 --> 00:18:24,269
+now georotically in financial planning you always want to make sure that your type is 1 right I'm not
+
+129
+00:18:24,269 --> 00:18:30,190
+editing this is because financial planning what you intend to do is let's say on the first you get
+
+130
+00:18:30,190 --> 00:18:37,250
+5 lakh rupees a salary you want to invite a habit in your client that sir first you invest
+
+131
+00:18:38,799 --> 00:18:44,880
+and whatever amount of money is left is what you then go ahead and spend you don't want to be in a
+
+132
+00:18:44,880 --> 00:18:51,759
+situation where the client spends the entire month and then invest whatever is remaining at the end
+
+133
+00:18:51,759 --> 00:18:57,920
+which is why why we are trying to do financial planning we will always try and keep our type as 1
+
+134
+00:18:57,920 --> 00:19:02,960
+is because we want to invite the culture of investing at the beginning of the period and not at the
+
+135
+00:19:02,960 --> 00:19:10,779
+end of the period I hope this is absolutely clear and I'm going to take you a step forward let's say
+
+136
+00:19:11,420 --> 00:19:24,529
+now the client is telling us that I'm going to invest a lack of rupees for 25 years and the return
+
+137
+00:19:24,529 --> 00:19:30,450
+we will make is 10 percent but this one lack I'm not going to invest every year but every month
+
+138
+00:19:32,269 --> 00:19:40,109
+now tell me how much do I get at maturity at the end of the 25th year how is this question different
+
+139
+00:19:40,109 --> 00:19:46,829
+from the last question that we did everything is the same except that 1 lakh is instead of year which
+
+140
+00:19:46,829 --> 00:19:53,539
+was the last case happening every month in this case that we are discussing about how is this question
+
+141
+00:19:54,180 --> 00:20:01,460
+let's try and figure out so what is a period here in per or our period is 25 years
+
+142
+00:20:03,200 --> 00:20:12,500
+what's our rate we're saying our rate is 10 percent per year we are saying what's our PMT
+
+143
+00:20:13,619 --> 00:20:20,980
+we're saying a PMT is 1 lakh rupees every month what do we have to find future value
+
+144
+00:20:22,099 --> 00:20:28,420
+right now the only strange thing here is while both of these are given in years this is given in
+
+145
+00:20:28,420 --> 00:20:36,109
+months now we've been learning this is school level mathematics that you know generally when you are
+
+146
+00:20:36,109 --> 00:20:44,910
+given multiply 1 1 liter with 25 milliliters either you're trying to convert everything in
+
+147
+00:20:44,910 --> 00:20:49,470
+milliliters and then multiply or you try and convert everything in liter and then multiply
+
+148
+00:20:50,140 --> 00:21:00,859
+correct you cannot ideally go ahead and multiply generally 1 liter with 250 milliliters you
+
+149
+00:21:00,859 --> 00:21:06,700
+try and make sure that either everything is in milliliters or everything is in liters right that's
+
+150
+00:21:06,700 --> 00:21:11,900
+exactly the challenger we have two components which are in years we have one component which is in
+
+151
+00:21:11,900 --> 00:21:18,539
+months which is why there is one more step that we have to do before we move on to the actual excel
+
+152
+00:21:18,539 --> 00:21:25,019
+calculation what is that convert either everything in two months or everything into years and then figure
+
+153
+00:21:25,019 --> 00:21:33,420
+out what we want to do now generally a lot of us are lazy and we'll say because we already have
+
+154
+00:21:34,059 --> 00:21:41,500
+two things in years why not multiply this by 12 and convert this into year no does not work do you
+
+155
+00:21:41,500 --> 00:21:50,750
+really think investing a lack of rupee in Jan then investing a lack of rupee in February so on and so
+
+156
+00:21:50,750 --> 00:21:57,069
+forth for 12 months is equivalent to investing 12 lakh rupees together either at the start of the year
+
+157
+00:21:57,069 --> 00:22:06,319
+or end of the year absolutely not does not make sense so always remember you cannot add multiply
+
+158
+00:22:06,400 --> 00:22:17,059
+subtract divide PMT add on PMT has to stay in the form it is in so in our case PMT is in months PMT
+
+159
+00:22:17,059 --> 00:22:25,069
+is in months you will have to convert everything else into months as simple as that so simple in whichever
+
+160
+00:22:25,069 --> 00:22:32,829
+form you have PMT you will convert everything else in that form so PMT is in months I will convert
+
+161
+00:22:32,829 --> 00:22:39,309
+everything else into months now how do I convert everything else into months 25 years is how many
+
+162
+00:22:39,309 --> 00:22:52,400
+months so I'm saying 25 years is 300 months now I'm saying 10% per year is how many how much per month
+
+163
+00:22:52,480 --> 00:23:04,559
+so I will say 10% divide by 8.82 per month now a disclaimer here 0.82 is georotically for
+
+164
+00:23:04,559 --> 00:23:12,640
+almost CFP or CFA exam perspective not the right answer the right answer may be 0.8 now I'm not going
+
+165
+00:23:12,640 --> 00:23:17,440
+into too much of detailing is because here we are not trying to prepare for an exam we are trying to
+
+166
+00:23:17,440 --> 00:23:27,279
+understand logic so we will stick to 0.82 here right so we are saying 1000 per month we are saying 0.82
+
+167
+00:23:27,279 --> 00:23:33,839
+per month we are saying 300 per month everything's become month and now I can go ahead and find the answer
+
+168
+00:23:34,829 --> 00:23:41,630
+right so I'm saying if I invest one lakh every month 10% is the rate for 25 years how much will the
+
+169
+00:23:41,630 --> 00:23:49,980
+client get at much or it so I want to find the future value so in the search I already have future
+
+170
+00:23:49,980 --> 00:23:58,559
+value returns I will click what's the rate my rate is 10% divided by 12 now you can do it here only
+
+171
+00:23:58,559 --> 00:24:04,400
+you don't have to do a separate calculation elsewhere 10% divided by 12 see it has already calculated
+
+172
+00:24:04,400 --> 00:24:14,500
+0.83 and per my input is 25 into 12 see 300 you already calculated what's my PMT minus one lakh
+
+173
+00:24:17,859 --> 00:24:25,460
+am I doing any lump sum investment right now together no so I leave a PVS blank now because we just
+
+174
+00:24:25,460 --> 00:24:30,900
+understood I want to make sure that the investments are happening at the beginning so I will do the
+
+175
+00:24:30,900 --> 00:24:38,480
+calculation as type 1 enter here is what your answer is the client is investing a lack of rupee
+
+176
+00:24:39,119 --> 00:24:47,599
+every month for 25 years and the return is 10% then the client will have 13 crore 37 lakhs 89,000
+
+177
+00:24:47,680 --> 00:25:00,619
+maturity 13.37 crore at maturity I hope this is absolutely clearly understood
+
+178
+00:25:01,900 --> 00:25:10,380
+you know why type 1 is different from type 0 why type 1 is beginning type 0 is end why do we use
+
+179
+00:25:10,380 --> 00:25:19,740
+type 1 generally you understood PMT you understood how is PMT every year different from PMT every month
+
+180
+00:25:20,859 --> 00:25:26,700
+how you understood how PMT cannot be multiplied by 12 and you will have to convert everything else
+
+181
+00:25:27,259 --> 00:25:36,619
+in the format in which PMT is right and this is how you do a calculation so now we've understood
+
+182
+00:25:36,619 --> 00:25:41,980
+everything that was there on the excel if you see we've understood what is PV we've understood
+
+183
+00:25:41,980 --> 00:25:47,980
+what is FV we've understood what is PMT we've understood what is end per we've understood what is
+
+184
+00:25:47,980 --> 00:25:56,140
+rate and we've also understood what is time right let's solve one or two questions more
+
+185
+00:25:56,140 --> 00:26:02,740
+so that your basic becomes absolutely clear around this before we move ahead so let's say
+
+186
+00:26:03,380 --> 00:26:12,339
+what is the monthly SIP you will recommend to your client if you want 50 lakh rupees at retirement
+
+187
+00:26:12,420 --> 00:26:20,049
+which is after 30 years and the rate is 11% so now the question is that my client wants 50 lakh rupees
+
+188
+00:26:20,049 --> 00:26:32,670
+at retirement after 30 years these are random numbers and the values can be anything return is 11%
+
+189
+00:26:33,680 --> 00:26:41,359
+this is a very valid question tell me the SIP I will have to do to make sure I get 50 lakhs
+
+190
+00:26:42,319 --> 00:26:47,680
+so what all is given to me future value is given I have 30 lakhs my end per is given
+
+191
+00:26:48,400 --> 00:26:55,680
+right and my rate is given so let me write that down so I have end per given to me as 30 years
+
+192
+00:26:57,890 --> 00:27:08,509
+I have rate given to me as 11% per year I have future value given to me as 50 lakhs
+
+193
+00:27:10,160 --> 00:27:19,200
+and I have to figure out PMT SIP so I have to figure out PMT how much do I have to invest every month
+
+194
+00:27:20,289 --> 00:27:27,089
+now you know that you need the answer per month correct so you will have to input data per month
+
+195
+00:27:27,950 --> 00:27:34,190
+but both of these are per year so how do I convert I will divide by 12 or multiply by 12 and divide
+
+196
+00:27:35,299 --> 00:27:42,660
+I am repeating again this divide by 12 may theoretically be slightly different than what I am trying to show
+
+197
+00:27:42,660 --> 00:27:50,369
+you but don't worry your answer will more or less come this way so now I am saying now I want to
+
+198
+00:27:50,369 --> 00:27:59,470
+find the SIP amount I want to find the PMT so I will go to the search bar I will write PMT
+
+199
+00:28:00,720 --> 00:28:06,000
+here is where the PMT is and double click so what is my rate I will say my rate is 11%
+
+200
+00:28:06,000 --> 00:28:13,759
+divide by 12 because I want the answer in months so I am converting n per and rate into months
+
+201
+00:28:14,319 --> 00:28:18,960
+right 11% divide by 12 what is my n per I am saying 30 into 12
+
+202
+00:28:20,670 --> 00:28:27,150
+30 into 12 pv am I investing something lump sum together the answer is no so I leave it blank
+
+203
+00:28:27,869 --> 00:28:35,630
+future how much do I want in the future 50 lakhs 50 1 2 3 4 5 and I am talking about type 1 because
+
+204
+00:28:36,190 --> 00:28:47,089
+I want to do my SIP at the beginning of the months or type 1 inter I will only have to do an SIP of 1766
+
+205
+00:28:49,940 --> 00:28:59,150
+66 every month for 30 years I will get 50 lakh rupees every year I hope this is absolutely
+
+206
+00:28:59,150 --> 00:29:04,349
+clearly understood by each one of you and there are no doubts around any of these things
+
+207
+00:29:04,349 --> 00:29:10,910
+that we have discussed quickly we have a couple of more questions let's all them what return has
+
+208
+00:29:10,910 --> 00:29:16,430
+the client generated now this might help because client would have invested somewhere else and you
+
+209
+00:29:16,430 --> 00:29:21,710
+want to help the client and understand especially in insurance that the client is actually not making
+
+210
+00:29:21,710 --> 00:29:28,349
+any money that's it so what return as a client generated if he invested 1 lakh 50 thousand each
+
+211
+00:29:28,349 --> 00:29:39,650
+year and received 13 lakhs after 7 years so I am saying if the client invested 1 lakh 50 thousand
+
+212
+00:29:39,650 --> 00:29:52,450
+each year so it's a cash flow so PMD and after 7 years received 13 lakhs find the return that
+
+213
+00:29:52,450 --> 00:30:03,099
+the client has generated now this is our future value this is our NPR and this is our PMD right
+
+214
+00:30:03,099 --> 00:30:11,019
+we have to find what the rate that the client managed to earn on the investment so we will go to excel
+
+215
+00:30:12,460 --> 00:30:22,049
+now I will search for rate RPE here's the rate I will double click the same window will open up what's
+
+216
+00:30:22,049 --> 00:30:30,880
+my NPR my NPR is 7 so I will write 7 what's my PMD how much did I invest each year 1 and a half
+
+217
+00:30:30,880 --> 00:30:39,440
+lakh minus 1 and a half lakh going out of my pocket PV I did no lump sum investment so I leave PV
+
+218
+00:30:39,440 --> 00:30:49,460
+blank how much did I receive in the future future value 13 lakhs 13 1 2 3 4 5 type again we don't
+
+219
+00:30:49,460 --> 00:30:56,259
+know the type but because we are assuming this is insurance sorry because we are assuming this is
+
+220
+00:30:56,259 --> 00:31:03,539
+insurance right type is always 1 because in insurance premium is taken in advance at the beginning
+
+221
+00:31:03,539 --> 00:31:07,539
+so while you are trying to do any insurance question make sure your type is always beginning
+
+222
+00:31:07,539 --> 00:31:14,259
+because in insurance investments are taken at the beginning right so I wrote type as 1 and I click
+
+223
+00:31:14,339 --> 00:31:21,069
+enter I will just expand this a little so that I get clarity so if the client has invested 1 and a
+
+224
+00:31:21,069 --> 00:31:28,349
+half lakh rupees for 7 years and received 13 lakhs at maturity the client has actually only managed
+
+225
+00:31:28,349 --> 00:31:37,230
+to get 5.34% of votes I hope this is absolutely clear and there are no doubts around understanding
+
+226
+00:31:37,230 --> 00:31:44,190
+any of these things last question calculate the annual interest rate in percentage required
+
+227
+00:31:45,250 --> 00:31:53,890
+if the client is investing 15,000 today and expects to receive 25,000 in 12 years time so let's say you
+
+228
+00:31:53,890 --> 00:32:00,220
+end up meeting a client who is telling you that you know I only have 15,000 rupees to present value
+
+229
+00:32:00,859 --> 00:32:09,660
+and I want 25,000 rupees at the end of the 12th year tell me the return that I need see because
+
+230
+00:32:09,660 --> 00:32:14,299
+only if you know the return you will be able to help the client which asset class should he
+
+231
+00:32:14,299 --> 00:32:20,460
+she invested right so we are saying client is investing 15 present value client needs 25
+
+232
+00:32:20,460 --> 00:32:28,720
+future value after 12 years find the return that the client should generate simple go to excel search
+
+233
+00:32:28,720 --> 00:32:38,130
+for it what's our end per after how many years 12 years PMT is there a cash flow no I will leave
+
+234
+00:32:38,130 --> 00:32:44,289
+it blank present value yes client is willing to invest 15,000 today so minus 15,000
+
+235
+00:32:45,630 --> 00:32:53,299
+future value yes the client is looking at getting 25,000 these are random numbers you can
+
+236
+00:32:54,180 --> 00:33:01,549
+put in any number you want type because there is no PMT here neither given or asked type doesn't
+
+237
+00:33:01,549 --> 00:33:07,150
+matter I can write one zero my answer would change so all the data that was given to me I have written
+
+238
+00:33:07,150 --> 00:33:14,430
+I'll just click enter I'll get the answer I'll just expand this so the client only needs to generate
+
+239
+00:33:14,430 --> 00:33:27,039
+4.35% return if the client has 15,000 and the client expects to receive 25,000 right so if somebody
+
+240
+00:33:27,039 --> 00:33:33,920
+is invested in an insurance 15,000 rupees today and after 12 years rupees receives 25,000 the client
+
+241
+00:33:33,920 --> 00:33:44,000
+has ideally made only 4.35% returns I hope through this all of these things of basic how to find
+
+242
+00:33:44,000 --> 00:33:51,119
+return how to find a present value future value how to find SIP value is all absolutely clearly
+
+243
+00:33:51,119 --> 00:33:56,960
+understood to each one of you all now that these basic calculations are clear I will take you to
+
+244
+00:33:56,960 --> 00:34:03,920
+study and help you understand how to do goal based plan thank you see you in the next study
+

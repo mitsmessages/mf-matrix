@@ -1,0 +1,276 @@
+morning everybody welcome back so after that after we learned what is asset allocation
+what is the importance of asset allocation and post determining asset allocations of the client
+we've also learned how to do goal based planning for the client. Now before we move on to actually
+picking the right equity mutual fund there is one gap that we'll have to reach between
+selecting the fund and what the client wants is understanding a little about macro economics.
+Now I have seen a lot of people in the industry go gala or crazy about trying to track macros
+very deeply closely but in my honest opinion macro economics is very simple and it's just that we
+keep complicating it because there are so many macros that we really want to end up tracking
+so you see GDP you see current account deficit fiscal deficit you see where is the CPI moving
+WPI moving what is happening to Forex reserves in the country and various other factors that you and I
+all look at making macro economics very complicated and a little practical a little less practical to be
+used so I'm going to try and give you a solution of how to make macro economics look simple and usable
+practical in my opinion macro economics again can be completely tracked by just looking at one
+data point which is inflation because everything else that you and I see macro economics
+directly or indirectly ends up affecting inflation and hence end up affecting interest rates.
+So what I'm trying to tell you is ignore everything else that you hear in macro economics around you
+in terms of crude in terms of current account deficit going up going down GDP going up going down
+and channelize your entire energy and keep a track only on where inflation and interest rates are
+into a greater extent in my opinion you should be able to understand how and where assets are supposed
+to move now why do I make that comment let me explain to you so I'm going to help you understand
+from the very brief of why inflation and interest rates are enough for you to be able to predict
+looking at macros where to a greater extent assets can move let's try and understand
+so to start with very basic what is inflation now we say inflation is rising prices of commodities
+so we are saying that probably today this laptop is available at 60 grand tomorrow if it is available
+at 60 grand we say inflation has gone up and rising prices of commodities of products is what we
+call as inflation now my point is why does inflation take place so in my opinion there are
+two reasons why inflation takes place first of course most of us know and we've learned this
+called demanding supply so we say while demanding increases and supply is less inflation can go up
+let me give you an example so let's say this is one laptop that you and I both want to buy and let's
+say there are hundreds of us that want to buy this laptop there is only this one laptop available
+we say demand is high because there are 100 people who want to buy this laptop supply is less because
+there is only one laptop and hence the price will go up why will the price go up the price will go up
+because though the manufacturer wants to sell it for 50 he knows there is a lot of demand there is
+going to be somebody who will be willing to pay 51,000 to buy this somebody willing to pay 53,000
+and there will also be somebody who will be willing to pay 55,000 for the laptop and hence
+because of less supply and huge demand the price of the laptop from 50 becomes 55 and that is what
+you and I call as inflation now to me inflation is slightly beyond just demanding supply so let's look
+at this entire situation where there are hundreds of us who want to buy this laptop there is only one
+laptop there is this demand supply gap but none of us have money so if none of us have money or liquidity
+do you think in spite of there being such a huge demand supply gap the price of the laptop will go up
+I don't think so it's because if you and I don't have money from where will we pay 51,000,
+53,000 or 55,000 for a 50,000 product and increase the price of the product right so what I'm trying
+to reach to is inflation does not happen only because of demand and supply inflation happens in
+a scenario where there is demand supply gap but also there is liquidity in the market
+you and I have money because of which the demand supply gap leads to inflation I hope that is very
+categorically understood so we are saying inflation not just happens because of demand and supply but
+inflation happens because demand and supply is back to it or fueled with or accompanied with liquidity
+in the market and hence demand and supply gap leads to inflation let me whose job is it to control
+inflation RBI right now if RBI wants to control inflation and RBI knows that there are two reasons
+why inflation is happening demand and supply and liquidity do you think RBI can do anything with
+demand and supply the answer is no why neither can RBI go to the manufacturer and say why aren't you
+producing more when there is a lot of demand nor can RBI come to you and me and say why are you
+consuming so much because of you the prices are going up so RBI actually want to control inflation
+cannot do anything with demand and supply so the only tool that RBI has to control inflation
+is control liquidity if somehow RBI can reduce money in the market then you and I will have less money
+and hence we will not be able to increase the price to 61, 63, 65 and hence probably
+there is a possibility that inflation can come down which means RBI wants to control inflation RBI
+only has 12 which is liquidity now who gives liquidity to the market banks why play you want to buy a
+house what do you do take a loan yes you want to buy a car what do you do take a loan yes you want to buy
+a bike what do you do take a loan yes today Bajaj finance gives you a loan or an EMI to buy a
+denim right so in a country in a developing country like India most of this demand is fueled
+with EMI's or with loans right so what I'm trying to say is liquidity is actually a factor which is
+dependent on bank giving a lot of loans so if RBI wants to control inflation what RBI will have to
+actually do is make sure that banks give out less loans or people take less loans from the banks
+in hands whenever inflation goes up the first thing that RBI tries doing is increase interest rates
+right now what do I mean when I say increase interest rates so you can look at this as
+report increase in report why now look at it this way if RBI increases interest rates
+right then the banks then the banks of the money that the banks receive from the market will also be
+at a higher rate right because RBI will give money to banks at a higher rate in hands if banks are
+receiving money from the market at a higher rate banks are also expected to increase they are lending
+rates so if RBI increases interest rates banks get loan slightly expensive in hands banks would
+then try to make sure that when banks give out loans banks also make it expensive so now look at it
+this way if bank makes the loan expensive would you go ahead and buy the house that you were supposed to buy
+give it a thought today roughly a one crore rupee loan that you want to take from the bank would cost
+you 85 to 90 thousand rupees of EMI for 20 years if interest rates in the market increase by let's say
+50 pass up 50 basis points then your EMI will move to 95 thousand to one lakh rupees a month
+now not everybody will be comfortable that their EMI is moved up from 85 thousand to 95 thousand
+or or a lack of should be right in hands if inflation is increasing in the market and because of which
+interest rates are going up and banks are increasing their lending rates your EMI will become expensive
+so if your EMI becomes expensive would you buy the house right away or differ it you would
+to a certain extent differ it right would you buy the car on loan or differ it differ it would you buy
+the bike on loan or differ it differ it would you buy the laptop on loan or differ it differ it so I'm
+talking in general may not be the case with you you might say 5 thousand rupees is no big deal let me
+just buy right but I'm talking in general most people who end up taking an EMI are going to be cost
+effective right are going to be wondering whether this makes sense to be bought at this point in time
+or not which is why what happens is as soon as inflation goes up and interest rates are increased
+in the market suddenly people wanting to buy the house car buy laptop go down because their EMI
+will go up and incidentally the demand is reduced so nothing happens to the supply the supply is still
+the same but when demand reduces you are expecting that the price of the commodity will come down and
+that's how RBI tries to curtail inflation so what I'm trying to say is remember always as soon as
+inflation goes up the first thing that I've RBI tries doing is reduce liquidity in the market and
+one of the ways of reducing liquidity in the market is reducing interest rates now if interest rates
+sorry by increasing interest rates if interest rates are increased what and how will equity markets
+react so there are two ways of looking at it first demand now as soon as interest rates went up
+are you buying the house no are you buying the car no are you buying the bike no are you buying the
+laptop no so what do you think has happened to consumption consumption is reduced yes so how do you
+think real estate stocks will react if you're not going to buy the house real estate stocks will fall
+and because real estate stocks are falling do you think cement stocks will sustain no
+so cement stocks will fall do you think steel which is also used to build real estate will sustain
+no they'll fall how do you think car manufacturing stocks will react bike manufacturing stocks
+will react. All of these will fall because demand to a certain extent has fallen and because
+of which people in the market are now anticipating that because interest rates have gone up, demand
+has fallen and hence why the stocks should stay at the levels that they are. So real estate
+stocks will fall because you will defer your buying of house, cement stocks because if housing
+demand fall, cement demand will fall, steel demand will fall, car, maruti, susuki, tata motor,
+kind of stocks will fall because you are deferring buying or purchasing your car.
+Bajaj auto will fall because you are deferring purchasing your bike. So one way of looking at it is
+that the consumption led stocks will fall is because you are assuming consumption will fall.
+The second is you will have to understand that sectors like infra, sectors like power
+will also start falling is because they have very high debt on their balance sheet. Now what does
+that mean? So say for example an infra company took 5,000 crore worth of loan to villa highway
+and that loan was given at 8%. Now suddenly when inflation goes up in the market, interest rates are
+going up in the market that 8% loan will also become 9% loan yes. So if the 8% loan has become 9%
+do you think suddenly the infra companies revenue will start going up? No but expenses have gone up
+yes. So if expenses go up and revenue stays the same, how do you think the stocks will react?
+The stocks should fall. So there are two ways of looking at this when interest rates goes up,
+demand falls, demand for utility falls and hence these stocks should fall.
+And at the same time there are other sectors which will fall is because they have very heavy debt
+on their books, loans become expensive hence their debt becomes expensive, their expenses go up but
+their income is not going up, so the stock should fall. So you will see when interest rates go up,
+generally larger part of the equity market falls, larger part because like I said either the utility
+falls or the cost of loan has gone up and hence stocks fall. So when inflation goes up and interest rates
+you will see equity market broadly falling but are there green shoots within the equity markets
+or are there areas which will not fall even when the markets are falling? Yes. So there are pre-dominantly
+three sectors that you will see will not generally fall either to a greater extent, rather stay stable
+or even go up in cases are FMCG, Pharma and IIT. You will see these three sectors generally
+in this entire situation actually not falling rather staying stable or even going up in a couple of
+cases. Why do you think this happens? So let's try and understand. Tell me one thing what is FMCG?
+Fast moving consumer goods, the daily use products like soap, shampoo, oil,
+similar kind of products. Let me one thing if inflation goes up, interest rates go up and hypothetically
+as you, hypothetically that the soap that you are using was 50 rupees a bar has now become 52 rupees
+do you think that the consumption of the soap will go down because the price has gone up? No right
+let's say the oil has become 5 rupees expensive will you stop consuming the oil or reduce the usage of
+oil? No to a greater extent which is why in FMCG kind of stocks demand does not fall even when
+the price goes up. See in real estate, cement, steel, car, bike, the demand fell. In FMCG the demand
+does not fall is because 2-5 rupees you are in there you don't stop consuming the product.
+So if the demand is not supposed to fall in FMCG why should the stock fall? Of course,
+your argument can be the stock may not fall but why should the stock go up? Good question.
+So let's say you are a fund manager and you know that inflation is going up, interest rates are
+going up and I know now real estate, cement, steel, car, bike, infra power are supposed to fall.
+What do you do? Do you hold on to those stocks or other sell them? So let's say you sold those shares
+and now do you stank cash? You don't want to stank cash right? You want to invest it in the equity
+market but where? So you look at FMCG at one area where you can invest is because unlike all the
+other sectors the demand is at least constant. So what you do is when interest rates go up,
+inflation go up, you remove money from real estate, cement, you do not want to stank cash,
+you want to pocket somewhere. So you pocket in FMCG is because at least the demand is constant
+unlike the other sectors whether demand is falling and hence suddenly because the money moves
+from real estate cement infra kind of stocks to FMCG, FMCG stocks either stay stable or go up in the
+same scenario that we have discussed. I hope this is understood. To a certain extent, Farma also has
+the same story. You and I don't stop consuming, crossing just because it's become expensive,
+you and I have a problem. We have to take a medicine. We take that medicine in respect of the
+cost. But there is a larger angle to why Farma and IT stocks generally will not fall or stay stable
+in a broadly falling market. And the answer to that question is currency. What you have to understand
+and please understand is that Farma and IT are amongst the top three export oriented sectors
+in our country, which means Farma and IT generate a larger part of their business by exporting their
+products. So now you understand if they are into exports, what currency are they making money?
+Dollars, right? So now understand this concept. When markets are falling, equity markets are falling,
+what do you think FIs are doing? FIs are also selling, right? So if equity markets are falling,
+I'm assuming FIs are also selling. So let's say FIs sold the reliance shares that it had.
+What currency did FIs receive? Rupees, because when you sell reliance,
+stock in the Indian market, you receive rupees, right? Now as FIs, do you take rupees back home? No,
+you want dollars. So what you do is when equity markets fall and you want to take the money back home,
+you sell rupee, you sell rupee, after having sold equity, the rupee that you receive,
+you sell rupee, right? And you buy dollar. Now understand if you are going to sell rupee in such huge
+quantity in the market, the value of rupee is going to deteriorate fall. And you're going to buy
+such huge quantity of dollar from the market, the value of dollar is going to go up,
+which is exactly why when equity market falls, you will after that see rupee falling and dollar going up.
+Let me give you a simpler example. Let's say if inflation is going up, what does that mean?
+Inflation going up means that your purchasing power is reducing, which means rupees falling as
+simple as that, right? So you can use multiple ways to understand, but the point that I'm trying to
+make is when equity market falls, after that rupee also falls and dollar goes up. Dollar going up means
+that if one dollar was 65 rupees, one dollar becomes 70 rupees, this is what we say
+when I say dollar went up, right? So I used to give 65 rupees to buy, let's say, one dollar worth of
+crude. Now the value of crude is one dollar only, but I'll have to give 70 rupees to buy that.
+Value of rupee falls, value of dollar goes up when the equity market falls, which means
+that if I'm a farmer and an IT company, if prior to inflation, while I was receiving one dollar,
+I got 65 rupees, now if I receive one dollar, I will receive 70 rupees. So my rupee income has gone up.
+I'm still getting paid the same amount of dollars, but in terms of rupee, my income has gone up and
+hence my stock does not fall, but rather go up. Very quick revision, I'm saying if inflation goes
+up, interest rates will go up, if interest rates go up, typically UNI will not buy real estate and hence
+real estate cement and steel stocks go down. UNI will differ buying a car and a bike and hence auto
+stocks go down. Generally, what happens in an infrain of our company, kind of companies that they're
+extremely heavy on debt, their debt becomes expensive, but their income is still the same,
+those stocks go down. So we are saying generally equity market falls when inflation and interest
+rates rise, but we are saying FMCG, farm and IT don't fall for two reasons, because over there,
+the consumption does not fall, consumption of pharmaceuticals, consumption of FMCG does not fall,
+and also especially in case of farm and IT because they are export oriented.
+And when market falls, dollar goes up and rupee falls, their dollar income stays the same,
+but rupee income goes up and hence those stocks don't fall, right? What happens to gold,
+let's say in the same situation, gold also goes up. Why? Is because, not because what the theory
+says that when equity is falling, people don't want to take risk and they start chasing gold and gold
+goes up. In India, the context is slightly different. We as Indians are net importer of gold.
+What currency do we import gold in dollar? So let's say before inflation, one dollar was 65.
+So I got one dollar worth of gold. How much was it in India to be 65? Now I have that gold.
+It is still one dollar, but how much is one dollar become 70? So the gold that I bought for one dollar,
+which to me as Indian lending price was 65, today the same gold internationally is one dollar only,
+but how much is one dollar in India 70? So the gold that I bought for 65 rupees has become 70,
+though the dollar value is still one dollar, which is by the 65 rupees of gold goes up and becomes 70,
+because when the market falls, dollar goes up. So when the market falls, dollar goes up and hence
+gold goes up because we import. That's exactly the reason why crude goes up because we import crude,
+because we are importing crude and hence crude also goes up. The point that I'm trying to make is
+that when interest rates go up, inflation go up, equity market falls, dollar goes up and hence crude
+and gold goes up. How do you think bonds react in this situation? There is an extensive
+chapter that we do in another program which is how to pick the right debt fund, but in very simple
+context, you know when interest rates go up, bond markets fall. Why? Because let's say if you have a
+bond today that you've invested in which gives you six percent and then interest rate in the market
+increases to seven percent, you are holding a bond which is paying you lower than what the new
+interest rate in the market is. Now because your interest rate is lower than the market interest rate,
+because your bond coupon is six percent and the market interest rate bond is at seven percent,
+your bond value is lower and hence the bond falls. In macro, personally, if you really ask me,
+you do not need to track anything else except inflation and interest rate, you would know where exactly
+everything else will move in the market. So if you only track, if you only track inflation and you
+see inflation going up, you will have to assume interest rates are going up and if interest rates are
+up, you know equity markets will fall. If equity markets fall, you know rupee falls, you know dollar
+goes up and so you know gold will go up, crude will go up and bonds will go up. This is exactly how
+equity markets function. You do not really have to track fiscal deficit, current account deficit,
+forex reserves in our country, where is the crude economy, just track inflation interest rate and you will
+know exactly how all asset classes will behave. It is actually as simple as this.
+So in a growing inflationary situation, you know how this works. What if there is a situation where
+interest rates are let's say hypothetically reducing in the market. So let's say inflation is now
+going down. I am talking of a situation where inflation is now going down. What happens if inflation
+is going down? If inflation is going down, right, which means the exact opposite interest rates will
+start going down because if inflation is going down, what does that mean? Inflation going down means
+that there is hardly anybody who is buying any assets in the market, right, to make sure, to make sure
+that people buy assets in the market, they buy a house, they buy car, they buy bike, right,
+are behind decreases interest rates. If RBI decreases interest rates, your EMI on house, car,
+bike, laptop all goes down. Enhance consumption is expected to increase, which is why you say,
+which is why people start buying house real estate goes up. Enhance, cement rents, steel goes up,
+car goes up because you will start buying cars, bike companies go up. Again, because interest rates
+are going to drop. The older long that I have taken will reduce in interest rate. My income is still
+the same. My expenses go down. Enhance companies with larger debt, ideally benefit of this situation.
+And hence we say overall equity markets will go up. How will FMCG Farma and IT react? The opposite.
+Why? Okay, so now you will say FMCG, in FMCG just because interest rates have gone down,
+why should the stock go down? So my point is, if interest rates have gone down, right,
+an inflation has gone down. The soap that you are using for 50 rupees, let's say a high
+pathetic killing now becomes 48. Does that mean you start using the soap more?
+All right. So what I am trying to say is consumption does not increase because interest rates have
+gone down in FMCG, right? So consumption in FMCG is the same, but consumption in cement, steel,
+automobile has gone up. Now if you were the fund manager and there are two options, there is one FMCG
+where consumption is same. There is another real estate, steel cement where consumption is expected
+to increase. Where do you want to put money? Of course, whether consumption is increasing, right? So
+you remove money out of FMCG and put that money in where the consumption is increasing. Hence FMCG
+either will stay stable or fall in the situation. Why will Farma and IT fall same logic?
+If inflation is going down, which means your purchasing power will increase,
+rupee will go up, dollar will fall. If dollar is supposed to fall, 65 dollar will now become 60.
+So FMCG and Farma, where I was receiving money in dollar, I am going to receive the same $1,
+but how much is $1 now? 60. I was receiving 65 in the past. Now I am receiving 60. How do you think
+my stocks will react? Will fall. Gold will fall, crude will fall. Why? Is because the $1 gold that I
+bought at 65? Now in Indian context is how much? 60 rupees. Internationally, the gold may be $1,
+but in Indian context, the 65 rupee gold has become 60. Similarly, with crude, so gold and
+crude will fall. Why will bonds go up? Bonds will go up. For a simple reason, that interest rates have
+gone down. So if I have hold a bond with 6% coupon and if interest rates in the market have gone down,
+so the new bond in the market will be 5% coupon, but I have a 6% coupon bond. So my bond will be
+valued higher. So the prices will be off. This is exactly how everything in the market functions.
+Just click a snap of this and you will know this is how markets function. You do not ideally need
+to track hundreds of things in macro. Just keep an eye on inflation and interest rate and you will
+know where equity markets are going. One, very practical discussion is something that I want to
+help you understand now. So we are basically saying that if inflation goes up, interest rates go up
+and hence equity funds. While this is absolutely correct, there is one element that you and I have to
+understand. In that element is, inflation actually going up also means that there is purchasing power,
+and hence it should be positive for equity as well. What I want you to understand is always remember,
+RBI will time and again come out with their levels that they are comfortable with in terms of
+inflation. Currently that you and I discuss, RBI says that I am very comfortable with inflation between
+4 and 6%. So now if inflation stays between 4 and 6%, it may not be negative. So if inflation
+today is 4 and it becomes 5 and then it becomes 6 is actually not negative. It only demonstrates
+that the GDP is doing well. People have money and hence people are spending that money and because
+people are spending money, GDP is going up and hence inflation is going up. So use this entire
+context that I explained to you as below 4% theory and above 6% theory. So if inflation goes above
+6%, it can be negative for equities and if inflation falls below 4%, from there on it can become positive
+for equities is because below 4%, RBI will start reducing interest rates and hence you can start
+accumulating stocks for a longer duration and above 6%, RBI will start increasing interest rates.
+Is where you will start becoming slightly negative for equities. So use this entire context that I
+explained to you with RBI's 4% and 6% range in money. I hope I could have made or I have made
+macroeconomics very simple for you and help you understand why you can track this entire asset space
+by just tracking inflation and interest rate, forget about everything else that people complicate
+your and my world within terms of macroeconomics. Thank you so much.

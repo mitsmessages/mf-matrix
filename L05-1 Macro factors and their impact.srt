@@ -1,0 +1,1104 @@
+1
+00:00:05,870 --> 00:00:12,589
+morning everybody welcome back so after that after we learned what is asset allocation
+
+2
+00:00:13,630 --> 00:00:19,469
+what is the importance of asset allocation and post determining asset allocations of the client
+
+3
+00:00:19,469 --> 00:00:25,920
+we've also learned how to do goal based planning for the client. Now before we move on to actually
+
+4
+00:00:25,920 --> 00:00:32,320
+picking the right equity mutual fund there is one gap that we'll have to reach between
+
+5
+00:00:32,320 --> 00:00:39,600
+selecting the fund and what the client wants is understanding a little about macro economics.
+
+6
+00:00:40,159 --> 00:00:47,200
+Now I have seen a lot of people in the industry go gala or crazy about trying to track macros
+
+7
+00:00:47,200 --> 00:00:57,119
+very deeply closely but in my honest opinion macro economics is very simple and it's just that we
+
+8
+00:00:57,119 --> 00:01:02,560
+keep complicating it because there are so many macros that we really want to end up tracking
+
+9
+00:01:03,280 --> 00:01:10,239
+so you see GDP you see current account deficit fiscal deficit you see where is the CPI moving
+
+10
+00:01:10,239 --> 00:01:17,760
+WPI moving what is happening to Forex reserves in the country and various other factors that you and I
+
+11
+00:01:17,760 --> 00:01:26,159
+all look at making macro economics very complicated and a little practical a little less practical to be
+
+12
+00:01:26,159 --> 00:01:36,239
+used so I'm going to try and give you a solution of how to make macro economics look simple and usable
+
+13
+00:01:36,239 --> 00:01:44,719
+practical in my opinion macro economics again can be completely tracked by just looking at one
+
+14
+00:01:44,719 --> 00:01:51,019
+data point which is inflation because everything else that you and I see macro economics
+
+15
+00:01:51,579 --> 00:01:57,579
+directly or indirectly ends up affecting inflation and hence end up affecting interest rates.
+
+16
+00:01:58,620 --> 00:02:04,299
+So what I'm trying to tell you is ignore everything else that you hear in macro economics around you
+
+17
+00:02:04,299 --> 00:02:12,300
+in terms of crude in terms of current account deficit going up going down GDP going up going down
+
+18
+00:02:12,300 --> 00:02:19,659
+and channelize your entire energy and keep a track only on where inflation and interest rates are
+
+19
+00:02:20,300 --> 00:02:28,379
+into a greater extent in my opinion you should be able to understand how and where assets are supposed
+
+20
+00:02:28,379 --> 00:02:34,060
+to move now why do I make that comment let me explain to you so I'm going to help you understand
+
+21
+00:02:34,060 --> 00:02:41,020
+from the very brief of why inflation and interest rates are enough for you to be able to predict
+
+22
+00:02:41,020 --> 00:02:47,180
+looking at macros where to a greater extent assets can move let's try and understand
+
+23
+00:02:48,689 --> 00:02:56,129
+so to start with very basic what is inflation now we say inflation is rising prices of commodities
+
+24
+00:02:56,770 --> 00:03:02,210
+so we are saying that probably today this laptop is available at 60 grand tomorrow if it is available
+
+25
+00:03:02,210 --> 00:03:09,169
+at 60 grand we say inflation has gone up and rising prices of commodities of products is what we
+
+26
+00:03:09,250 --> 00:03:16,289
+call as inflation now my point is why does inflation take place so in my opinion there are
+
+27
+00:03:16,289 --> 00:03:22,610
+two reasons why inflation takes place first of course most of us know and we've learned this
+
+28
+00:03:22,610 --> 00:03:29,810
+called demanding supply so we say while demanding increases and supply is less inflation can go up
+
+29
+00:03:29,810 --> 00:03:35,969
+let me give you an example so let's say this is one laptop that you and I both want to buy and let's
+
+30
+00:03:35,969 --> 00:03:41,569
+say there are hundreds of us that want to buy this laptop there is only this one laptop available
+
+31
+00:03:41,569 --> 00:03:47,810
+we say demand is high because there are 100 people who want to buy this laptop supply is less because
+
+32
+00:03:47,810 --> 00:03:52,689
+there is only one laptop and hence the price will go up why will the price go up the price will go up
+
+33
+00:03:52,689 --> 00:03:58,770
+because though the manufacturer wants to sell it for 50 he knows there is a lot of demand there is
+
+34
+00:03:58,770 --> 00:04:05,009
+going to be somebody who will be willing to pay 51,000 to buy this somebody willing to pay 53,000
+
+35
+00:04:05,009 --> 00:04:11,169
+and there will also be somebody who will be willing to pay 55,000 for the laptop and hence
+
+36
+00:04:11,169 --> 00:04:18,290
+because of less supply and huge demand the price of the laptop from 50 becomes 55 and that is what
+
+37
+00:04:18,290 --> 00:04:29,920
+you and I call as inflation now to me inflation is slightly beyond just demanding supply so let's look
+
+38
+00:04:29,920 --> 00:04:35,920
+at this entire situation where there are hundreds of us who want to buy this laptop there is only one
+
+39
+00:04:36,319 --> 00:04:44,860
+laptop there is this demand supply gap but none of us have money so if none of us have money or liquidity
+
+40
+00:04:45,420 --> 00:04:51,180
+do you think in spite of there being such a huge demand supply gap the price of the laptop will go up
+
+41
+00:04:51,899 --> 00:04:57,339
+I don't think so it's because if you and I don't have money from where will we pay 51,000,
+
+42
+00:04:57,339 --> 00:05:05,259
+53,000 or 55,000 for a 50,000 product and increase the price of the product right so what I'm trying
+
+43
+00:05:05,259 --> 00:05:12,139
+to reach to is inflation does not happen only because of demand and supply inflation happens in
+
+44
+00:05:12,139 --> 00:05:19,500
+a scenario where there is demand supply gap but also there is liquidity in the market
+
+45
+00:05:20,860 --> 00:05:28,459
+you and I have money because of which the demand supply gap leads to inflation I hope that is very
+
+46
+00:05:28,459 --> 00:05:34,459
+categorically understood so we are saying inflation not just happens because of demand and supply but
+
+47
+00:05:34,459 --> 00:05:41,740
+inflation happens because demand and supply is back to it or fueled with or accompanied with liquidity
+
+48
+00:05:41,740 --> 00:05:49,180
+in the market and hence demand and supply gap leads to inflation let me whose job is it to control
+
+49
+00:05:49,180 --> 00:05:55,899
+inflation RBI right now if RBI wants to control inflation and RBI knows that there are two reasons
+
+50
+00:05:55,899 --> 00:06:02,860
+why inflation is happening demand and supply and liquidity do you think RBI can do anything with
+
+51
+00:06:02,860 --> 00:06:09,740
+demand and supply the answer is no why neither can RBI go to the manufacturer and say why aren't you
+
+52
+00:06:09,740 --> 00:06:15,339
+producing more when there is a lot of demand nor can RBI come to you and me and say why are you
+
+53
+00:06:15,339 --> 00:06:22,540
+consuming so much because of you the prices are going up so RBI actually want to control inflation
+
+54
+00:06:22,540 --> 00:06:30,139
+cannot do anything with demand and supply so the only tool that RBI has to control inflation
+
+55
+00:06:30,699 --> 00:06:38,620
+is control liquidity if somehow RBI can reduce money in the market then you and I will have less money
+
+56
+00:06:38,620 --> 00:06:45,819
+and hence we will not be able to increase the price to 61, 63, 65 and hence probably
+
+57
+00:06:46,379 --> 00:06:54,160
+there is a possibility that inflation can come down which means RBI wants to control inflation RBI
+
+58
+00:06:54,240 --> 00:07:03,839
+only has 12 which is liquidity now who gives liquidity to the market banks why play you want to buy a
+
+59
+00:07:03,839 --> 00:07:10,160
+house what do you do take a loan yes you want to buy a car what do you do take a loan yes you want to buy
+
+60
+00:07:10,160 --> 00:07:17,279
+a bike what do you do take a loan yes today Bajaj finance gives you a loan or an EMI to buy a
+
+61
+00:07:17,279 --> 00:07:26,720
+denim right so in a country in a developing country like India most of this demand is fueled
+
+62
+00:07:26,720 --> 00:07:35,120
+with EMI's or with loans right so what I'm trying to say is liquidity is actually a factor which is
+
+63
+00:07:35,120 --> 00:07:42,160
+dependent on bank giving a lot of loans so if RBI wants to control inflation what RBI will have to
+
+64
+00:07:42,240 --> 00:07:49,360
+actually do is make sure that banks give out less loans or people take less loans from the banks
+
+65
+00:07:49,360 --> 00:07:58,160
+in hands whenever inflation goes up the first thing that RBI tries doing is increase interest rates
+
+66
+00:08:00,769 --> 00:08:06,290
+right now what do I mean when I say increase interest rates so you can look at this as
+
+67
+00:08:06,370 --> 00:08:14,660
+report increase in report why now look at it this way if RBI increases interest rates
+
+68
+00:08:15,540 --> 00:08:23,939
+right then the banks then the banks of the money that the banks receive from the market will also be
+
+69
+00:08:23,939 --> 00:08:33,389
+at a higher rate right because RBI will give money to banks at a higher rate in hands if banks are
+
+70
+00:08:33,389 --> 00:08:40,830
+receiving money from the market at a higher rate banks are also expected to increase they are lending
+
+71
+00:08:40,830 --> 00:08:51,899
+rates so if RBI increases interest rates banks get loan slightly expensive in hands banks would
+
+72
+00:08:51,899 --> 00:08:58,059
+then try to make sure that when banks give out loans banks also make it expensive so now look at it
+
+73
+00:08:58,220 --> 00:09:05,259
+this way if bank makes the loan expensive would you go ahead and buy the house that you were supposed to buy
+
+74
+00:09:05,740 --> 00:09:13,019
+give it a thought today roughly a one crore rupee loan that you want to take from the bank would cost
+
+75
+00:09:13,019 --> 00:09:23,759
+you 85 to 90 thousand rupees of EMI for 20 years if interest rates in the market increase by let's say
+
+76
+00:09:23,759 --> 00:09:32,740
+50 pass up 50 basis points then your EMI will move to 95 thousand to one lakh rupees a month
+
+77
+00:09:33,820 --> 00:09:39,899
+now not everybody will be comfortable that their EMI is moved up from 85 thousand to 95 thousand
+
+78
+00:09:39,899 --> 00:09:46,940
+or or a lack of should be right in hands if inflation is increasing in the market and because of which
+
+79
+00:09:47,019 --> 00:09:56,340
+interest rates are going up and banks are increasing their lending rates your EMI will become expensive
+
+80
+00:09:56,340 --> 00:10:02,909
+so if your EMI becomes expensive would you buy the house right away or differ it you would
+
+81
+00:10:02,909 --> 00:10:09,710
+to a certain extent differ it right would you buy the car on loan or differ it differ it would you buy
+
+82
+00:10:09,710 --> 00:10:16,909
+the bike on loan or differ it differ it would you buy the laptop on loan or differ it differ it so I'm
+
+83
+00:10:16,909 --> 00:10:22,669
+talking in general may not be the case with you you might say 5 thousand rupees is no big deal let me
+
+84
+00:10:22,669 --> 00:10:30,429
+just buy right but I'm talking in general most people who end up taking an EMI are going to be cost
+
+85
+00:10:30,429 --> 00:10:37,309
+effective right are going to be wondering whether this makes sense to be bought at this point in time
+
+86
+00:10:37,389 --> 00:10:44,110
+or not which is why what happens is as soon as inflation goes up and interest rates are increased
+
+87
+00:10:44,110 --> 00:10:51,950
+in the market suddenly people wanting to buy the house car buy laptop go down because their EMI
+
+88
+00:10:51,950 --> 00:11:00,159
+will go up and incidentally the demand is reduced so nothing happens to the supply the supply is still
+
+89
+00:11:00,159 --> 00:11:06,159
+the same but when demand reduces you are expecting that the price of the commodity will come down and
+
+90
+00:11:06,159 --> 00:11:15,039
+that's how RBI tries to curtail inflation so what I'm trying to say is remember always as soon as
+
+91
+00:11:15,039 --> 00:11:22,080
+inflation goes up the first thing that I've RBI tries doing is reduce liquidity in the market and
+
+92
+00:11:22,080 --> 00:11:29,039
+one of the ways of reducing liquidity in the market is reducing interest rates now if interest rates
+
+93
+00:11:29,600 --> 00:11:38,690
+sorry by increasing interest rates if interest rates are increased what and how will equity markets
+
+94
+00:11:38,690 --> 00:11:45,649
+react so there are two ways of looking at it first demand now as soon as interest rates went up
+
+95
+00:11:45,649 --> 00:11:51,009
+are you buying the house no are you buying the car no are you buying the bike no are you buying the
+
+96
+00:11:51,009 --> 00:11:59,730
+laptop no so what do you think has happened to consumption consumption is reduced yes so how do you
+
+97
+00:11:59,730 --> 00:12:06,909
+think real estate stocks will react if you're not going to buy the house real estate stocks will fall
+
+98
+00:12:07,549 --> 00:12:13,889
+and because real estate stocks are falling do you think cement stocks will sustain no
+
+99
+00:12:13,889 --> 00:12:21,679
+so cement stocks will fall do you think steel which is also used to build real estate will sustain
+
+100
+00:12:21,679 --> 00:12:28,820
+no they'll fall how do you think car manufacturing stocks will react bike manufacturing stocks
+
+101
+00:12:28,820 --> 00:12:37,620
+will react. All of these will fall because demand to a certain extent has fallen and because
+
+102
+00:12:37,620 --> 00:12:45,379
+of which people in the market are now anticipating that because interest rates have gone up, demand
+
+103
+00:12:45,379 --> 00:12:52,100
+has fallen and hence why the stocks should stay at the levels that they are. So real estate
+
+104
+00:12:52,100 --> 00:12:58,980
+stocks will fall because you will defer your buying of house, cement stocks because if housing
+
+105
+00:12:58,980 --> 00:13:05,700
+demand fall, cement demand will fall, steel demand will fall, car, maruti, susuki, tata motor,
+
+106
+00:13:05,700 --> 00:13:09,299
+kind of stocks will fall because you are deferring buying or purchasing your car.
+
+107
+00:13:09,860 --> 00:13:16,019
+Bajaj auto will fall because you are deferring purchasing your bike. So one way of looking at it is
+
+108
+00:13:16,019 --> 00:13:22,580
+that the consumption led stocks will fall is because you are assuming consumption will fall.
+
+109
+00:13:23,899 --> 00:13:32,240
+The second is you will have to understand that sectors like infra, sectors like power
+
+110
+00:13:33,200 --> 00:13:41,039
+will also start falling is because they have very high debt on their balance sheet. Now what does
+
+111
+00:13:41,039 --> 00:13:48,159
+that mean? So say for example an infra company took 5,000 crore worth of loan to villa highway
+
+112
+00:13:49,120 --> 00:13:56,129
+and that loan was given at 8%. Now suddenly when inflation goes up in the market, interest rates are
+
+113
+00:13:56,129 --> 00:14:05,600
+going up in the market that 8% loan will also become 9% loan yes. So if the 8% loan has become 9%
+
+114
+00:14:06,320 --> 00:14:12,879
+do you think suddenly the infra companies revenue will start going up? No but expenses have gone up
+
+115
+00:14:12,879 --> 00:14:19,759
+yes. So if expenses go up and revenue stays the same, how do you think the stocks will react?
+
+116
+00:14:19,759 --> 00:14:26,259
+The stocks should fall. So there are two ways of looking at this when interest rates goes up,
+
+117
+00:14:26,899 --> 00:14:34,659
+demand falls, demand for utility falls and hence these stocks should fall.
+
+118
+00:14:36,340 --> 00:14:44,820
+And at the same time there are other sectors which will fall is because they have very heavy debt
+
+119
+00:14:44,820 --> 00:14:51,299
+on their books, loans become expensive hence their debt becomes expensive, their expenses go up but
+
+120
+00:14:51,299 --> 00:14:57,379
+their income is not going up, so the stock should fall. So you will see when interest rates go up,
+
+121
+00:14:58,179 --> 00:15:07,539
+generally larger part of the equity market falls, larger part because like I said either the utility
+
+122
+00:15:07,539 --> 00:15:16,580
+falls or the cost of loan has gone up and hence stocks fall. So when inflation goes up and interest rates
+
+123
+00:15:17,299 --> 00:15:24,740
+you will see equity market broadly falling but are there green shoots within the equity markets
+
+124
+00:15:25,379 --> 00:15:33,379
+or are there areas which will not fall even when the markets are falling? Yes. So there are pre-dominantly
+
+125
+00:15:33,379 --> 00:15:41,340
+three sectors that you will see will not generally fall either to a greater extent, rather stay stable
+
+126
+00:15:41,419 --> 00:15:55,379
+or even go up in cases are FMCG, Pharma and IIT. You will see these three sectors generally
+
+127
+00:15:56,019 --> 00:16:04,419
+in this entire situation actually not falling rather staying stable or even going up in a couple of
+
+128
+00:16:04,419 --> 00:16:11,730
+cases. Why do you think this happens? So let's try and understand. Tell me one thing what is FMCG?
+
+129
+00:16:12,450 --> 00:16:21,490
+Fast moving consumer goods, the daily use products like soap, shampoo, oil,
+
+130
+00:16:23,570 --> 00:16:31,490
+similar kind of products. Let me one thing if inflation goes up, interest rates go up and hypothetically
+
+131
+00:16:31,490 --> 00:16:40,210
+as you, hypothetically that the soap that you are using was 50 rupees a bar has now become 52 rupees
+
+132
+00:16:41,090 --> 00:16:47,629
+do you think that the consumption of the soap will go down because the price has gone up? No right
+
+133
+00:16:47,629 --> 00:16:53,389
+let's say the oil has become 5 rupees expensive will you stop consuming the oil or reduce the usage of
+
+134
+00:16:53,389 --> 00:17:05,420
+oil? No to a greater extent which is why in FMCG kind of stocks demand does not fall even when
+
+135
+00:17:05,420 --> 00:17:14,420
+the price goes up. See in real estate, cement, steel, car, bike, the demand fell. In FMCG the demand
+
+136
+00:17:14,420 --> 00:17:19,700
+does not fall is because 2-5 rupees you are in there you don't stop consuming the product.
+
+137
+00:17:20,480 --> 00:17:26,269
+So if the demand is not supposed to fall in FMCG why should the stock fall? Of course,
+
+138
+00:17:26,910 --> 00:17:34,589
+your argument can be the stock may not fall but why should the stock go up? Good question.
+
+139
+00:17:34,589 --> 00:17:40,829
+So let's say you are a fund manager and you know that inflation is going up, interest rates are
+
+140
+00:17:40,829 --> 00:17:48,269
+going up and I know now real estate, cement, steel, car, bike, infra power are supposed to fall.
+
+141
+00:17:48,269 --> 00:17:56,750
+What do you do? Do you hold on to those stocks or other sell them? So let's say you sold those shares
+
+142
+00:17:57,869 --> 00:18:03,599
+and now do you stank cash? You don't want to stank cash right? You want to invest it in the equity
+
+143
+00:18:03,599 --> 00:18:11,200
+market but where? So you look at FMCG at one area where you can invest is because unlike all the
+
+144
+00:18:11,200 --> 00:18:16,559
+other sectors the demand is at least constant. So what you do is when interest rates go up,
+
+145
+00:18:16,559 --> 00:18:23,039
+inflation go up, you remove money from real estate, cement, you do not want to stank cash,
+
+146
+00:18:23,039 --> 00:18:29,440
+you want to pocket somewhere. So you pocket in FMCG is because at least the demand is constant
+
+147
+00:18:29,440 --> 00:18:35,359
+unlike the other sectors whether demand is falling and hence suddenly because the money moves
+
+148
+00:18:35,359 --> 00:18:44,079
+from real estate cement infra kind of stocks to FMCG, FMCG stocks either stay stable or go up in the
+
+149
+00:18:44,079 --> 00:18:51,230
+same scenario that we have discussed. I hope this is understood. To a certain extent, Farma also has
+
+150
+00:18:51,230 --> 00:18:57,809
+the same story. You and I don't stop consuming, crossing just because it's become expensive,
+
+151
+00:18:58,609 --> 00:19:03,250
+you and I have a problem. We have to take a medicine. We take that medicine in respect of the
+
+152
+00:19:03,250 --> 00:19:14,109
+cost. But there is a larger angle to why Farma and IT stocks generally will not fall or stay stable
+
+153
+00:19:14,109 --> 00:19:23,069
+in a broadly falling market. And the answer to that question is currency. What you have to understand
+
+154
+00:19:23,869 --> 00:19:33,549
+and please understand is that Farma and IT are amongst the top three export oriented sectors
+
+155
+00:19:33,549 --> 00:19:42,220
+in our country, which means Farma and IT generate a larger part of their business by exporting their
+
+156
+00:19:42,220 --> 00:19:47,660
+products. So now you understand if they are into exports, what currency are they making money?
+
+157
+00:19:48,660 --> 00:19:56,609
+Dollars, right? So now understand this concept. When markets are falling, equity markets are falling,
+
+158
+00:19:56,609 --> 00:20:05,220
+what do you think FIs are doing? FIs are also selling, right? So if equity markets are falling,
+
+159
+00:20:05,779 --> 00:20:12,420
+I'm assuming FIs are also selling. So let's say FIs sold the reliance shares that it had.
+
+160
+00:20:12,420 --> 00:20:17,380
+What currency did FIs receive? Rupees, because when you sell reliance,
+
+161
+00:20:17,380 --> 00:20:24,740
+stock in the Indian market, you receive rupees, right? Now as FIs, do you take rupees back home? No,
+
+162
+00:20:24,740 --> 00:20:33,460
+you want dollars. So what you do is when equity markets fall and you want to take the money back home,
+
+163
+00:20:33,460 --> 00:20:41,470
+you sell rupee, you sell rupee, after having sold equity, the rupee that you receive,
+
+164
+00:20:41,470 --> 00:20:49,089
+you sell rupee, right? And you buy dollar. Now understand if you are going to sell rupee in such huge
+
+165
+00:20:49,089 --> 00:20:54,769
+quantity in the market, the value of rupee is going to deteriorate fall. And you're going to buy
+
+166
+00:20:54,769 --> 00:20:59,329
+such huge quantity of dollar from the market, the value of dollar is going to go up,
+
+167
+00:21:00,210 --> 00:21:06,930
+which is exactly why when equity market falls, you will after that see rupee falling and dollar going up.
+
+168
+00:21:07,809 --> 00:21:12,529
+Let me give you a simpler example. Let's say if inflation is going up, what does that mean?
+
+169
+00:21:13,170 --> 00:21:18,910
+Inflation going up means that your purchasing power is reducing, which means rupees falling as
+
+170
+00:21:18,910 --> 00:21:27,980
+simple as that, right? So you can use multiple ways to understand, but the point that I'm trying to
+
+171
+00:21:27,980 --> 00:21:36,660
+make is when equity market falls, after that rupee also falls and dollar goes up. Dollar going up means
+
+172
+00:21:36,660 --> 00:21:43,059
+that if one dollar was 65 rupees, one dollar becomes 70 rupees, this is what we say
+
+173
+00:21:44,500 --> 00:21:54,859
+when I say dollar went up, right? So I used to give 65 rupees to buy, let's say, one dollar worth of
+
+174
+00:21:54,859 --> 00:22:01,500
+crude. Now the value of crude is one dollar only, but I'll have to give 70 rupees to buy that.
+
+175
+00:22:01,500 --> 00:22:07,500
+Value of rupee falls, value of dollar goes up when the equity market falls, which means
+
+176
+00:22:07,500 --> 00:22:15,039
+that if I'm a farmer and an IT company, if prior to inflation, while I was receiving one dollar,
+
+177
+00:22:15,039 --> 00:22:24,019
+I got 65 rupees, now if I receive one dollar, I will receive 70 rupees. So my rupee income has gone up.
+
+178
+00:22:24,769 --> 00:22:30,210
+I'm still getting paid the same amount of dollars, but in terms of rupee, my income has gone up and
+
+179
+00:22:30,210 --> 00:22:37,660
+hence my stock does not fall, but rather go up. Very quick revision, I'm saying if inflation goes
+
+180
+00:22:37,660 --> 00:22:47,259
+up, interest rates will go up, if interest rates go up, typically UNI will not buy real estate and hence
+
+181
+00:22:47,259 --> 00:22:52,700
+real estate cement and steel stocks go down. UNI will differ buying a car and a bike and hence auto
+
+182
+00:22:52,700 --> 00:22:58,500
+stocks go down. Generally, what happens in an infrain of our company, kind of companies that they're
+
+183
+00:22:58,500 --> 00:23:03,460
+extremely heavy on debt, their debt becomes expensive, but their income is still the same,
+
+184
+00:23:03,460 --> 00:23:10,819
+those stocks go down. So we are saying generally equity market falls when inflation and interest
+
+185
+00:23:10,819 --> 00:23:17,220
+rates rise, but we are saying FMCG, farm and IT don't fall for two reasons, because over there,
+
+186
+00:23:17,220 --> 00:23:23,460
+the consumption does not fall, consumption of pharmaceuticals, consumption of FMCG does not fall,
+
+187
+00:23:23,539 --> 00:23:27,380
+and also especially in case of farm and IT because they are export oriented.
+
+188
+00:23:28,180 --> 00:23:34,019
+And when market falls, dollar goes up and rupee falls, their dollar income stays the same,
+
+189
+00:23:34,019 --> 00:23:42,109
+but rupee income goes up and hence those stocks don't fall, right? What happens to gold,
+
+190
+00:23:42,109 --> 00:23:49,789
+let's say in the same situation, gold also goes up. Why? Is because, not because what the theory
+
+191
+00:23:49,869 --> 00:23:56,109
+says that when equity is falling, people don't want to take risk and they start chasing gold and gold
+
+192
+00:23:56,109 --> 00:24:03,309
+goes up. In India, the context is slightly different. We as Indians are net importer of gold.
+
+193
+00:24:03,869 --> 00:24:10,109
+What currency do we import gold in dollar? So let's say before inflation, one dollar was 65.
+
+194
+00:24:11,440 --> 00:24:17,839
+So I got one dollar worth of gold. How much was it in India to be 65? Now I have that gold.
+
+195
+00:24:17,839 --> 00:24:24,579
+It is still one dollar, but how much is one dollar become 70? So the gold that I bought for one dollar,
+
+196
+00:24:24,579 --> 00:24:32,420
+which to me as Indian lending price was 65, today the same gold internationally is one dollar only,
+
+197
+00:24:32,420 --> 00:24:39,619
+but how much is one dollar in India 70? So the gold that I bought for 65 rupees has become 70,
+
+198
+00:24:39,619 --> 00:24:46,799
+though the dollar value is still one dollar, which is by the 65 rupees of gold goes up and becomes 70,
+
+199
+00:24:46,799 --> 00:24:52,799
+because when the market falls, dollar goes up. So when the market falls, dollar goes up and hence
+
+200
+00:24:52,799 --> 00:24:59,920
+gold goes up because we import. That's exactly the reason why crude goes up because we import crude,
+
+201
+00:25:01,599 --> 00:25:07,519
+because we are importing crude and hence crude also goes up. The point that I'm trying to make is
+
+202
+00:25:08,240 --> 00:25:17,410
+that when interest rates go up, inflation go up, equity market falls, dollar goes up and hence crude
+
+203
+00:25:18,210 --> 00:25:26,910
+and gold goes up. How do you think bonds react in this situation? There is an extensive
+
+204
+00:25:26,910 --> 00:25:36,019
+chapter that we do in another program which is how to pick the right debt fund, but in very simple
+
+205
+00:25:36,019 --> 00:25:43,380
+context, you know when interest rates go up, bond markets fall. Why? Because let's say if you have a
+
+206
+00:25:43,380 --> 00:25:49,940
+bond today that you've invested in which gives you six percent and then interest rate in the market
+
+207
+00:25:49,940 --> 00:25:55,619
+increases to seven percent, you are holding a bond which is paying you lower than what the new
+
+208
+00:25:55,619 --> 00:26:00,819
+interest rate in the market is. Now because your interest rate is lower than the market interest rate,
+
+209
+00:26:00,819 --> 00:26:06,180
+because your bond coupon is six percent and the market interest rate bond is at seven percent,
+
+210
+00:26:06,180 --> 00:26:14,509
+your bond value is lower and hence the bond falls. In macro, personally, if you really ask me,
+
+211
+00:26:14,509 --> 00:26:22,190
+you do not need to track anything else except inflation and interest rate, you would know where exactly
+
+212
+00:26:22,750 --> 00:26:31,259
+everything else will move in the market. So if you only track, if you only track inflation and you
+
+213
+00:26:31,259 --> 00:26:36,700
+see inflation going up, you will have to assume interest rates are going up and if interest rates are
+
+214
+00:26:36,700 --> 00:26:43,019
+up, you know equity markets will fall. If equity markets fall, you know rupee falls, you know dollar
+
+215
+00:26:43,019 --> 00:26:49,500
+goes up and so you know gold will go up, crude will go up and bonds will go up. This is exactly how
+
+216
+00:26:49,500 --> 00:26:57,569
+equity markets function. You do not really have to track fiscal deficit, current account deficit,
+
+217
+00:26:57,569 --> 00:27:03,490
+forex reserves in our country, where is the crude economy, just track inflation interest rate and you will
+
+218
+00:27:04,289 --> 00:27:11,250
+know exactly how all asset classes will behave. It is actually as simple as this.
+
+219
+00:27:12,690 --> 00:27:22,130
+So in a growing inflationary situation, you know how this works. What if there is a situation where
+
+220
+00:27:22,130 --> 00:27:30,720
+interest rates are let's say hypothetically reducing in the market. So let's say inflation is now
+
+221
+00:27:31,200 --> 00:27:39,569
+going down. I am talking of a situation where inflation is now going down. What happens if inflation
+
+222
+00:27:39,569 --> 00:27:50,289
+is going down? If inflation is going down, right, which means the exact opposite interest rates will
+
+223
+00:27:50,289 --> 00:27:56,609
+start going down because if inflation is going down, what does that mean? Inflation going down means
+
+224
+00:27:56,690 --> 00:28:09,170
+that there is hardly anybody who is buying any assets in the market, right, to make sure, to make sure
+
+225
+00:28:09,170 --> 00:28:15,970
+that people buy assets in the market, they buy a house, they buy car, they buy bike, right,
+
+226
+00:28:15,970 --> 00:28:23,410
+are behind decreases interest rates. If RBI decreases interest rates, your EMI on house, car,
+
+227
+00:28:23,410 --> 00:28:29,490
+bike, laptop all goes down. Enhance consumption is expected to increase, which is why you say,
+
+228
+00:28:29,490 --> 00:28:34,769
+which is why people start buying house real estate goes up. Enhance, cement rents, steel goes up,
+
+229
+00:28:35,569 --> 00:28:42,049
+car goes up because you will start buying cars, bike companies go up. Again, because interest rates
+
+230
+00:28:42,049 --> 00:28:48,690
+are going to drop. The older long that I have taken will reduce in interest rate. My income is still
+
+231
+00:28:48,769 --> 00:28:55,569
+the same. My expenses go down. Enhance companies with larger debt, ideally benefit of this situation.
+
+232
+00:28:55,569 --> 00:29:03,410
+And hence we say overall equity markets will go up. How will FMCG Farma and IT react? The opposite.
+
+233
+00:29:03,410 --> 00:29:10,319
+Why? Okay, so now you will say FMCG, in FMCG just because interest rates have gone down,
+
+234
+00:29:11,839 --> 00:29:16,880
+why should the stock go down? So my point is, if interest rates have gone down, right,
+
+235
+00:29:17,759 --> 00:29:22,319
+an inflation has gone down. The soap that you are using for 50 rupees, let's say a high
+
+236
+00:29:22,319 --> 00:29:26,400
+pathetic killing now becomes 48. Does that mean you start using the soap more?
+
+237
+00:29:27,119 --> 00:29:32,559
+All right. So what I am trying to say is consumption does not increase because interest rates have
+
+238
+00:29:32,559 --> 00:29:42,019
+gone down in FMCG, right? So consumption in FMCG is the same, but consumption in cement, steel,
+
+239
+00:29:42,930 --> 00:29:48,930
+automobile has gone up. Now if you were the fund manager and there are two options, there is one FMCG
+
+240
+00:29:48,930 --> 00:29:54,769
+where consumption is same. There is another real estate, steel cement where consumption is expected
+
+241
+00:29:54,769 --> 00:29:59,650
+to increase. Where do you want to put money? Of course, whether consumption is increasing, right? So
+
+242
+00:29:59,650 --> 00:30:06,769
+you remove money out of FMCG and put that money in where the consumption is increasing. Hence FMCG
+
+243
+00:30:06,769 --> 00:30:14,240
+either will stay stable or fall in the situation. Why will Farma and IT fall same logic?
+
+244
+00:30:14,880 --> 00:30:20,319
+If inflation is going down, which means your purchasing power will increase,
+
+245
+00:30:21,819 --> 00:30:29,789
+rupee will go up, dollar will fall. If dollar is supposed to fall, 65 dollar will now become 60.
+
+246
+00:30:31,019 --> 00:30:38,640
+So FMCG and Farma, where I was receiving money in dollar, I am going to receive the same $1,
+
+247
+00:30:38,640 --> 00:30:44,910
+but how much is $1 now? 60. I was receiving 65 in the past. Now I am receiving 60. How do you think
+
+248
+00:30:44,910 --> 00:30:54,180
+my stocks will react? Will fall. Gold will fall, crude will fall. Why? Is because the $1 gold that I
+
+249
+00:30:54,180 --> 00:31:01,460
+bought at 65? Now in Indian context is how much? 60 rupees. Internationally, the gold may be $1,
+
+250
+00:31:01,460 --> 00:31:08,019
+but in Indian context, the 65 rupee gold has become 60. Similarly, with crude, so gold and
+
+251
+00:31:08,019 --> 00:31:15,730
+crude will fall. Why will bonds go up? Bonds will go up. For a simple reason, that interest rates have
+
+252
+00:31:15,730 --> 00:31:22,049
+gone down. So if I have hold a bond with 6% coupon and if interest rates in the market have gone down,
+
+253
+00:31:22,049 --> 00:31:28,690
+so the new bond in the market will be 5% coupon, but I have a 6% coupon bond. So my bond will be
+
+254
+00:31:28,690 --> 00:31:38,509
+valued higher. So the prices will be off. This is exactly how everything in the market functions.
+
+255
+00:31:39,900 --> 00:31:48,220
+Just click a snap of this and you will know this is how markets function. You do not ideally need
+
+256
+00:31:48,220 --> 00:31:54,619
+to track hundreds of things in macro. Just keep an eye on inflation and interest rate and you will
+
+257
+00:31:54,619 --> 00:32:00,579
+know where equity markets are going. One, very practical discussion is something that I want to
+
+258
+00:32:00,579 --> 00:32:12,400
+help you understand now. So we are basically saying that if inflation goes up, interest rates go up
+
+259
+00:32:13,410 --> 00:32:22,269
+and hence equity funds. While this is absolutely correct, there is one element that you and I have to
+
+260
+00:32:22,269 --> 00:32:31,390
+understand. In that element is, inflation actually going up also means that there is purchasing power,
+
+261
+00:32:32,750 --> 00:32:39,259
+and hence it should be positive for equity as well. What I want you to understand is always remember,
+
+262
+00:32:40,099 --> 00:32:47,140
+RBI will time and again come out with their levels that they are comfortable with in terms of
+
+263
+00:32:47,140 --> 00:32:55,299
+inflation. Currently that you and I discuss, RBI says that I am very comfortable with inflation between
+
+264
+00:32:55,299 --> 00:33:04,420
+4 and 6%. So now if inflation stays between 4 and 6%, it may not be negative. So if inflation
+
+265
+00:33:04,420 --> 00:33:12,740
+today is 4 and it becomes 5 and then it becomes 6 is actually not negative. It only demonstrates
+
+266
+00:33:12,819 --> 00:33:19,299
+that the GDP is doing well. People have money and hence people are spending that money and because
+
+267
+00:33:19,299 --> 00:33:25,140
+people are spending money, GDP is going up and hence inflation is going up. So use this entire
+
+268
+00:33:25,140 --> 00:33:35,200
+context that I explained to you as below 4% theory and above 6% theory. So if inflation goes above
+
+269
+00:33:35,200 --> 00:33:46,509
+6%, it can be negative for equities and if inflation falls below 4%, from there on it can become positive
+
+270
+00:33:46,509 --> 00:33:55,500
+for equities is because below 4%, RBI will start reducing interest rates and hence you can start
+
+271
+00:33:55,500 --> 00:34:05,420
+accumulating stocks for a longer duration and above 6%, RBI will start increasing interest rates.
+
+272
+00:34:06,700 --> 00:34:14,059
+Is where you will start becoming slightly negative for equities. So use this entire context that I
+
+273
+00:34:14,059 --> 00:34:25,099
+explained to you with RBI's 4% and 6% range in money. I hope I could have made or I have made
+
+274
+00:34:25,659 --> 00:34:35,500
+macroeconomics very simple for you and help you understand why you can track this entire asset space
+
+275
+00:34:35,500 --> 00:34:40,940
+by just tracking inflation and interest rate, forget about everything else that people complicate
+
+276
+00:34:41,980 --> 00:34:52,780
+your and my world within terms of macroeconomics. Thank you so much.
+
