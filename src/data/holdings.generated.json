@@ -3,10 +3,261 @@
   "provenance": "AMFI AMC portfolio disclosures (best-effort parse)",
   "note": "Holdings are parsed from per-AMC filings and may be incomplete.",
   "amc": {
-    "amc.ppfas.com": {
-      "file": "https://amc.ppfas.com/downloads/portfolio-disclosure/2020/Monthly-Portfolio-july-2020.xls",
-      "period": "2020-07",
-      "format": "xls-no-parser",
+    "growwmf.in": {
+      "file": "https://assets-netstorage.growwmf.in/compliance_docs/Statutory%20Disclosure/Portfolio/2026%20-2027/Monthly%20Portfolio-%20May%2031,%202026.xlsx",
+      "period": "0000-00",
+      "format": "xlsx",
+      "holdings": [
+        {
+          "name": "Larsen & Toubro Limited",
+          "isin": "INE018A01030",
+          "pctNav": 0.08221526048503285
+        },
+        {
+          "name": "ICICI Bank Limited",
+          "isin": "INE090A01021",
+          "pctNav": 0.07757411799270073
+        },
+        {
+          "name": "HDFC Bank Limited",
+          "isin": "INE040A01034",
+          "pctNav": 0.0763950412689263
+        },
+        {
+          "name": "Bharti Airtel Limited",
+          "isin": "INE397D01024",
+          "pctNav": 0.05062761354376663
+        },
+        {
+          "name": "Cummins India Limited",
+          "isin": "INE298A01020",
+          "pctNav": 0.041783715307891
+        },
+        {
+          "name": "State Bank of India",
+          "isin": "INE062A01020",
+          "pctNav": 0.038210022807333564
+        },
+        {
+          "name": "Bajaj Finance Limited",
+          "isin": "INE296A01032",
+          "pctNav": 0.031056577246309353
+        },
+        {
+          "name": "Mahindra & Mahindra Limited",
+          "isin": "INE101A01026",
+          "pctNav": 0.027527544450623376
+        },
+        {
+          "name": "Samvardhana Motherson International Ltd",
+          "isin": "INE775A01035",
+          "pctNav": 0.024924422250150003
+        },
+        {
+          "name": "Axis Bank Limited",
+          "isin": "INE238A01034",
+          "pctNav": 0.0248786677842854
+        },
+        {
+          "name": "Bharat Electronics Limited",
+          "isin": "INE263A01024",
+          "pctNav": 0.024479419934460803
+        },
+        {
+          "name": "Cholamandalam Invest & Finance Co Ltd",
+          "isin": "INE121A01024",
+          "pctNav": 0.02444880244983126
+        },
+        {
+          "name": "Kotak Mahindra Bank Limited",
+          "isin": "INE237A01036",
+          "pctNav": 0.02349566814071137
+        },
+        {
+          "name": "UltraTech Cement Limited",
+          "isin": "INE481G01011",
+          "pctNav": 0.023075015689441793
+        },
+        {
+          "name": "Infosys Limited",
+          "isin": "INE009A01021",
+          "pctNav": 0.022201128305842355
+        },
+        {
+          "name": "Tata Motors Passenger Vehicles Limited",
+          "isin": "INE155A01022",
+          "pctNav": 0.021924405856423357
+        },
+        {
+          "name": "Maruti Suzuki India Limited",
+          "isin": "INE585B01010",
+          "pctNav": 0.02155104178614481
+        },
+        {
+          "name": "Torrent Pharmaceuticals Limited",
+          "isin": "INE685A01028",
+          "pctNav": 0.02150153283382532
+        },
+        {
+          "name": "Eternal Limited",
+          "isin": "INE758T01015",
+          "pctNav": 0.021273406020325958
+        },
+        {
+          "name": "Avenue Supermarts Limited",
+          "isin": "INE192R01011",
+          "pctNav": 0.018823636132700643
+        },
+        {
+          "name": "Shriram Finance Limited",
+          "isin": "INE721A01047",
+          "pctNav": 0.018749315495808466
+        },
+        {
+          "name": "SBI Life Insurance Company Limited",
+          "isin": "INE123W01016",
+          "pctNav": 0.018549999289282887
+        },
+        {
+          "name": "Adani Port & Special Economic Zone Ltd",
+          "isin": "INE742F01042",
+          "pctNav": 0.01832514880236903
+        },
+        {
+          "name": "Coforge Limited",
+          "isin": "INE591G01025",
+          "pctNav": 0.017925464903345366
+        },
+        {
+          "name": "Sun Pharmaceutical Industries Limited",
+          "isin": "INE044A01036",
+          "pctNav": 0.016379317888573084
+        },
+        {
+          "name": "Bajaj Auto Limited",
+          "isin": "INE917I01010",
+          "pctNav": 0.0159871044612749
+        },
+        {
+          "name": "DLF Limited",
+          "isin": "INE271C01023",
+          "pctNav": 0.01557561917303354
+        },
+        {
+          "name": "BSE Ltd",
+          "isin": "INE118H01025",
+          "pctNav": 0.014405298518997033
+        },
+        {
+          "name": "Tata Steel Limited",
+          "isin": "INE081A01020",
+          "pctNav": 0.012731752451588179
+        },
+        {
+          "name": "Tata Consultancy Services Limited",
+          "isin": "INE467B01029",
+          "pctNav": 0.011591952012354538
+        },
+        {
+          "name": "NTPC Limited",
+          "isin": "INE733E01010",
+          "pctNav": 0.01113964607634233
+        },
+        {
+          "name": "Ambuja Cements Limited",
+          "isin": "INE079A01024",
+          "pctNav": 0.011128182309909022
+        },
+        {
+          "name": "Hindustan Unilever Limited",
+          "isin": "INE030A01027",
+          "pctNav": 0.01089561237435718
+        },
+        {
+          "name": "Hindalco Industries Limited",
+          "isin": "INE038A01020",
+          "pctNav": 0.009944875850686164
+        },
+        {
+          "name": "JK Cement Limited",
+          "isin": "INE823G01014",
+          "pctNav": 0.009211909011447732
+        },
+        {
+          "name": "Titan Company Limited",
+          "isin": "INE280A01028",
+          "pctNav": 0.007237113563564209
+        },
+        {
+          "name": "Indiqube Spaces Ltd",
+          "isin": "INE06ST01018",
+          "pctNav": 0.00447184229034195
+        },
+        {
+          "name": "Max Healthcare Institute Limited",
+          "isin": "INE027H01010",
+          "pctNav": 0.003999674493786697
+        },
+        {
+          "name": "PNGS Reva Diamond Jewellery Limited",
+          "isin": "INE1RDG01013",
+          "pctNav": 0.0037510861637990098
+        },
+        {
+          "name": "Kwality Wall\u2019s (India) Limited",
+          "isin": "INE2KCE01013",
+          "pctNav": 0.00013655564336378
+        },
+        {
+          "name": "ICICI Prudential Mutual Fund",
+          "isin": "INF109KC19W1",
+          "pctNav": 0.005476537494132477
+        },
+        {
+          "name": "TREPS 01-JUN-2026",
+          "isin": "INTREP010626",
+          "pctNav": 0.040674638239306025
+        }
+      ],
+      "managers": []
+    },
+    "ilfsinfrafund.com": {
+      "file": "https://www.ilfsinfrafund.com/otherfile/ILFS_Portfolio_TransactionReports_August_2026.xlsx",
+      "period": "2026-08",
+      "format": "xlsx",
+      "holdings": [
+        {
+          "name": "Tata Communications Limited",
+          "isin": "INE151A08349",
+          "pctNav": 6.28
+        },
+        {
+          "name": "Hero Solar Energy Private Limited",
+          "isin": "INE316W07112",
+          "pctNav": 10.0
+        },
+        {
+          "name": "Infrastructure Logistics Private Limited",
+          "isin": "INE225X07022",
+          "pctNav": 10.0
+        },
+        {
+          "name": "Infrastructure Logistics Private Limited",
+          "isin": "INE225X07030",
+          "pctNav": 10.75
+        },
+        {
+          "name": "Radiance Renewable Projects Private Ltd",
+          "isin": "INE0X4307011",
+          "pctNav": 13.07
+        }
+      ],
+      "managers": []
+    },
+    "downloads.njmutualfund.com": {
+      "file": "https://downloads.njmutualfund.com/viewfile.php?file=NJMF-Fortnightly-Portfolio-September-30-2023-20231003085852.xlsx",
+      "period": "0000-00",
+      "format": "xlsx",
       "holdings": [],
       "managers": []
     }

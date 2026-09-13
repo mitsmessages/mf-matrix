@@ -2,10 +2,28 @@
   "asOf": "2026-09-13",
   "events": [
     {
-      "amc": "amc.ppfas.com",
+      "amc": "growwmf.in",
       "event": "new",
-      "period": "2020-07",
-      "format": "xls-no-parser",
+      "period": "0000-00",
+      "format": "xlsx",
+      "holdings": 42,
+      "managers": [],
+      "managersChanged": []
+    },
+    {
+      "amc": "ilfsinfrafund.com",
+      "event": "new",
+      "period": "2026-08",
+      "format": "xlsx",
+      "holdings": 5,
+      "managers": [],
+      "managersChanged": []
+    },
+    {
+      "amc": "downloads.njmutualfund.com",
+      "event": "new",
+      "period": "0000-00",
+      "format": "xlsx",
       "holdings": 0,
       "managers": [],
       "managersChanged": []
