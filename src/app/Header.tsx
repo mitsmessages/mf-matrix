@@ -18,7 +18,7 @@ export function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-40 border-b border-stone-200 bg-ivory-100/95 backdrop-blur">
+    <header className="no-print sticky top-0 z-40 border-b border-stone-200 bg-ivory-100/95 backdrop-blur">
       <div className="mx-auto flex w-full max-w-[1400px] flex-wrap items-center gap-x-4 gap-y-2 px-3 py-2.5 sm:px-5">
         <NavLink to="/journey" className="flex items-center gap-2.5">
           <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-stone-900 font-serif text-sm font-bold text-ivory-100">

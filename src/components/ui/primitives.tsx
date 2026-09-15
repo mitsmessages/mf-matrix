@@ -126,7 +126,7 @@ export function StatCard({
   tone = "neutral",
   className,
 }: {
-  label: string;
+  label: ReactNode;
   value: ReactNode;
   hint?: ReactNode;
   tone?: "neutral" | "success" | "danger" | "warning" | "brand";

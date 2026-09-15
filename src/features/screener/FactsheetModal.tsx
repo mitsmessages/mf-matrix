@@ -6,6 +6,7 @@ import { verdictTone } from "@/components/ui/verdict";
 import { runScreener } from "@/domain/finance/screener";
 import { PROFILES } from "@/domain/finance/thresholds";
 import { rankWeightSummary } from "@/domain/finance/ranking";
+import { Term } from "@/components/ui/Term";
 import type { Fund } from "@/domain/finance/types";
 import { SLEEVES } from "@/domain/finance/sleeves";
 import { formatINR, formatPct } from "@/lib/format";
@@ -160,7 +161,7 @@ export function FactsheetModal({
           <div className="space-y-4">
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
               <StatCard
-                label="Avg 3Y rolling"
+                label={<Term term="rolling">Avg 3Y rolling</Term>}
                 value={formatPct(fund.rolling.avgPct, 2)}
                 hint={`Bench ${formatPct(fund.rolling.benchmarkAvgPct, 2)}`}
                 tone="success"
@@ -172,7 +173,7 @@ export function FactsheetModal({
               />
               <StatCard label="Max rolling" value={formatPct(fund.rolling.maxPct, 2)} />
               <StatCard
-                label="Beat benchmark"
+                label={<Term term="beatBenchmark">Beat benchmark</Term>}
                 value={formatPct(fund.rolling.beatBenchmarkPct, 0)}
                 tone={hurdleById("rolling")?.passed ? "success" : "danger"}
                 hint={hurdleById("rolling")?.rule ?? "Not screened for this profile"}
@@ -209,31 +210,31 @@ export function FactsheetModal({
         {tab === "risk" ? (
           <div className="space-y-4">
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
-              <StatCard label="Std deviation" value={formatPct(fund.risk.stdDevPct, 1)} />
-              <StatCard label="Beta" value={fund.risk.beta.toFixed(2)} />
-              <StatCard label="Sharpe" value={fund.risk.sharpe.toFixed(2)} />
+              <StatCard label={<Term term="stdDev">Std deviation</Term>} value={formatPct(fund.risk.stdDevPct, 1)} />
+              <StatCard label={<Term term="beta" />} value={fund.risk.beta.toFixed(2)} />
+              <StatCard label={<Term term="sharpe" />} value={fund.risk.sharpe.toFixed(2)} />
               <StatCard
-                label="Sortino"
+                label={<Term term="sortino" />}
                 value={fund.risk.sortino.toFixed(2)}
                 tone={hurdleById("sortino")?.passed ? "success" : "danger"}
                 hint={hurdleById("sortino")?.rule ?? "Not a hurdle for this profile"}
               />
               <StatCard
-                label="Jensen's alpha"
+                label={<Term term="alpha">Jensen's alpha</Term>}
                 value={`${fund.risk.alphaPct > 0 ? "+" : ""}${fund.risk.alphaPct.toFixed(2)}%`}
                 tone={hurdleById("alpha")?.passed ? "success" : "danger"}
                 hint={hurdleById("alpha")?.rule ?? "Not a hurdle for this profile"}
               />
-              <StatCard label="R-squared" value={fund.risk.rSquared.toFixed(2)} />
+              <StatCard label={<Term term="rSquared">R-squared</Term>} value={fund.risk.rSquared.toFixed(2)} />
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
               <CaptureBar
-                label="Up-capture"
+                label={<Term term="upCapture">Up-capture</Term>}
                 value={fund.risk.upCapturePct}
                 good={hurdleById("upCapture")?.passed}
               />
               <CaptureBar
-                label="Down-capture"
+                label={<Term term="downCapture">Down-capture</Term>}
                 value={fund.risk.downCapturePct}
                 good={(hurdleById("downCapture") ?? hurdleById("drawdown"))?.passed}
                 invert
@@ -347,7 +348,7 @@ function CaptureBar({
   good,
   invert = false,
 }: {
-  label: string;
+  label: React.ReactNode;
   value: number;
   /** undefined = not a hurdle for this profile, so render neutrally. */
   good?: boolean | undefined;

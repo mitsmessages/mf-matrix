@@ -11,6 +11,7 @@ import { SLEEVES } from "@/domain/finance/sleeves";
 import type { SleeveKey } from "@/domain/finance/sleeves";
 import type { Selections, SleeveWeights } from "@/domain/finance/types";
 import type { TvmInput } from "@/domain/finance/tvm";
+import type { Lot } from "@/domain/finance/portfolio-holdings";
 import {
   DEFAULT_BAND_PCT,
   DEFAULT_LUMP_SUM,
@@ -28,6 +29,8 @@ export interface ProfileState {
   lumpSum: number;
   bandPct: number;
   completedModules: string[];
+  /** The user's own holdings (manual / CAS-style lots). */
+  lots: Lot[];
 
   setProfile: (profile: RiskProfile) => void;
   setModel: (model: AllocationModel) => void;
@@ -47,6 +50,9 @@ export interface ProfileState {
 
   markModuleComplete: (id: string) => void;
   toggleModule: (id: string) => void;
+  addLot: (lot: Lot) => void;
+  removeLot: (id: string) => void;
+  clearLots: () => void;
   resetAll: () => void;
 }
 
@@ -65,6 +71,7 @@ const initial = {
   lumpSum: DEFAULT_LUMP_SUM,
   bandPct: DEFAULT_BAND_PCT,
   completedModules: ["m01"],
+  lots: [] as Lot[],
 };
 
 export const useProfile = create<ProfileState>()(
@@ -124,6 +131,10 @@ export const useProfile = create<ProfileState>()(
             : [...s.completedModules, id],
         })),
 
+      addLot: (lot) => set((s) => ({ lots: [...s.lots, lot] })),
+      removeLot: (id) => set((s) => ({ lots: s.lots.filter((l) => l.id !== id) })),
+      clearLots: () => set({ lots: [] }),
+
       resetAll: () =>
         set({
           ...initial,
@@ -144,6 +155,7 @@ export const useProfile = create<ProfileState>()(
         lumpSum: s.lumpSum,
         bandPct: s.bandPct,
         completedModules: s.completedModules,
+        lots: s.lots,
       }),
     },
   ),

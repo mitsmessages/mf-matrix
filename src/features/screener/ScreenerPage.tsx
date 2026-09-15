@@ -17,6 +17,7 @@ import { useProfile } from "@/store/profile";
 import { FactsheetModal } from "./FactsheetModal";
 import { Badge, Button, Callout, Card, SectionTitle, Segmented } from "@/components/ui/primitives";
 import { verdictTone } from "@/components/ui/verdict";
+import { Term } from "@/components/ui/Term";
 import { cn } from "@/lib/cn";
 
 type StatusFilter = "ALL" | "QUALIFIED" | "WATCHLIST" | "REJECT";
@@ -178,19 +179,19 @@ export default function ScreenerPage() {
                 <th className="px-3 py-2.5">Fund</th>
                 <th className="px-3 py-2.5">Verdict</th>
                 <th className="cursor-pointer px-3 py-2.5" onClick={() => onSort("rolling")}>
-                  Beat BM %
+                  <Term term="beatBenchmark">Beat BM %</Term>
                 </th>
                 <th className="cursor-pointer px-3 py-2.5" onClick={() => onSort("sortino")}>
-                  Sortino
+                  <Term term="sortino" />
                 </th>
                 <th className="cursor-pointer px-3 py-2.5" onClick={() => onSort("alpha")}>
-                  Alpha
+                  <Term term="alpha" />
                 </th>
                 <th className="cursor-pointer px-3 py-2.5" onClick={() => onSort("downCapture")}>
-                  Down-cap
+                  <Term term="downCapture">Down-cap</Term>
                 </th>
                 <th className="cursor-pointer px-3 py-2.5" onClick={() => onSort("aum")}>
-                  AUM
+                  <Term term="aum" />
                 </th>
                 <th className="px-3 py-2.5 text-right">Action</th>
               </tr>

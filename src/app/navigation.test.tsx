@@ -52,6 +52,9 @@ describe("app navigation", () => {
     await waitFor(() => expect(window.location.hash).toBe("#/scenario"));
     expect((await screen.findAllByText(/What else could add value/i)).length).toBeGreaterThan(0);
 
+    fireEvent.click(stageNav().getByRole("link", { name: /Portfolio/i }));
+    expect(await screen.findByText(/Holdings, P&L and drift/i)).toBeInTheDocument();
+
     fireEvent.click(stageNav().getByRole("link", { name: /Data/i }));
     expect(await screen.findByText(/What is real, and what is assumed/i)).toBeInTheDocument();
 

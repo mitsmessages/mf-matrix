@@ -13,6 +13,7 @@ import ScreenerPage from "@/features/screener/ScreenerPage";
 import DiligencePage from "@/features/diligence/DiligencePage";
 import ScenarioPage from "@/features/scenario/ScenarioPage";
 import DataPage from "@/features/data/DataPage";
+import PortfolioPage from "@/features/portfolio/PortfolioPage";
 import { useProfile } from "@/store/profile";
 import { defaultSelections, defaultWeights } from "@/data/defaults";
 import { ALLOCATION_PRESETS } from "@/domain/finance/sleeves";
@@ -27,6 +28,27 @@ const renderPage = (ui: React.ReactElement) =>
 beforeEach(() => {
   cleanup();
   localStorage.clear();
+});
+
+describe("Portfolio page", () => {
+  it("blends a manual lot and shows P&L", async () => {
+    useProfile.setState({ lots: [] });
+    renderPage(<PortfolioPage />);
+    expect(screen.getByText(/Holdings, P&L and drift/i)).toBeInTheDocument();
+    const user = userEvent.setup();
+    await user.type(screen.getByLabelText(/Scheme name/i), "Parag Parikh Flexi Cap Fund");
+    await user.type(screen.getByLabelText(/^Units/i), "100");
+    await user.type(screen.getByLabelText(/Purchase NAV/i), "50");
+    await user.click(screen.getByRole("button", { name: /Add lot/i }));
+    expect(await screen.findByText(/Avg cost/i)).toBeInTheDocument();
+    expect(screen.getAllByText(/Parag Parikh/i).length).toBeGreaterThan(0);
+  });
+
+  it("shows the empty state", () => {
+    useProfile.setState({ lots: [] });
+    renderPage(<PortfolioPage />);
+    expect(screen.getByText(/No holdings yet/i)).toBeInTheDocument();
+  });
 });
 
 describe("Data & sources page", () => {

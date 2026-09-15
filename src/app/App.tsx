@@ -9,6 +9,7 @@ const ScreenerPage = lazy(() => import("@/features/screener/ScreenerPage"));
 const DiligencePage = lazy(() => import("@/features/diligence/DiligencePage"));
 const ScenarioPage = lazy(() => import("@/features/scenario/ScenarioPage"));
 const DataPage = lazy(() => import("@/features/data/DataPage"));
+const PortfolioPage = lazy(() => import("@/features/portfolio/PortfolioPage"));
 
 function Loading() {
   return (
@@ -71,6 +72,14 @@ export function App() {
             element={
               <Suspense fallback={<Loading />}>
                 <ScenarioPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/portfolio"
+            element={
+              <Suspense fallback={<Loading />}>
+                <PortfolioPage />
               </Suspense>
             }
           />

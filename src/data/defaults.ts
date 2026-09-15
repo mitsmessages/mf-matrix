@@ -10,15 +10,26 @@ import type { TvmInput } from "@/domain/finance/tvm";
  * Default pick per sleeve: the highest-ranked QUALIFIED fund, else the highest
  * WATCHLIST, else the top-ranked fund. Real data only.
  */
+/**
+ * Soft downside preference: ranks are upside-heavy, so for a DEFAULT pick we
+ * prefer a fund whose down-capture is at or near the limit (allowing a small
+ * breach), rather than one that materially amplifies falls. Safety leads the
+ * default; the ranked list still shows the upside leaders.
+ */
+const SOFT_DOWN_CAPTURE_LIMIT = 90;
+
 function bestFundIdForSleeve(sleeve: SleeveKey): string | undefined {
   const pool = screenedUniverse()
     .filter((u) => u.fund.sleeve === sleeve)
     .sort((a, b) => (a.fund.rankInCategory ?? 99) - (b.fund.rankInCategory ?? 99));
   if (pool.length === 0) return undefined;
-  const qualified = pool.find((u) => u.result.verdict === "QUALIFIED");
-  if (qualified) return qualified.fund.id;
-  const selectable = pool.find((u) => u.result.verdict === "WATCHLIST");
-  return (selectable ?? pool[0])!.fund.id;
+
+  const qualified = pool.filter((u) => u.result.verdict === "QUALIFIED");
+  const candidates = qualified.length > 0 ? qualified : pool.filter((u) => u.result.verdict === "WATCHLIST");
+  if (candidates.length === 0) return pool[0]!.fund.id;
+
+  const safe = candidates.find((u) => u.fund.risk.downCapturePct <= SOFT_DOWN_CAPTURE_LIMIT);
+  return (safe ?? candidates[0]!).fund.id;
 }
 
 export function defaultSelections(): Selections {

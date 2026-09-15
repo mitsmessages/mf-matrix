@@ -24,6 +24,20 @@
   }
 }
 
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+  }
+  .ivory-card {
+    box-shadow: none;
+    border-color: #ddd;
+    break-inside: avoid;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;

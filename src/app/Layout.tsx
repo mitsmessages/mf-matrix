@@ -12,7 +12,7 @@ export function Layout() {
           <Outlet />
         </ErrorBoundary>
       </main>
-      <footer className="mt-10 border-t border-stone-200 bg-stone-100/60">
+      <footer className="no-print mt-10 border-t border-stone-200 bg-stone-100/60">
         <div className="mx-auto w-full max-w-[1400px] px-3 py-6 sm:px-5">
           <div className="grid gap-4 text-xs text-stone-500 sm:grid-cols-3">
             <div>
