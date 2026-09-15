@@ -1,5 +1,6 @@
 import { screenedUniverse } from "./funds";
 import { SLEEVE_KEYS } from "@/domain/finance/sleeves";
+import { SOFT_DOWN_CAPTURE_LIMIT } from "@/domain/finance/thresholds";
 import type { SleeveKey } from "@/domain/finance/sleeves";
 import type { Selections } from "@/domain/finance/types";
 import { ALLOCATION_PRESETS } from "@/domain/finance/sleeves";
@@ -10,14 +11,6 @@ import type { TvmInput } from "@/domain/finance/tvm";
  * Default pick per sleeve: the highest-ranked QUALIFIED fund, else the highest
  * WATCHLIST, else the top-ranked fund. Real data only.
  */
-/**
- * Soft downside preference: ranks are upside-heavy, so for a DEFAULT pick we
- * prefer a fund whose down-capture is at or near the limit (allowing a small
- * breach), rather than one that materially amplifies falls. Safety leads the
- * default; the ranked list still shows the upside leaders.
- */
-const SOFT_DOWN_CAPTURE_LIMIT = 90;
-
 function bestFundIdForSleeve(sleeve: SleeveKey): string | undefined {
   const pool = screenedUniverse()
     .filter((u) => u.fund.sleeve === sleeve)

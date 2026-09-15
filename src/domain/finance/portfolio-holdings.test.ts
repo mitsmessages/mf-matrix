@@ -14,6 +14,9 @@ describe("matchFund", () => {
     expect(matchFund("BANK OF INDIA FLEXI CAP FUND - Direct Plan - Growth", funds)?.id).toBe("boi");
     expect(matchFund("parag parikh flexi cap", funds)?.id).toBe("ppfc");
     expect(matchFund("Reliance something random", funds)).toBeUndefined();
+    // Ambiguous partial names must NOT bind to the wrong fund.
+    expect(matchFund("Axis Midcap", funds)).toBeUndefined();
+    expect(matchFund("HDFC Balanced Advantage", funds)).toBeUndefined();
   });
 });
 

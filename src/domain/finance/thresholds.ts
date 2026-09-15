@@ -185,6 +185,14 @@ export const VERDICT_BANDS = {
   watchlistAt: 3,
 } as const;
 
+/**
+ * Soft downside limit for the DEFAULT pick: ranks are upside-heavy, so a default
+ * prefers a fund whose down-capture is at or near this limit (small breach
+ * tolerated for extra upside). Safety leads the default; the ranked list still
+ * shows the upside leaders.
+ */
+export const SOFT_DOWN_CAPTURE_LIMIT = 90;
+
 /* -------------------------------------------- legacy equity meta (UI bar) */
 
 export const HURDLE_META = {

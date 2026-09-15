@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { funds, fundById, screenedUniverse, metricsOnlyCount, universeMeta } from "./funds";
 
+import { defaultSelections } from "./defaults";
+import { SOFT_DOWN_CAPTURE_LIMIT } from "@/domain/finance/thresholds";
 import { courseModules } from "./curriculum";
 import { agents } from "./agents";
 import { CATEGORY_TO_SLEEVE, SLEEVE_KEYS } from "@/domain/finance/sleeves";
@@ -41,6 +43,14 @@ describe("fund dataset", () => {
       expect(["QUALIFIED", "WATCHLIST", "REJECT"]).toContain(result.verdict);
       expect(result.results).toHaveLength(5);
     }
+  });
+
+  it("default picks a downside-safe fund where one exists", () => {
+    const selections = defaultSelections();
+    const flexiId = selections.flexi?.[0];
+    expect(flexiId).toBeTruthy();
+    const picked = funds.find((f) => f.id === flexiId)!;
+    expect(picked.risk.downCapturePct).toBeLessThanOrEqual(SOFT_DOWN_CAPTURE_LIMIT);
   });
 
   it("has at least one selectable fund in every preset sleeve", () => {

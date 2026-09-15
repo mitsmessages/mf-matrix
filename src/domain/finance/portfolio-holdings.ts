@@ -48,19 +48,31 @@ const tokens = (name: string): Set<string> =>
       .filter((t) => t && !NOISE.has(t)),
   );
 
-/** Best-effort match of a user-typed scheme name to a universe fund. */
+/**
+ * Match a user-typed scheme name to a universe fund. Deliberately strict:
+ * it returns the fund only when the match is unambiguous (>=75% of the user's
+ * distinctive tokens and at least two shared). Otherwise it returns undefined,
+ * so the holding is treated as manual rather than bound to the WRONG fund
+ * (which would corrupt P&L and drift).
+ */
 export function matchFund(name: string, funds: Fund[]): Fund | undefined {
   const a = tokens(name);
   if (a.size === 0) return undefined;
-  let best: { fund: Fund; score: number } | undefined;
+  let best: { fund: Fund; score: number; shared: number } | undefined;
   for (const fund of funds) {
     const b = tokens(`${fund.name} ${fund.shortName}`);
     let shared = 0;
     for (const t of a) if (b.has(t)) shared++;
     const score = shared / Math.max(a.size, 1);
-    if (!best || score > best.score) best = { fund, score };
+    if (
+      !best ||
+      score > best.score ||
+      (score === best.score && shared > best.shared)
+    ) {
+      best = { fund, score, shared };
+    }
   }
-  return best && best.score >= 0.5 ? best.fund : undefined;
+  return best && best.score >= 0.75 && best.shared >= 2 ? best.fund : undefined;
 }
 
 export function aggregateLots(lots: Lot[], funds: Fund[]): AggregatedHolding[] {
