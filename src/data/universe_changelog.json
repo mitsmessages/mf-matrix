@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-13",
+  "asOf": "2026-09-20",
   "categories": {
     "Flexi Cap": {
       "retained": [
@@ -29,13 +29,13 @@
           "rank": 5
         },
         {
-          "code": 120492,
-          "name": "JM Flexi Cap Fund",
+          "code": 120843,
+          "name": "Quant Flexi Cap Fund",
           "rank": 6
         },
         {
-          "code": 120843,
-          "name": "Quant Flexi Cap Fund",
+          "code": 120492,
+          "name": "JM Flexi Cap Fund",
           "rank": 7
         },
         {
@@ -44,18 +44,18 @@
           "rank": 8
         },
         {
+          "code": 151412,
+          "name": "Mirae Asset Flexi Cap Fund",
+          "rank": 9
+        },
+        {
           "code": 129046,
           "name": "Motilal Oswal Flexi Cap Fund",
-          "rank": 9
+          "rank": 10
         },
         {
           "code": 149104,
           "name": "Mahindra Manulife Flexi Cap Fund",
-          "rank": 10
-        },
-        {
-          "code": 151412,
-          "name": "Mirae Asset Flexi Cap Fund",
           "rank": 11
         },
         {
@@ -85,8 +85,8 @@
           "rank": 3
         },
         {
-          "code": 120392,
-          "name": "Invesco India Large Cap Fund",
+          "code": 150440,
+          "name": "quant Large Cap Fund",
           "rank": 4
         },
         {
@@ -95,8 +95,8 @@
           "rank": 5
         },
         {
-          "code": 150440,
-          "name": "quant Large Cap Fund",
+          "code": 120392,
+          "name": "Invesco India Large Cap Fund",
           "rank": 6
         },
         {
@@ -122,27 +122,32 @@
         {
           "code": 120490,
           "name": "JM Large Cap Fund",
-          "rank": 11
-        },
-        {
-          "code": 120152,
-          "name": "Kotak Large Cap Fund",
           "rank": 12
         }
       ],
-      "newEntries": [],
-      "dropped": []
+      "newEntries": [
+        {
+          "code": 119598,
+          "name": "SBI Large Cap Fund",
+          "rank": 11
+        }
+      ],
+      "dropped": [
+        {
+          "code": 120152
+        }
+      ]
     },
     "Mid Cap": {
       "retained": [
         {
-          "code": 151036,
-          "name": "HSBC Midcap Fund",
+          "code": 150584,
+          "name": "WhiteOak Capital Mid Cap Fund",
           "rank": 1
         },
         {
-          "code": 150584,
-          "name": "WhiteOak Capital Mid Cap Fund",
+          "code": 151036,
+          "name": "HSBC Midcap Fund",
           "rank": 2
         },
         {
@@ -151,13 +156,13 @@
           "rank": 3
         },
         {
-          "code": 140228,
-          "name": "Edelweiss Mid Cap Fund",
+          "code": 150815,
+          "name": "JM Mid Cap Fund",
           "rank": 4
         },
         {
-          "code": 150815,
-          "name": "JM Mid Cap Fund",
+          "code": 140228,
+          "name": "Edelweiss Mid Cap Fund",
           "rank": 5
         },
         {
@@ -222,13 +227,13 @@
           "rank": 4
         },
         {
-          "code": 145137,
-          "name": "Invesco India Small Cap Fund",
+          "code": 120828,
+          "name": "Quant Small Cap Fund",
           "rank": 5
         },
         {
-          "code": 120828,
-          "name": "Quant Small Cap Fund",
+          "code": 145137,
+          "name": "Invesco India Small Cap Fund",
           "rank": 6
         },
         {
@@ -308,13 +313,13 @@
           "rank": 8
         },
         {
-          "code": 118663,
-          "name": "Nippon India Gold Savings Fund",
+          "code": 150581,
+          "name": "Edelweiss Gold and Silver ETF FOF",
           "rank": 9
         },
         {
-          "code": 150581,
-          "name": "Edelweiss Gold and Silver ETF FOF",
+          "code": 118663,
+          "name": "Nippon India Gold Savings Fund",
           "rank": 10
         },
         {
@@ -349,13 +354,13 @@
           "rank": 3
         },
         {
-          "code": 118585,
-          "name": "Nippon India Arbitrage Fund",
+          "code": 145724,
+          "name": "Tata Arbitrage Fund",
           "rank": 4
         },
         {
-          "code": 145724,
-          "name": "Tata Arbitrage Fund",
+          "code": 118585,
+          "name": "Nippon India Arbitrage Fund",
           "rank": 5
         },
         {
@@ -374,13 +379,13 @@
           "rank": 8
         },
         {
-          "code": 120795,
-          "name": "UTI - Arbitrage Fund",
+          "code": 119771,
+          "name": "Kotak Arbitrage Fund",
           "rank": 9
         },
         {
-          "code": 119771,
-          "name": "Kotak Arbitrage Fund",
+          "code": 120795,
+          "name": "UTI - Arbitrage Fund",
           "rank": 10
         },
         {
@@ -445,13 +450,13 @@
           "rank": 9
         },
         {
-          "code": 126393,
-          "name": "DSP Dynamic Asset Allocation Fund",
+          "code": 151713,
+          "name": "quant Dynamic Asset Allocation Fund",
           "rank": 10
         },
         {
-          "code": 151713,
-          "name": "quant Dynamic Asset Allocation Fund",
+          "code": 126393,
+          "name": "DSP Dynamic Asset Allocation Fund",
           "rank": 11
         },
         {
