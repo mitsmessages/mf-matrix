@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-20",
+  "asOf": "2026-09-27",
   "categories": {
     "Flexi Cap": {
       "retained": [
@@ -29,13 +29,13 @@
           "rank": 5
         },
         {
-          "code": 120843,
-          "name": "Quant Flexi Cap Fund",
+          "code": 120492,
+          "name": "JM Flexi Cap Fund",
           "rank": 6
         },
         {
-          "code": 120492,
-          "name": "JM Flexi Cap Fund",
+          "code": 120843,
+          "name": "Quant Flexi Cap Fund",
           "rank": 7
         },
         {
@@ -80,8 +80,8 @@
           "rank": 2
         },
         {
-          "code": 150187,
-          "name": "BARODA BNP PARIBAS LARGE CAP FUND",
+          "code": 120586,
+          "name": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund)",
           "rank": 3
         },
         {
@@ -90,8 +90,8 @@
           "rank": 4
         },
         {
-          "code": 120586,
-          "name": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund)",
+          "code": 150187,
+          "name": "BARODA BNP PARIBAS LARGE CAP FUND",
           "rank": 5
         },
         {
@@ -117,24 +117,24 @@
         {
           "code": 118617,
           "name": "Edelweiss Large Cap Fund",
-          "rank": 10
+          "rank": 11
         },
         {
-          "code": 120490,
-          "name": "JM Large Cap Fund",
+          "code": 119598,
+          "name": "SBI Large Cap Fund",
           "rank": 12
         }
       ],
       "newEntries": [
         {
-          "code": 119598,
-          "name": "SBI Large Cap Fund",
-          "rank": 11
+          "code": 118870,
+          "name": "Taurus Large Cap Fund",
+          "rank": 10
         }
       ],
       "dropped": [
         {
-          "code": 120152
+          "code": 120490
         }
       ]
     },
@@ -156,13 +156,13 @@
           "rank": 3
         },
         {
-          "code": 150815,
-          "name": "JM Mid Cap Fund",
+          "code": 140228,
+          "name": "Edelweiss Mid Cap Fund",
           "rank": 4
         },
         {
-          "code": 140228,
-          "name": "Edelweiss Mid Cap Fund",
+          "code": 150815,
+          "name": "JM Mid Cap Fund",
           "rank": 5
         },
         {
@@ -176,13 +176,13 @@
           "rank": 7
         },
         {
-          "code": 142110,
-          "name": "Mahindra Manulife Mid Cap Fund",
+          "code": 119581,
+          "name": "Sundaram Mid Cap Fund",
           "rank": 8
         },
         {
-          "code": 119581,
-          "name": "Sundaram Mid Cap Fund",
+          "code": 142110,
+          "name": "Mahindra Manulife Mid Cap Fund",
           "rank": 9
         },
         {
@@ -227,13 +227,13 @@
           "rank": 4
         },
         {
-          "code": 120828,
-          "name": "Quant Small Cap Fund",
+          "code": 145137,
+          "name": "Invesco India Small Cap Fund",
           "rank": 5
         },
         {
-          "code": 145137,
-          "name": "Invesco India Small Cap Fund",
+          "code": 120828,
+          "name": "Quant Small Cap Fund",
           "rank": 6
         },
         {
@@ -242,13 +242,13 @@
           "rank": 7
         },
         {
-          "code": 125354,
-          "name": "Axis Small Cap Fund",
+          "code": 145206,
+          "name": "Tata Small Cap Fund",
           "rank": 8
         },
         {
-          "code": 145206,
-          "name": "Tata Small Cap Fund",
+          "code": 125354,
+          "name": "Axis Small Cap Fund",
           "rank": 9
         },
         {
@@ -278,13 +278,13 @@
           "rank": 1
         },
         {
-          "code": 119132,
-          "name": "HDFC Gold ETF Fund of Fund",
+          "code": 115132,
+          "name": "Quantum Gold ETF FOF",
           "rank": 2
         },
         {
-          "code": 115132,
-          "name": "Quantum Gold ETF FOF",
+          "code": 119132,
+          "name": "HDFC Gold ETF Fund of Fund",
           "rank": 3
         },
         {
@@ -349,13 +349,13 @@
           "rank": 2
         },
         {
-          "code": 120401,
-          "name": "Invesco India Arbitrage Fund",
+          "code": 145724,
+          "name": "Tata Arbitrage Fund",
           "rank": 3
         },
         {
-          "code": 145724,
-          "name": "Tata Arbitrage Fund",
+          "code": 120401,
+          "name": "Invesco India Arbitrage Fund",
           "rank": 4
         },
         {
@@ -364,28 +364,28 @@
           "rank": 5
         },
         {
-          "code": 130773,
-          "name": "Axis Arbitrage Fund",
+          "code": 151138,
+          "name": "HSBC Arbitrage Fund",
           "rank": 6
         },
         {
-          "code": 151138,
-          "name": "HSBC Arbitrage Fund",
+          "code": 130773,
+          "name": "Axis Arbitrage Fund",
           "rank": 7
-        },
-        {
-          "code": 130206,
-          "name": "Edelweiss Arbitrage Fund",
-          "rank": 8
-        },
-        {
-          "code": 119771,
-          "name": "Kotak Arbitrage Fund",
-          "rank": 9
         },
         {
           "code": 120795,
           "name": "UTI - Arbitrage Fund",
+          "rank": 8
+        },
+        {
+          "code": 130206,
+          "name": "Edelweiss Arbitrage Fund",
+          "rank": 9
+        },
+        {
+          "code": 119771,
+          "name": "Kotak Arbitrage Fund",
           "rank": 10
         },
         {
@@ -415,18 +415,18 @@
           "rank": 2
         },
         {
-          "code": 150481,
-          "name": "Franklin India Balanced Advantage Fund",
-          "rank": 3
-        },
-        {
           "code": 150470,
           "name": "Mirae Asset Balanced Advantage Fund",
-          "rank": 4
+          "rank": 3
         },
         {
           "code": 149134,
           "name": "SBI Balanced Advantage Fund",
+          "rank": 4
+        },
+        {
+          "code": 150481,
+          "name": "Franklin India Balanced Advantage Fund",
           "rank": 5
         },
         {
